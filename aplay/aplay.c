@@ -889,17 +889,25 @@ int main(int argc, char *argv[])
 				capture(NULL);
 		} else {
 			while (optind <= argc - 1) {
-				if (stream == SND_PCM_STREAM_PLAYBACK)
+				if (stream == SND_PCM_STREAM_PLAYBACK) {
+                    printf("tai- playback: %s\n",argv[optind]);
 					playback(argv[optind++]);
-				else
+                }
+				else {
 					capture(argv[optind++]);
+                }
 			}
 		}
 	} else {
 		if (stream == SND_PCM_STREAM_PLAYBACK)
+        {   
+            printf("tai- playback: %s\n",argv[optind]);
 			playbackv(&argv[optind], argc - optind);
-		else
+        }
+		else {
+            printf("tai- capture\n");
 			capturev(&argv[optind], argc - optind);
+        }
 	}
 	if (verbose==2)
 		putchar('\n');
