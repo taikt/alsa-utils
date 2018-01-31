@@ -1,0 +1,1867 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALIGN_CENTER	alsamixer/mixer_display.c	/^	ALIGN_CENTER,$/;"	e	enum:align	file:
+ALIGN_LEFT	alsamixer/mixer_display.c	/^	ALIGN_LEFT,$/;"	e	enum:align	file:
+ALIGN_RIGHT	alsamixer/mixer_display.c	/^	ALIGN_RIGHT,$/;"	e	enum:align	file:
+ALSA_PCM_NEW_HW_PARAMS_API	speaker-test/speaker-test.c	50;"	d	file:
+ALSA_PCM_NEW_SW_PARAMS_API	speaker-test/speaker-test.c	51;"	d	file:
+ARRAY_SIZE	alsactl/alsactl.h	59;"	d
+ARRAY_SIZE	alsamixer/utils.h	4;"	d
+ARRAY_SIZE	iecset/iecbits.c	65;"	d	file:
+ARRAY_SIZE	speaker-test/speaker-test.c	91;"	d	file:
+AU_FMT_LIN16	aplay/formats.h	123;"	d
+AU_FMT_LIN8	aplay/formats.h	122;"	d
+AU_FMT_ULAW	aplay/formats.h	121;"	d
+AU_MAGIC	aplay/formats.h	119;"	d
+AuHeader	aplay/formats.h	/^} AuHeader;$/;"	t	typeref:struct:au_header
+BAT_PCM_FORMAT_MAX	bat/common.h	/^	BAT_PCM_FORMAT_MAX$/;"	e	enum:_bat_pcm_format
+BAT_PCM_FORMAT_S16_LE	bat/common.h	/^	BAT_PCM_FORMAT_S16_LE = 0,$/;"	e	enum:_bat_pcm_format
+BAT_PCM_FORMAT_S24_3LE	bat/common.h	/^	BAT_PCM_FORMAT_S24_3LE,$/;"	e	enum:_bat_pcm_format
+BAT_PCM_FORMAT_S32_LE	bat/common.h	/^	BAT_PCM_FORMAT_S32_LE,$/;"	e	enum:_bat_pcm_format
+BAT_PCM_FORMAT_U8	bat/common.h	/^	BAT_PCM_FORMAT_U8,$/;"	e	enum:_bat_pcm_format
+BAT_PCM_FORMAT_UNKNOWN	bat/common.h	/^	BAT_PCM_FORMAT_UNKNOWN = -1,$/;"	e	enum:_bat_pcm_format
+BE_INT	aplay/formats.h	52;"	d
+BE_INT	aplay/formats.h	58;"	d
+BE_INT	speaker-test/speaker-test.c	82;"	d	file:
+BE_INT	speaker-test/speaker-test.c	88;"	d	file:
+BE_SHORT	aplay/formats.h	51;"	d
+BE_SHORT	aplay/formats.h	57;"	d
+BE_SHORT	speaker-test/speaker-test.c	81;"	d	file:
+BE_SHORT	speaker-test/speaker-test.c	87;"	d	file:
+BUFFER_SIZE	seq/aplaymidi/arecordmidi.c	35;"	d	file:
+BW	alsaloop/effect-sweep.c	/^	float lfo,dlfo,fs,fc,BW,C,D,a0,a1,a2,b1,b2,*x[3],*y[3];$/;"	m	struct:effect_private	file:
+C	alsaloop/effect-sweep.c	/^	float lfo,dlfo,fs,fc,BW,C,D,a0,a1,a2,b1,b2,*x[3],*y[3];$/;"	m	struct:effect_private	file:
+CAPTURE	alsamixer/volume_mapping.c	/^enum ctl_dir { PLAYBACK, CAPTURE };$/;"	e	enum:ctl_dir	file:
+CAPTURE_DELAY	bat/common.h	41;"	d
+CARDCMD	alsactl/alsactl.c	60;"	d	file:
+CARD_SELECT_H_INCLUDED	alsamixer/card_select.h	2;"	d
+CMD_BOOL	iecset/iecset.c	/^	CMD_BOOL, CMD_BOOL_INV, CMD_INT$/;"	e	enum:__anon9	file:
+CMD_BOOL_INV	iecset/iecset.c	/^	CMD_BOOL, CMD_BOOL_INV, CMD_INT$/;"	e	enum:__anon9	file:
+CMD_INT	iecset/iecset.c	/^	CMD_BOOL, CMD_BOOL_INV, CMD_INT$/;"	e	enum:__anon9	file:
+COLORS_H_INCLUDED	alsamixer/colors.h	2;"	d
+COMPOSE	bat/common.h	29;"	d
+COMPOSE_ID	aplay/formats.h	48;"	d
+COMPOSE_ID	aplay/formats.h	54;"	d
+COMPOSE_ID	speaker-test/speaker-test.c	78;"	d	file:
+COMPOSE_ID	speaker-test/speaker-test.c	84;"	d	file:
+CONFIG_SUPPORT_CHMAP	aplay/aplay.c	58;"	d	file:
+CONFIG_SUPPORT_CHMAP	speaker-test/speaker-test.c	65;"	d	file:
+COUNT	aplay/aplay.c	2279;"	d	file:
+COUNT1	aplay/aplay.c	2280;"	d	file:
+D	alsaloop/effect-sweep.c	/^	float lfo,dlfo,fs,fc,BW,C,D,a0,a1,a2,b1,b2,*x[3],*y[3];$/;"	m	struct:effect_private	file:
+DC_THRESHOLD	bat/common.h	68;"	d
+DEFAULT_DEV_NAME	bat/common.h	17;"	d
+DEFAULT_FORMAT	aplay/aplay.c	73;"	d	file:
+DEFAULT_PORT	seq/aseqnet/aseqnet.c	52;"	d	file:
+DEFAULT_SPEED	aplay/aplay.c	74;"	d	file:
+DELTA_HZ	bat/common.h	74;"	d
+DELTA_RATE	bat/common.h	73;"	d
+DEVICE_NAME_FORM_H_INCLUDED	alsamixer/device_name.h	2;"	d
+DIE_H_INCLUDED	alsamixer/die.h	2;"	d
+DIV_BUFFERSIZE	bat/common.h	61;"	d
+DIV_BUFFERTIME	bat/common.h	49;"	d
+EBADPEAK	bat/common.h	66;"	d
+EBATBASE	bat/common.h	63;"	d
+EJUSTRETURN	alsactl/init_parse.c	47;"	d	file:
+EMPCMD	alsactl/alsactl.c	59;"	d	file:
+ENABLE_NLS_TEST	include/gettext.h	5;"	d
+ENABLE_NLS_TEST	include/gettext.h	7;"	d
+ENOPEAK	bat/common.h	64;"	d
+ENVARG	alsactl/alsactl.c	57;"	d	file:
+EONLYDC	bat/common.h	65;"	d
+EVENT_PACKET_SIZE	seq/aseqnet/aseqnet.c	536;"	d	file:
+FILEARG	alsactl/alsactl.c	56;"	d	file:
+FORMATS_H	aplay/formats.h	2;"	d
+FORMAT_AU	aplay/aplay.c	80;"	d	file:
+FORMAT_DEFAULT	aplay/aplay.c	76;"	d	file:
+FORMAT_RAW	aplay/aplay.c	77;"	d	file:
+FORMAT_VOC	aplay/aplay.c	78;"	d	file:
+FORMAT_WAVE	aplay/aplay.c	79;"	d	file:
+FOUND_DC	bat/common.h	76;"	d
+FOUND_WRONG_PEAK	bat/common.h	77;"	d
+HAS_CSWITCH_0	alsamixer/mixer_controls.h	19;"	d
+HAS_CSWITCH_1	alsamixer/mixer_controls.h	20;"	d
+HAS_PSWITCH_0	alsamixer/mixer_controls.h	17;"	d
+HAS_PSWITCH_1	alsamixer/mixer_controls.h	18;"	d
+HAS_VOLUME_0	alsamixer/mixer_controls.h	15;"	d
+HAS_VOLUME_1	alsamixer/mixer_controls.h	16;"	d
+HEADER	alsactl/alsactl.c	55;"	d	file:
+IDX_CAT	iecset/iecset.c	/^	IDX_PRO, IDX_NOAUDIO, IDX_RATE, IDX_UNLOCK, IDX_SBITS, IDX_WORD, IDX_EMP, IDX_CAT, IDX_NOCOPY, IDX_ORIG,$/;"	e	enum:__anon10	file:
+IDX_EMP	iecset/iecset.c	/^	IDX_PRO, IDX_NOAUDIO, IDX_RATE, IDX_UNLOCK, IDX_SBITS, IDX_WORD, IDX_EMP, IDX_CAT, IDX_NOCOPY, IDX_ORIG,$/;"	e	enum:__anon10	file:
+IDX_LAST	iecset/iecset.c	/^	IDX_LAST$/;"	e	enum:__anon10	file:
+IDX_NOAUDIO	iecset/iecset.c	/^	IDX_PRO, IDX_NOAUDIO, IDX_RATE, IDX_UNLOCK, IDX_SBITS, IDX_WORD, IDX_EMP, IDX_CAT, IDX_NOCOPY, IDX_ORIG,$/;"	e	enum:__anon10	file:
+IDX_NOCOPY	iecset/iecset.c	/^	IDX_PRO, IDX_NOAUDIO, IDX_RATE, IDX_UNLOCK, IDX_SBITS, IDX_WORD, IDX_EMP, IDX_CAT, IDX_NOCOPY, IDX_ORIG,$/;"	e	enum:__anon10	file:
+IDX_ORIG	iecset/iecset.c	/^	IDX_PRO, IDX_NOAUDIO, IDX_RATE, IDX_UNLOCK, IDX_SBITS, IDX_WORD, IDX_EMP, IDX_CAT, IDX_NOCOPY, IDX_ORIG,$/;"	e	enum:__anon10	file:
+IDX_PRO	iecset/iecset.c	/^	IDX_PRO, IDX_NOAUDIO, IDX_RATE, IDX_UNLOCK, IDX_SBITS, IDX_WORD, IDX_EMP, IDX_CAT, IDX_NOCOPY, IDX_ORIG,$/;"	e	enum:__anon10	file:
+IDX_RATE	iecset/iecset.c	/^	IDX_PRO, IDX_NOAUDIO, IDX_RATE, IDX_UNLOCK, IDX_SBITS, IDX_WORD, IDX_EMP, IDX_CAT, IDX_NOCOPY, IDX_ORIG,$/;"	e	enum:__anon10	file:
+IDX_SBITS	iecset/iecset.c	/^	IDX_PRO, IDX_NOAUDIO, IDX_RATE, IDX_UNLOCK, IDX_SBITS, IDX_WORD, IDX_EMP, IDX_CAT, IDX_NOCOPY, IDX_ORIG,$/;"	e	enum:__anon10	file:
+IDX_UNLOCK	iecset/iecset.c	/^	IDX_PRO, IDX_NOAUDIO, IDX_RATE, IDX_UNLOCK, IDX_SBITS, IDX_WORD, IDX_EMP, IDX_CAT, IDX_NOCOPY, IDX_ORIG,$/;"	e	enum:__anon10	file:
+IDX_WORD	iecset/iecset.c	/^	IDX_PRO, IDX_NOAUDIO, IDX_RATE, IDX_UNLOCK, IDX_SBITS, IDX_WORD, IDX_EMP, IDX_CAT, IDX_NOCOPY, IDX_ORIG,$/;"	e	enum:__anon10	file:
+INIT_LIST_HEAD	alsactl/list.h	50;"	d
+INTARG	alsactl/alsactl.c	58;"	d	file:
+IS_ACTIVE	alsamixer/mixer_controls.h	22;"	d
+IS_MULTICH	alsamixer/mixer_controls.h	21;"	d
+KEY_OP_ADD	alsactl/init_parse.c	/^	KEY_OP_ADD,$/;"	e	enum:key_op	file:
+KEY_OP_ASSIGN	alsactl/init_parse.c	/^	KEY_OP_ASSIGN,$/;"	e	enum:key_op	file:
+KEY_OP_ASSIGN_FINAL	alsactl/init_parse.c	/^	KEY_OP_ASSIGN_FINAL$/;"	e	enum:key_op	file:
+KEY_OP_MATCH	alsactl/init_parse.c	/^	KEY_OP_MATCH,$/;"	e	enum:key_op	file:
+KEY_OP_NOMATCH	alsactl/init_parse.c	/^	KEY_OP_NOMATCH,$/;"	e	enum:key_op	file:
+KEY_OP_UNSET	alsactl/init_parse.c	/^	KEY_OP_UNSET,$/;"	e	enum:key_op	file:
+KILLCMD	alsactl/alsactl.c	61;"	d	file:
+LAST_SUPPORTED_CHANNEL	alsamixer/mixer_controls.c	46;"	d	file:
+LATENCY_STATE_COMPLETE_FAILURE	bat/common.h	/^	LATENCY_STATE_COMPLETE_FAILURE = -1,$/;"	e	enum:latency_state
+LATENCY_STATE_COMPLETE_SUCCESS	bat/common.h	/^	LATENCY_STATE_COMPLETE_SUCCESS = 0,$/;"	e	enum:latency_state
+LATENCY_STATE_MEASURE_FOR_1_SECOND	bat/common.h	/^	LATENCY_STATE_MEASURE_FOR_1_SECOND,$/;"	e	enum:latency_state
+LATENCY_STATE_PLAY_AND_LISTEN	bat/common.h	/^	LATENCY_STATE_PLAY_AND_LISTEN,$/;"	e	enum:latency_state
+LATENCY_STATE_WAITING	bat/common.h	/^	LATENCY_STATE_WAITING,$/;"	e	enum:latency_state
+LATENCY_TEST_NUMBER	bat/common.h	59;"	d
+LATENCY_TEST_TIME_LIMIT	bat/common.h	60;"	d
+LEFT	alsamixer/mixer_widget.c	/^	LEFT = 1,$/;"	e	enum:channel_mask	file:
+LEVEL_BASIC	amixer/amixer.c	36;"	d	file:
+LEVEL_ID	amixer/amixer.c	38;"	d	file:
+LEVEL_INACTIVE	amixer/amixer.c	37;"	d	file:
+LE_INT	aplay/formats.h	50;"	d
+LE_INT	aplay/formats.h	56;"	d
+LE_INT	speaker-test/speaker-test.c	80;"	d	file:
+LE_INT	speaker-test/speaker-test.c	86;"	d	file:
+LE_SHORT	aplay/formats.h	49;"	d
+LE_SHORT	aplay/formats.h	55;"	d
+LE_SHORT	speaker-test/speaker-test.c	79;"	d	file:
+LE_SHORT	speaker-test/speaker-test.c	85;"	d	file:
+LIST	seq/aconnect/aconnect.c	/^	SUBSCRIBE, UNSUBSCRIBE, LIST, REMOVE_ALL$/;"	e	enum:__anon19	file:
+LIST_HEAD	alsactl/list.h	47;"	d
+LIST_HEAD_INIT	alsactl/list.h	45;"	d
+LIST_INPUT	seq/aconnect/aconnect.c	72;"	d	file:
+LIST_OUTPUT	seq/aconnect/aconnect.c	73;"	d	file:
+LIST_POISON1	alsactl/list.h	28;"	d
+LIST_POISON2	alsactl/list.h	29;"	d
+LLONG_MAX	aplay/aplay.c	62;"	d	file:
+MAINLOOP_H_INCLUDED	alsamixer/mainloop.h	2;"	d
+MAKE_ID	seq/aplaymidi/aplaymidi.c	232;"	d	file:
+MAP_VOL_RES	amixer/amixer.c	248;"	d	file:
+MAX_ARGS	alsaloop/alsaloop.h	35;"	d
+MAX_ARGS	amixer/amixer.c	1737;"	d	file:
+MAX_BUF	alsaucm/usecase.c	44;"	d	file:
+MAX_BUFFERSIZE	bat/common.h	52;"	d
+MAX_BUFFERTIME	bat/common.h	47;"	d
+MAX_BUF_EVENTS	seq/aseqnet/aseqnet.c	62;"	d	file:
+MAX_CARDS	alsactl/monitor.c	87;"	d	file:
+MAX_CHANNELS	bat/common.h	36;"	d
+MAX_CHANNELS	speaker-test/speaker-test.c	75;"	d	file:
+MAX_CONNECTION	seq/aseqnet/aseqnet.c	63;"	d	file:
+MAX_FILE_SIZE	alsamixer/textbox.c	36;"	d	file:
+MAX_FRAMES	bat/common.h	39;"	d
+MAX_LINEAR_DB_SCALE	alsamixer/volume_mapping.c	45;"	d	file:
+MAX_MIXERS	alsaloop/alsaloop.h	36;"	d
+MAX_PEAKS	bat/common.h	38;"	d
+MAX_PERIODSIZE	bat/common.h	54;"	d
+MAX_USER_TLV_SIZE	alsactl/state.c	116;"	d	file:
+MEM_H_INCLUDED	alsamixer/mem.h	2;"	d
+METRONOME_CHANNEL	seq/aplaymidi/arecordmidi.c	58;"	d	file:
+METRONOME_PROGRAM	seq/aplaymidi/arecordmidi.c	62;"	d	file:
+METRONOME_STRONG_NOTE	seq/aplaymidi/arecordmidi.c	59;"	d	file:
+METRONOME_VELOCITY	seq/aplaymidi/arecordmidi.c	61;"	d	file:
+METRONOME_WEAK_NOTE	seq/aplaymidi/arecordmidi.c	60;"	d	file:
+MIDI_BYTES_PER_SEC	seq/aplaymidi/aplaymidi.c	39;"	d	file:
+MIN_BUFFERSIZE	bat/common.h	53;"	d
+MIN_CHANNELS	bat/common.h	37;"	d
+MIN_PERIODSIZE	bat/common.h	55;"	d
+MIXER_CONTROLS_H_INCLUDED	alsamixer/mixer_controls.h	2;"	d
+MIXER_DISPLAY_H_INCLUDED	alsamixer/mixer_display.h	2;"	d
+MIXER_WIDGET_H_INCLUDED	alsamixer/mixer_widget.h	2;"	d
+MODE_LAST	bat/common.h	/^	MODE_LAST$/;"	e	enum:_bat_op_mode
+MODE_LOOPBACK	bat/common.h	/^	MODE_LOOPBACK,$/;"	e	enum:_bat_op_mode
+MODE_SINGLE	bat/common.h	/^	MODE_SINGLE = 0,$/;"	e	enum:_bat_op_mode
+MODE_UNKNOWN	bat/common.h	/^	MODE_UNKNOWN = -1,$/;"	e	enum:_bat_op_mode
+MULTICH_MASK	alsamixer/mixer_controls.h	23;"	d
+MY_MAX	alsactl/init_utils_run.c	19;"	d	file:
+NAME_SIZE	alsactl/init_parse.c	46;"	d	file:
+NO_NICE	alsactl/alsactl.c	153;"	d	file:
+NSEC_PER_SEC	amidi/amidi.c	42;"	d	file:
+N_	include/gettext.h	20;"	d
+OM_GET	alsaucm/usecase.c	/^	OM_GET,$/;"	e	enum:uc_cmd	file:
+OM_GETI	alsaucm/usecase.c	/^	OM_GETI,$/;"	e	enum:uc_cmd	file:
+OM_HELP	alsaucm/usecase.c	/^	OM_HELP,$/;"	e	enum:uc_cmd	file:
+OM_LIST1	alsaucm/usecase.c	/^	OM_LIST1,$/;"	e	enum:uc_cmd	file:
+OM_LIST2	alsaucm/usecase.c	/^	OM_LIST2,$/;"	e	enum:uc_cmd	file:
+OM_LISTCARDS	alsaucm/usecase.c	/^	OM_LISTCARDS,$/;"	e	enum:uc_cmd	file:
+OM_OPEN	alsaucm/usecase.c	/^	OM_OPEN,$/;"	e	enum:uc_cmd	file:
+OM_QUIT	alsaucm/usecase.c	/^	OM_QUIT,$/;"	e	enum:uc_cmd	file:
+OM_RELOAD	alsaucm/usecase.c	/^	OM_RELOAD,$/;"	e	enum:uc_cmd	file:
+OM_RESET	alsaucm/usecase.c	/^	OM_RESET,$/;"	e	enum:uc_cmd	file:
+OM_SET	alsaucm/usecase.c	/^	OM_SET,$/;"	e	enum:uc_cmd	file:
+OM_UNKNOWN	alsaucm/usecase.c	/^	OM_UNKNOWN = 0,$/;"	e	enum:uc_cmd	file:
+OPT_BASE	bat/common.h	19;"	d
+OPT_BUFFER_SIZE	aplay/aplay.c	/^	OPT_BUFFER_SIZE,$/;"	e	enum:__anon8	file:
+OPT_DISABLE_CHANNELS	aplay/aplay.c	/^	OPT_DISABLE_CHANNELS,$/;"	e	enum:__anon8	file:
+OPT_DISABLE_FORMAT	aplay/aplay.c	/^	OPT_DISABLE_FORMAT,$/;"	e	enum:__anon8	file:
+OPT_DISABLE_RESAMPLE	aplay/aplay.c	/^	OPT_DISABLE_RESAMPLE,$/;"	e	enum:__anon8	file:
+OPT_DISABLE_SOFTVOL	aplay/aplay.c	/^	OPT_DISABLE_SOFTVOL,$/;"	e	enum:__anon8	file:
+OPT_DUMP_HWPARAMS	aplay/aplay.c	/^	OPT_DUMP_HWPARAMS,$/;"	e	enum:__anon8	file:
+OPT_FATAL_ERRORS	aplay/aplay.c	/^	OPT_FATAL_ERRORS,$/;"	e	enum:__anon8	file:
+OPT_LOCAL	bat/common.h	23;"	d
+OPT_LOG	bat/common.h	20;"	d
+OPT_MAX_FILE_TIME	aplay/aplay.c	/^	OPT_MAX_FILE_TIME,$/;"	e	enum:__anon8	file:
+OPT_PERIOD_SIZE	aplay/aplay.c	/^	OPT_PERIOD_SIZE,$/;"	e	enum:__anon8	file:
+OPT_PROCESS_ID_FILE	aplay/aplay.c	/^	OPT_PROCESS_ID_FILE,$/;"	e	enum:__anon8	file:
+OPT_READFILE	bat/common.h	21;"	d
+OPT_ROUNDTRIPLATENCY	bat/common.h	25;"	d
+OPT_SAVEPLAY	bat/common.h	22;"	d
+OPT_SNRTHD_DB	bat/common.h	26;"	d
+OPT_SNRTHD_PC	bat/common.h	27;"	d
+OPT_STANDALONE	bat/common.h	24;"	d
+OPT_TEST_COEF	aplay/aplay.c	/^	OPT_TEST_COEF,$/;"	e	enum:__anon8	file:
+OPT_TEST_NOWAIT	aplay/aplay.c	/^	OPT_TEST_NOWAIT,$/;"	e	enum:__anon8	file:
+OPT_TEST_POSITION	aplay/aplay.c	/^	OPT_TEST_POSITION,$/;"	e	enum:__anon8	file:
+OPT_USE_STRFTIME	aplay/aplay.c	/^	OPT_USE_STRFTIME,$/;"	e	enum:__anon8	file:
+OPT_VERSION	alsaucm/usecase.c	/^	OPT_VERSION = 1,$/;"	e	enum:__anon11	file:
+OPT_VERSION	aplay/aplay.c	/^	OPT_VERSION = 1,$/;"	e	enum:__anon8	file:
+OUT	alsaloop/pcmjob.c	1982;"	d	file:
+PATH_SIZE	alsactl/init_parse.c	45;"	d	file:
+PINK_MAX_RANDOM_ROWS	speaker-test/pink.h	1;"	d
+PINK_RANDOM_BITS	speaker-test/pink.h	2;"	d
+PINK_RANDOM_SHIFT	speaker-test/pink.h	3;"	d
+PLAYBACK	alsamixer/volume_mapping.c	/^enum ctl_dir { PLAYBACK, CAPTURE };$/;"	e	enum:ctl_dir	file:
+PROC_FILES_H_INCLUDED	alsamixer/proc_files.h	2;"	d
+Perror	alsactl/init_parse.c	/^static void Perror(struct space *space, const char *fmt, ...)$/;"	f	file:
+RANGE_FACTOR	bat/common.h	51;"	d
+RATE_FACTOR	bat/common.h	43;"	d
+RATE_RANGE	bat/common.h	45;"	d
+READ_END	alsactl/init_utils_run.c	21;"	d	file:
+REMOVE_ALL	seq/aconnect/aconnect.c	/^	SUBSCRIBE, UNSUBSCRIBE, LIST, REMOVE_ALL$/;"	e	enum:__anon19	file:
+RIGHT	alsamixer/mixer_widget.c	/^	RIGHT = 2,$/;"	e	enum:channel_mask	file:
+SCREEN_CENTER	alsamixer/widget.h	10;"	d
+SHIFT_MAX	bat/common.h	82;"	d
+SHIFT_MIN	bat/common.h	83;"	d
+SLAVE_TYPE_AUTO	alsaloop/alsaloop.h	/^	SLAVE_TYPE_AUTO = 0,$/;"	e	enum:_slave_type
+SLAVE_TYPE_LAST	alsaloop/alsaloop.h	/^	SLAVE_TYPE_LAST = SLAVE_TYPE_OFF$/;"	e	enum:_slave_type
+SLAVE_TYPE_OFF	alsaloop/alsaloop.h	/^	SLAVE_TYPE_OFF = 2,$/;"	e	enum:_slave_type
+SLAVE_TYPE_ON	alsaloop/alsaloop.h	/^	SLAVE_TYPE_ON = 1,$/;"	e	enum:_slave_type
+SNR_DB_INVALID	bat/common.h	93;"	d
+SNR_DB_MAX	bat/common.h	95;"	d
+SNR_DB_MIN	bat/common.h	94;"	d
+SRCTYPE	alsaloop/pcmjob.c	53;"	d	file:
+SRC_LINEAR	alsaloop/alsaloop.h	/^	SRC_LINEAR		= 4$/;"	e	enum:__anon1
+SRC_SINC_BEST_QUALITY	alsaloop/alsaloop.h	/^	SRC_SINC_BEST_QUALITY	= 0,$/;"	e	enum:__anon1
+SRC_SINC_FASTEST	alsaloop/alsaloop.h	/^	SRC_SINC_FASTEST	= 2,$/;"	e	enum:__anon1
+SRC_SINC_MEDIUM_QUALITY	alsaloop/alsaloop.h	/^	SRC_SINC_MEDIUM_QUALITY	= 1,$/;"	e	enum:__anon1
+SRC_ZERO_ORDER_HOLD	alsaloop/alsaloop.h	/^	SRC_ZERO_ORDER_HOLD	= 3,$/;"	e	enum:__anon1
+SUBSCRIBE	seq/aconnect/aconnect.c	/^	SUBSCRIBE, UNSUBSCRIBE, LIST, REMOVE_ALL$/;"	e	enum:__anon19	file:
+SYNCTYPE	alsaloop/pcmjob.c	42;"	d	file:
+SYNC_TYPE_AUTO	alsaloop/alsaloop.h	/^	SYNC_TYPE_AUTO,		\/* order: CAPTRATESHIFT, PLAYRATESHIFT, *\/$/;"	e	enum:_sync_type
+SYNC_TYPE_CAPTRATESHIFT	alsaloop/alsaloop.h	/^	SYNC_TYPE_CAPTRATESHIFT,$/;"	e	enum:_sync_type
+SYNC_TYPE_LAST	alsaloop/alsaloop.h	/^	SYNC_TYPE_LAST = SYNC_TYPE_AUTO$/;"	e	enum:_sync_type
+SYNC_TYPE_NONE	alsaloop/alsaloop.h	/^	SYNC_TYPE_NONE = 0,$/;"	e	enum:_sync_type
+SYNC_TYPE_PLAYRATESHIFT	alsaloop/alsaloop.h	/^	SYNC_TYPE_PLAYRATESHIFT,$/;"	e	enum:_sync_type
+SYNC_TYPE_SAMPLERATE	alsaloop/alsaloop.h	/^	SYNC_TYPE_SAMPLERATE,$/;"	e	enum:_sync_type
+SYNC_TYPE_SIMPLE	alsaloop/alsaloop.h	/^	SYNC_TYPE_SIMPLE,	\/* add or remove samples *\/$/;"	e	enum:_sync_type
+SYS_ASOUNDRC	alsactl/alsactl.c	36;"	d	file:
+SYS_LOCKPATH	alsactl/alsactl.c	42;"	d	file:
+SYS_PIDFILE	alsactl/alsactl.c	39;"	d	file:
+TEMP_RECORD_FILE_NAME	bat/common.h	16;"	d
+TEST_PATTERN	speaker-test/speaker-test.c	/^  TEST_PATTERN,$/;"	e	enum:__anon13	file:
+TEST_PINK_NOISE	speaker-test/speaker-test.c	/^  TEST_PINK_NOISE = 1,$/;"	e	enum:__anon13	file:
+TEST_SINE	speaker-test/speaker-test.c	/^  TEST_SINE,$/;"	e	enum:__anon13	file:
+TEST_WAV	speaker-test/speaker-test.c	/^  TEST_WAV,$/;"	e	enum:__anon13	file:
+TEXTBOX_H_INCLUDED	alsamixer/textbox.h	2;"	d
+TINYALSA_PERIODSIZE	bat/common.h	57;"	d
+TITLE	alsactl/alsactl.c	54;"	d	file:
+TO_CPU_INT	aplay/formats.h	66;"	d
+TO_CPU_SHORT	aplay/formats.h	64;"	d
+TRACKS_PER_PORT	seq/aplaymidi/arecordmidi.c	54;"	d	file:
+TRICOLOR_VOLUME_BAR	alsamixer/colors.h	4;"	d
+TYPE_CSWITCH	alsamixer/mixer_controls.h	13;"	d
+TYPE_CVOLUME	alsamixer/mixer_controls.h	11;"	d
+TYPE_ENUM	alsamixer/mixer_controls.h	14;"	d
+TYPE_PSWITCH	alsamixer/mixer_controls.h	12;"	d
+TYPE_PVOLUME	alsamixer/mixer_controls.h	10;"	d
+UNSUBSCRIBE	seq/aconnect/aconnect.c	/^	SUBSCRIBE, UNSUBSCRIBE, LIST, REMOVE_ALL$/;"	e	enum:__anon19	file:
+USES_CURSES	include/gettext_curses.h	1;"	d
+USE_SAMPLERATE	alsaloop/alsaloop.h	23;"	d
+UTILS_H_INCLUDED	alsamixer/utils.h	2;"	d
+VIEW_MODE_ALL	alsamixer/mixer_widget.h	/^	VIEW_MODE_ALL,$/;"	e	enum:view_mode
+VIEW_MODE_CAPTURE	alsamixer/mixer_widget.h	/^	VIEW_MODE_CAPTURE,$/;"	e	enum:view_mode
+VIEW_MODE_COUNT	alsamixer/mixer_widget.h	/^	VIEW_MODE_COUNT,$/;"	e	enum:view_mode
+VIEW_MODE_PLAYBACK	alsamixer/mixer_widget.h	/^	VIEW_MODE_PLAYBACK,$/;"	e	enum:view_mode
+VOC_ACTUAL_VERSION	aplay/formats.h	10;"	d
+VOC_DATALEN	aplay/formats.h	16;"	d
+VOC_MAGIC_STRING	aplay/formats.h	9;"	d
+VOC_MODE_MONO	aplay/formats.h	13;"	d
+VOC_MODE_STEREO	aplay/formats.h	14;"	d
+VOC_SAMPLESIZE	aplay/formats.h	11;"	d
+VOLUME_MAPPING_H_INCLUDED	alsamixer/volume_mapping.h	2;"	d
+VOL_DB	amixer/amixer.c	/^enum { VOL_RAW, VOL_DB, VOL_MAP };$/;"	e	enum:__anon18	file:
+VOL_MAP	amixer/amixer.c	/^enum { VOL_RAW, VOL_DB, VOL_MAP };$/;"	e	enum:__anon18	file:
+VOL_RAW	amixer/amixer.c	/^enum { VOL_RAW, VOL_DB, VOL_MAP };$/;"	e	enum:__anon18	file:
+VUMETER_MONO	aplay/aplay.c	/^	VUMETER_MONO,$/;"	e	enum:__anon6	file:
+VUMETER_NONE	aplay/aplay.c	/^	VUMETER_NONE,$/;"	e	enum:__anon6	file:
+VUMETER_STEREO	aplay/aplay.c	/^	VUMETER_STEREO$/;"	e	enum:__anon6	file:
+VocBlockType	aplay/formats.h	/^} VocBlockType;$/;"	t	typeref:struct:voc_blocktype
+VocExtBlock	aplay/formats.h	/^} VocExtBlock;$/;"	t	typeref:struct:voc_ext_block
+VocHeader	aplay/formats.h	/^} VocHeader;$/;"	t	typeref:struct:voc_header
+VocVoiceData	aplay/formats.h	/^} VocVoiceData;$/;"	t	typeref:struct:voc_voice_data
+WAV_DATA	aplay/formats.h	73;"	d
+WAV_DATA	bat/common.h	33;"	d
+WAV_DATA	speaker-test/speaker-test.c	750;"	d	file:
+WAV_FMT	aplay/formats.h	72;"	d
+WAV_FMT	bat/common.h	32;"	d
+WAV_FMT	speaker-test/speaker-test.c	749;"	d	file:
+WAV_FMT_DOLBY_AC3_SPDIF	aplay/formats.h	78;"	d
+WAV_FMT_EXTENSIBLE	aplay/formats.h	79;"	d
+WAV_FMT_IEEE_FLOAT	aplay/formats.h	77;"	d
+WAV_FMT_PCM	aplay/formats.h	76;"	d
+WAV_FORMAT_PCM	bat/common.h	34;"	d
+WAV_GUID_TAG	aplay/formats.h	82;"	d
+WAV_PCM_CODE	speaker-test/speaker-test.c	751;"	d	file:
+WAV_RIFF	aplay/formats.h	69;"	d
+WAV_RIFF	bat/common.h	30;"	d
+WAV_RIFF	speaker-test/speaker-test.c	747;"	d	file:
+WAV_RIFX	aplay/formats.h	70;"	d
+WAV_WAVE	aplay/formats.h	71;"	d
+WAV_WAVE	bat/common.h	31;"	d
+WAV_WAVE	speaker-test/speaker-test.c	748;"	d	file:
+WIDGET_BORDER	alsamixer/widget.h	6;"	d
+WIDGET_CURSOR_VISIBLE	alsamixer/widget.h	8;"	d
+WIDGET_H_INCLUDED	alsamixer/widget.h	2;"	d
+WIDGET_SUBWINDOW	alsamixer/widget.h	7;"	d
+WORKAROUND_SERIALOPEN	alsaloop/alsaloop.h	43;"	d
+WRITE_END	alsactl/init_utils_run.c	22;"	d	file:
+WaveChunkHeader	aplay/formats.h	/^} WaveChunkHeader;$/;"	t	typeref:struct:__anon5
+WaveFmtBody	aplay/formats.h	/^} WaveFmtBody;$/;"	t	typeref:struct:__anon3
+WaveFmtExtensibleBody	aplay/formats.h	/^} WaveFmtExtensibleBody;$/;"	t	typeref:struct:__anon4
+WaveHeader	aplay/formats.h	/^} WaveHeader;$/;"	t	typeref:struct:__anon2
+XRUN_PROFILE_UNKNOWN	alsaloop/pcmjob.c	37;"	d	file:
+_	include/gettext.h	18;"	d
+_C99_SOURCE	alsamixer/mixer_display.c	20;"	d	file:
+_GNU_SOURCE	alsamixer/mem.c	19;"	d	file:
+_GNU_SOURCE	alsamixer/volume_mapping.c	34;"	d	file:
+_GNU_SOURCE	amidi/amidi.c	22;"	d	file:
+_GNU_SOURCE	aplay/aplay.c	29;"	d	file:
+_ISOC99_SOURCE	alsamixer/volume_mapping.c	33;"	d	file:
+_LIST_H	alsactl/list.h	9;"	d
+_XOPEN_SOURCE	alsamixer/utils.c	19;"	d	file:
+__MY_GETTEXT_H	include/gettext.h	2;"	d
+__list_add	alsactl/list.h	/^static inline void __list_add(struct list_head *new,$/;"	f
+__list_del	alsactl/list.h	/^static inline void __list_del(struct list_head * prev, struct list_head * next)$/;"	f
+__list_for_each	alsactl/list.h	233;"	d
+__list_splice	alsactl/list.h	/^static inline void __list_splice(struct list_head *list,$/;"	f
+_bat_op_mode	bat/common.h	/^enum _bat_op_mode {$/;"	g
+_bat_pcm_format	bat/common.h	/^enum _bat_pcm_format {$/;"	g
+_slave_type	alsaloop/alsaloop.h	/^typedef enum _slave_type {$/;"	g
+_sync_type	alsaloop/alsaloop.h	/^typedef enum _sync_type {$/;"	g
+a0	alsaloop/effect-sweep.c	/^	float lfo,dlfo,fs,fc,BW,C,D,a0,a1,a2,b1,b2,*x[3],*y[3];$/;"	m	struct:effect_private	file:
+a1	alsaloop/effect-sweep.c	/^	float lfo,dlfo,fs,fc,BW,C,D,a0,a1,a2,b1,b2,*x[3],*y[3];$/;"	m	struct:effect_private	file:
+a2	alsaloop/effect-sweep.c	/^	float lfo,dlfo,fs,fc,BW,C,D,a0,a1,a2,b1,b2,*x[3],*y[3];$/;"	m	struct:effect_private	file:
+access	alsaloop/alsaloop.h	/^	snd_pcm_access_t access;$/;"	m	struct:loopback_handle
+action_func_t	seq/aconnect/aconnect.c	/^typedef void (*action_func_t)(snd_seq_t *seq, snd_seq_client_info_t *cinfo, snd_seq_port_info_t *pinfo, int count);$/;"	t	file:
+active_pollfd_count	alsaloop/alsaloop.h	/^	int active_pollfd_count;$/;"	m	struct:loopback
+add_byte	seq/aplaymidi/arecordmidi.c	/^static void add_byte(struct smf_track *track, unsigned char byte)$/;"	f	file:
+add_card	alsactl/daemon.c	/^static void add_card(struct card ***cards, int *count, const char *cardname)$/;"	f	file:
+add_cards	alsactl/daemon.c	/^static void add_cards(struct card ***cards, int *count)$/;"	f	file:
+add_item	alsamixer/proc_files.c	/^static void add_item(const char *file_name)$/;"	f	file:
+add_loop	alsaloop/alsaloop.c	/^static void add_loop(struct loopback *loop)$/;"	f	file:
+add_mixers	alsaloop/alsaloop.c	/^static int add_mixers(struct loopback *loop,$/;"	f	file:
+add_oss_mixers	alsaloop/alsaloop.c	/^static int add_oss_mixers(struct loopback *loop,$/;"	f	file:
+add_send_hex_data	amidi/amidi.c	/^static void add_send_hex_data(const char *str)$/;"	f	file:
+add_tlv_comments	alsactl/state.c	/^static int add_tlv_comments(snd_ctl_t *handle, snd_ctl_elem_id_t *id,$/;"	f	file:
+add_to_list	alsactl/daemon.c	/^static void add_to_list(struct id_list *list, snd_ctl_elem_id_t *id)$/;"	f	file:
+add_user_control	alsactl/state.c	/^static int add_user_control(snd_ctl_t *handle, snd_ctl_elem_info_t *info, snd_config_t *conf)$/;"	f	file:
+adjust_waveform	bat/signal.c	/^static int adjust_waveform(struct bat *bat, float *val, int frames,$/;"	f	file:
+align	alsamixer/mixer_display.c	/^enum align {$/;"	g	file:
+alsa_id	alsaloop/alsaloop.h	/^	const char *alsa_id;$/;"	m	struct:loopback_ossmixer
+alsa_index	alsaloop/alsaloop.h	/^	int alsa_index;$/;"	m	struct:loopback_ossmixer
+analyze	bat/common.h	/^struct analyze {$/;"	s
+analyze_capture	bat/analyze.c	/^int analyze_capture(struct bat *bat)$/;"	f
+app_shutdown	alsamixer/mainloop.c	/^void app_shutdown(void)$/;"	f
+apply_format	alsactl/init_parse.c	/^static void apply_format(struct space *space, char *string, size_t maxsize)$/;"	f	file:
+are_there_any_controls	alsamixer/mixer_controls.c	/^bool are_there_any_controls(void)$/;"	f
+arg	alsactl/alsactl.c	/^struct arg {$/;"	s	file:
+arg_default_wake	alsaloop/alsaloop.c	/^int arg_default_wake = 0;$/;"	v
+arg_default_xrun	alsaloop/alsaloop.c	/^int arg_default_xrun = 0;$/;"	v
+arga	alsaucm/usecase.c	/^	int arga;$/;"	m	struct:context	file:
+argc	alsaucm/usecase.c	/^	int argc;$/;"	m	struct:context	file:
+args	alsactl/alsactl.c	/^static struct arg args[] = {$/;"	v	typeref:struct:arg	file:
+args	alsaucm/usecase.c	/^	int args;$/;"	m	struct:cmd	file:
+argv	alsaucm/usecase.c	/^	char **argv;$/;"	m	struct:context	file:
+attr_ctl_bar_hi	alsamixer/colors.c	/^int attr_ctl_bar_hi;$/;"	v
+attr_ctl_bar_lo	alsamixer/colors.c	/^int attr_ctl_bar_lo;$/;"	v
+attr_ctl_bar_mi	alsamixer/colors.c	/^int attr_ctl_bar_mi;$/;"	v
+attr_ctl_capture	alsamixer/colors.c	/^int attr_ctl_capture;$/;"	v
+attr_ctl_frame	alsamixer/colors.c	/^int attr_ctl_frame;$/;"	v
+attr_ctl_inactive	alsamixer/colors.c	/^int attr_ctl_inactive;$/;"	v
+attr_ctl_label	alsamixer/colors.c	/^int attr_ctl_label;$/;"	v
+attr_ctl_label_focus	alsamixer/colors.c	/^int attr_ctl_label_focus;$/;"	v
+attr_ctl_label_inactive	alsamixer/colors.c	/^int attr_ctl_label_inactive;$/;"	v
+attr_ctl_mark_focus	alsamixer/colors.c	/^int attr_ctl_mark_focus;$/;"	v
+attr_ctl_mute	alsamixer/colors.c	/^int attr_ctl_mute;$/;"	v
+attr_ctl_nocapture	alsamixer/colors.c	/^int attr_ctl_nocapture;$/;"	v
+attr_ctl_nomute	alsamixer/colors.c	/^int attr_ctl_nomute;$/;"	v
+attr_errormsg	alsamixer/colors.c	/^int attr_errormsg;$/;"	v
+attr_infomsg	alsamixer/colors.c	/^int attr_infomsg;$/;"	v
+attr_menu	alsamixer/colors.c	/^int attr_menu;$/;"	v
+attr_menu_selected	alsamixer/colors.c	/^int attr_menu_selected;$/;"	v
+attr_mixer_active	alsamixer/colors.c	/^int attr_mixer_active;$/;"	v
+attr_mixer_frame	alsamixer/colors.c	/^int attr_mixer_frame;$/;"	v
+attr_mixer_text	alsamixer/colors.c	/^int attr_mixer_text;$/;"	v
+attr_textbox	alsamixer/colors.c	/^int attr_textbox;$/;"	v
+attr_textfield	alsamixer/colors.c	/^int attr_textfield;$/;"	v
+au_header	aplay/formats.h	/^typedef struct au_header {$/;"	s
+audiobuf	aplay/aplay.c	/^static u_char *audiobuf = NULL;$/;"	v	file:
+avail_min	alsaloop/alsaloop.h	/^	snd_pcm_uframes_t avail_min;$/;"	m	struct:loopback_handle
+avail_min	aplay/aplay.c	/^static int avail_min = -1;$/;"	v	file:
+b1	alsaloop/effect-sweep.c	/^	float lfo,dlfo,fs,fc,BW,C,D,a0,a1,a2,b1,b2,*x[3],*y[3];$/;"	m	struct:effect_private	file:
+b2	alsaloop/effect-sweep.c	/^	float lfo,dlfo,fs,fc,BW,C,D,a0,a1,a2,b1,b2,*x[3],*y[3];$/;"	m	struct:effect_private	file:
+balance_volumes	alsamixer/mixer_widget.c	/^static void balance_volumes(void)$/;"	f	file:
+base_y	alsamixer/mixer_display.c	/^static int base_y;$/;"	v	file:
+bat	bat/common.h	/^struct bat {$/;"	s
+bat_init	bat/bat.c	/^static int bat_init(struct bat *bat)$/;"	f	file:
+batch	alsaucm/usecase.c	/^	char *batch;$/;"	m	struct:context	file:
+be16toh	aplay/aplay.c	68;"	d	file:
+be32toh	aplay/aplay.c	70;"	d	file:
+beats	seq/aplaymidi/arecordmidi.c	/^static int beats = 120;$/;"	v	file:
+begin_au	aplay/aplay.c	/^static void begin_au(int fd, size_t cnt)$/;"	f	file:
+begin_voc	aplay/aplay.c	/^static void begin_voc(int fd, size_t cnt)$/;"	f	file:
+begin_wave	aplay/aplay.c	/^static void begin_wave(int fd, size_t cnt)$/;"	f	file:
+bindtextdomain	include/gettext.h	15;"	d
+bit_p_spl	aplay/formats.h	/^	u_short bit_p_spl;	\/* 8, 12 or 16 bit *\/$/;"	m	struct:__anon3
+bit_p_spl	aplay/formats.h	/^	u_short bit_p_spl;$/;"	m	struct:__anon4
+bits_per_frame	aplay/aplay.c	/^static size_t significant_bits_per_sample, bits_per_sample, bits_per_frame;$/;"	v	file:
+bits_per_sample	aplay/aplay.c	/^static size_t significant_bits_per_sample, bits_per_sample, bits_per_frame;$/;"	v	file:
+black_hole_error_handler	alsamixer/mainloop.c	/^static void black_hole_error_handler(const char *file, int line,$/;"	f	file:
+blacklist	alsactl/daemon.c	/^	struct id_list blacklist;$/;"	m	struct:card	typeref:struct:card::id_list	file:
+blocks_align	bat/common.h	/^	unsigned short blocks_align; \/* sample size; 1 or 2 bytes *\/$/;"	m	struct:chunk_fmt
+blocks_align	bat/common.h	/^	unsigned short blocks_align; \/* sample size; 1 or 2 bytes *\/$/;"	m	struct:wav_fmt
+body	speaker-test/speaker-test.c	/^  } body;$/;"	m	struct:wave_header	typeref:struct:wave_header::__anon16	file:
+buf	alsaloop/alsaloop.h	/^	char *buf;			\/* I\/O buffer *\/$/;"	m	struct:loopback_handle
+buf	bat/common.h	/^	void *buf;			\/* PCM Buffer *\/$/;"	m	struct:bat
+buf	bat/common.h	/^	void *buf;$/;"	m	struct:analyze
+buf	seq/aplaymidi/arecordmidi.c	/^	unsigned char buf[BUFFER_SIZE];$/;"	m	struct:buffer	file:
+buf_add	alsaloop/pcmjob.c	/^static void buf_add(struct loopback *loop, snd_pcm_uframes_t count)$/;"	f	file:
+buf_add_src	alsaloop/pcmjob.c	/^static void buf_add_src(struct loopback *loop)$/;"	f	file:
+buf_avail	alsaloop/pcmjob.c	/^static inline snd_pcm_uframes_t buf_avail(struct loopback_handle *lhandle)$/;"	f	file:
+buf_count	alsaloop/alsaloop.h	/^	snd_pcm_uframes_t buf_count;	\/* filled samples *\/$/;"	m	struct:loopback_handle
+buf_over	alsaloop/alsaloop.h	/^	snd_pcm_uframes_t buf_over;	\/* capture buffer overflow *\/$/;"	m	struct:loopback_handle
+buf_pos	alsaloop/alsaloop.h	/^	snd_pcm_uframes_t buf_pos;	\/* I\/O position *\/$/;"	m	struct:loopback_handle
+buf_remove	alsaloop/pcmjob.c	/^static void buf_remove(struct loopback *loop, snd_pcm_uframes_t count)$/;"	f	file:
+buf_size	alsaloop/alsaloop.h	/^	snd_pcm_uframes_t buf_size;	\/* buffer size in frames *\/$/;"	m	struct:loopback_handle
+buffer	bat/alsa.c	/^	char *buffer;$/;"	m	struct:pcm_container	file:
+buffer	seq/aplaymidi/arecordmidi.c	/^struct buffer {$/;"	s	file:
+buffer_frames	aplay/aplay.c	/^static snd_pcm_uframes_t buffer_frames = 0;$/;"	v	file:
+buffer_pos	aplay/aplay.c	/^static int buffer_pos = 0;$/;"	v	file:
+buffer_size	alsaloop/alsaloop.h	/^	unsigned int buffer_size;$/;"	m	struct:loopback_handle
+buffer_size	bat/alsa.c	/^	snd_pcm_uframes_t buffer_size;$/;"	m	struct:pcm_container	file:
+buffer_size	bat/common.h	/^	int buffer_size;		\/* buffer size in frames *\/$/;"	m	struct:bat
+buffer_size	speaker-test/speaker-test.c	/^static snd_pcm_uframes_t  buffer_size;$/;"	v	file:
+buffer_size_req	alsaloop/alsaloop.h	/^	unsigned int buffer_size_req;$/;"	m	struct:loopback_handle
+buffer_time	aplay/aplay.c	/^static unsigned buffer_time = 0;$/;"	v	file:
+buffer_time	speaker-test/speaker-test.c	/^static unsigned int       buffer_time = 0;	            \/* ring buffer length in us *\/$/;"	v	file:
+byte_p_sec	aplay/formats.h	/^	u_int byte_p_sec;$/;"	m	struct:__anon3
+byte_p_spl	aplay/formats.h	/^	u_short byte_p_spl;	\/* samplesize; 1 or 2 bytes *\/$/;"	m	struct:__anon3
+bytes_p_second	bat/common.h	/^	unsigned int bytes_p_second;$/;"	m	struct:chunk_fmt
+bytes_p_second	bat/common.h	/^	unsigned int bytes_p_second;$/;"	m	struct:wav_fmt
+bytes_per_sec	speaker-test/speaker-test.c	/^    uint32_t bytes_per_sec;$/;"	m	struct:wave_header::__anon16	file:
+calc_count	aplay/aplay.c	/^static off64_t calc_count(void)$/;"	f	file:
+calc_magnitude	bat/analyze.c	/^static void calc_magnitude(struct bat *bat, struct analyze *a, int N)$/;"	f	file:
+calculate_noise	bat/analyze.c	/^static int calculate_noise(struct bat *bat, float *src, int channel)$/;"	f	file:
+calculate_noise_one_period	bat/analyze.c	/^static int calculate_noise_one_period(struct bat *bat,$/;"	f	file:
+calculate_threshold	bat/latencytest.c	/^static void calculate_threshold(struct bat *bat)$/;"	f	file:
+can_pause	aplay/aplay.c	/^static int can_pause = 0;$/;"	v	file:
+capt	alsaloop/alsaloop.h	/^	struct loopback_handle *capt;$/;"	m	struct:loopback	typeref:struct:loopback::loopback_handle
+capture	aplay/aplay.c	/^static void capture(char *orig_name)$/;"	f	file:
+capture	bat/common.h	/^	struct pcm capture;$/;"	m	struct:bat	typeref:struct:bat::pcm
+capture_sample	bat/tinyalsa.c	/^static int capture_sample(struct bat *bat, struct pcm *pcm,$/;"	f	file:
+capturev	aplay/aplay.c	/^static void capturev(char **names, unsigned int count)$/;"	f	file:
+capturev_go	aplay/aplay.c	/^static void capturev_go(int* fds, unsigned int channels, off64_t count, int rtype, char **names)$/;"	f	file:
+card	alsactl/daemon.c	/^struct card {$/;"	s	file:
+card	alsamixer/card_select.c	/^struct card {$/;"	s	file:
+card	alsaucm/usecase.c	/^	char *card;$/;"	m	struct:context	file:
+card	amixer/amixer.c	/^static char card[64] = "default";$/;"	v	file:
+card_events	alsactl/daemon.c	/^static int card_events(struct card *card)$/;"	f	file:
+card_free	alsactl/daemon.c	/^static void card_free(struct card **card)$/;"	f	file:
+card_number	alsaloop/alsaloop.h	/^	int card_number;$/;"	m	struct:loopback_handle
+card_tiny	bat/common.h	/^	unsigned int card_tiny;$/;"	m	struct:pcm
+cardinfo_get	alsactl/init_parse.c	/^static const char *cardinfo_get(struct space *space, const char *attr)$/;"	f	file:
+casprintf	alsamixer/mem.c	/^char *casprintf(const char *fmt, ...)$/;"	f
+category_str	iecset/iecbits.c	/^struct category_str {$/;"	s	file:
+ccalloc	alsamixer/mem.c	/^void *ccalloc(size_t n, size_t size)$/;"	f
+center_string	alsamixer/mixer_display.c	/^static void center_string(int line, const char *s)$/;"	f	file:
+cerror	alsactl/alsactl.h	18;"	d
+cerror	alsactl/alsactl.h	23;"	d
+cerror_	alsactl/utils.c	/^void cerror_(const char *fcn, long line, int cond, const char *fmt, ...)$/;"	f
+cfile	alsaloop/alsaloop.h	/^	FILE *cfile;$/;"	m	struct:loopback
+change_control_relative	alsamixer/mixer_widget.c	/^static void change_control_relative(int delta, unsigned int channels)$/;"	f	file:
+change_control_to_percent	alsamixer/mixer_widget.c	/^static void change_control_to_percent(int value, unsigned int channels)$/;"	f	file:
+change_enum_relative	alsamixer/mixer_widget.c	/^static void change_enum_relative(struct control *control, int delta)$/;"	f	file:
+change_enum_to_percent	alsamixer/mixer_widget.c	/^static void change_enum_to_percent(struct control *control, int value)$/;"	f	file:
+change_volume_relative	alsamixer/mixer_widget.c	/^static void change_volume_relative(struct control *control, int delta, unsigned int channels)$/;"	f	file:
+change_volume_to_percent	alsamixer/mixer_widget.c	/^static void change_volume_to_percent(struct control *control, int value, unsigned int channels)$/;"	f	file:
+chanmask	amixer/amixer.c	/^static const channel_mask_t chanmask[] = {$/;"	v	file:
+channel_map	aplay/aplay.c	/^static snd_pcm_chmap_t *channel_map = NULL; \/* chmap to override *\/$/;"	v	file:
+channel_map	speaker-test/speaker-test.c	/^static snd_pcm_chmap_t *channel_map;$/;"	v	file:
+channel_map_set	speaker-test/speaker-test.c	/^static int channel_map_set;$/;"	v	file:
+channel_mask	alsamixer/mixer_widget.c	/^enum channel_mask {$/;"	g	file:
+channel_mask	amixer/amixer.c	/^typedef struct channel_mask {$/;"	s	file:
+channel_mask	aplay/formats.h	/^	u_int channel_mask;$/;"	m	struct:__anon4
+channel_mask_t	amixer/amixer.c	/^} channel_mask_t;$/;"	t	typeref:struct:channel_mask	file:
+channel_name	speaker-test/speaker-test.c	/^static const char *const channel_name[MAX_CHANNELS] = {$/;"	v	file:
+channel_name_y	alsamixer/mixer_display.c	/^static int channel_name_y;$/;"	v	file:
+channel_order	speaker-test/speaker-test.c	/^static const int channel_order[] = {$/;"	v	file:
+channel_split	seq/aplaymidi/arecordmidi.c	/^static int channel_split;$/;"	v	file:
+channels	alsaloop/alsaloop.h	/^	unsigned int channels;$/;"	m	struct:loopback_handle
+channels	alsaloop/effect-sweep.c	/^	unsigned int channels;$/;"	m	struct:effect_private	file:
+channels	aplay/aplay.c	/^	unsigned int channels;$/;"	m	struct:__anon7	file:
+channels	aplay/formats.h	/^	u_int channels;		\/* number of channels (voices) *\/$/;"	m	struct:au_header
+channels	aplay/formats.h	/^	u_short channels;$/;"	m	struct:__anon3
+channels	bat/alsa.c	/^	unsigned short channels;$/;"	m	struct:pcm_container	file:
+channels	bat/common.h	/^	int channels;			\/* nb of channels *\/$/;"	m	struct:bat
+channels	bat/common.h	/^	unsigned short channels;$/;"	m	struct:chunk_fmt
+channels	bat/common.h	/^	unsigned short channels;$/;"	m	struct:wav_fmt
+channels	speaker-test/speaker-test.c	/^    uint16_t channels;$/;"	m	struct:wave_header::__anon16	file:
+channels	speaker-test/speaker-test.c	/^static unsigned int       channels    = 1;	            \/* count of channels *\/$/;"	v	file:
+channels4	speaker-test/speaker-test.c	/^static const int	channels4[] = {$/;"	v	file:
+channels6	speaker-test/speaker-test.c	/^static const int	channels6[] = {$/;"	v	file:
+channels8	speaker-test/speaker-test.c	/^static const int	channels8[] = {$/;"	v	file:
+channels_mask	amixer/amixer.c	/^static unsigned int channels_mask(char **arg, unsigned int def)$/;"	f	file:
+check	alsamixer/mem.c	/^static void check(void *p)$/;"	f	file:
+check	bat/analyze.c	/^static int check(struct bat *bat, struct analyze *a, int channel)$/;"	f	file:
+check_amplitude	bat/analyze.c	/^static void check_amplitude(struct bat *bat, float *buf)$/;"	f	file:
+check_another_instance	alsactl/daemon.c	/^static int check_another_instance(const char *pidfile)$/;"	f	file:
+check_comment_access	alsactl/state.c	/^static int check_comment_access(snd_config_t *conf, const char *str)$/;"	f	file:
+check_comment_range	alsactl/state.c	/^static int check_comment_range(snd_ctl_t *handle, snd_config_t *conf,$/;"	f	file:
+check_comment_type	alsactl/state.c	/^static int check_comment_type(snd_config_t *conf, int type)$/;"	f	file:
+check_id_changed	alsactl/init_parse.c	/^static int check_id_changed(struct space *space, unsigned int what)$/;"	f	file:
+check_lists	alsactl/daemon.c	/^static int check_lists(struct card *card, snd_ctl_elem_id_t *id)$/;"	f	file:
+check_mem	seq/aplaymidi/aplaymidi.c	/^static void check_mem(void *p)$/;"	f	file:
+check_mem	seq/aplaymidi/arecordmidi.c	/^static void check_mem(void *p)$/;"	f	file:
+check_mem	seq/aseqdump/aseqdump.c	/^static void check_mem(void *p)$/;"	f	file:
+check_param	bat/tinyalsa.c	/^static int check_param(struct bat *bat, struct pcm_params *params,$/;"	f	file:
+check_peak	bat/analyze.c	/^int check_peak(struct bat *bat, struct analyze *a, int end, int peak, float hz,$/;"	f
+check_permission	seq/aconnect/aconnect.c	/^static int check_permission(snd_seq_port_info_t *pinfo, int perm)$/;"	f	file:
+check_playback_params	bat/tinyalsa.c	/^static int check_playback_params(struct bat *bat,$/;"	f	file:
+check_range	amixer/amixer.c	163;"	d	file:
+check_snd	seq/aplaymidi/aplaymidi.c	/^static void check_snd(const char *operation, int err)$/;"	f	file:
+check_snd	seq/aplaymidi/arecordmidi.c	/^static void check_snd(const char *operation, int err)$/;"	f	file:
+check_snd	seq/aseqdump/aseqdump.c	/^static void check_snd(const char *operation, int err)$/;"	f	file:
+check_stdin	aplay/aplay.c	/^static void check_stdin(void)$/;"	f	file:
+check_unplugged	alsamixer/mixer_widget.c	/^static void check_unplugged(void)$/;"	f	file:
+check_wav_file	speaker-test/speaker-test.c	/^static int check_wav_file(int channel, const char *name)$/;"	f	file:
+check_wavefile_space	aplay/aplay.c	970;"	d	file:
+chpos_cmp	speaker-test/speaker-test.c	/^static int chpos_cmp(const void *chnum1p, const void *chnum2p)$/;"	f	file:
+chunk	bat/common.h	/^	struct wav_chunk_header chunk;$/;"	m	struct:wav_container	typeref:struct:wav_container::wav_chunk_header
+chunk	speaker-test/speaker-test.c	/^  } chunk;$/;"	m	struct:wave_header	typeref:struct:wave_header::__anon17	file:
+chunk1	speaker-test/speaker-test.c	/^  } chunk1;$/;"	m	struct:wave_header	typeref:struct:wave_header::__anon15	file:
+chunk_bytes	aplay/aplay.c	/^static size_t chunk_bytes;$/;"	v	file:
+chunk_fmt	bat/common.h	/^struct chunk_fmt {$/;"	s
+chunk_size	aplay/aplay.c	/^static snd_pcm_uframes_t chunk_size = 0;$/;"	v	file:
+clamp_volume	alsamixer/mixer_widget.c	/^static double clamp_volume(double v)$/;"	f	file:
+cleanup	alsa-info/alsa-info.sh	/^cleanup() {$/;"	f
+cleanup_file_data	seq/aplaymidi/aplaymidi.c	/^static void cleanup_file_data(void)$/;"	f	file:
+clear_controls_display	alsamixer/mixer_display.c	/^static void clear_controls_display(void)$/;"	f	file:
+client	seq/aplaymidi/aplaymidi.c	/^static int client;$/;"	v	file:
+client	seq/aplaymidi/arecordmidi.c	/^static int client;$/;"	v	file:
+close	alsamixer/widget.h	/^	void (*close)(void);$/;"	m	struct:widget
+close_card_select_list	alsamixer/card_select.c	/^void close_card_select_list(void)$/;"	f
+close_files	seq/aseqnet/aseqnet.c	/^static void close_files(void)$/;"	f	file:
+close_handle	bat/tinyalsa.c	/^static void close_handle(void *handle)$/;"	f	file:
+close_hctl	alsamixer/mixer_widget.c	/^static void close_hctl(void)$/;"	f	file:
+close_mixer_device	alsamixer/mixer_widget.c	/^void close_mixer_device(void)$/;"	f
+closeit	alsaloop/pcmjob.c	/^static int closeit(struct loopback_handle *lhandle)$/;"	f	file:
+cmd	alsaucm/usecase.c	/^struct cmd {$/;"	s	file:
+cmds	alsaucm/usecase.c	/^static struct cmd cmds[] = {$/;"	v	typeref:struct:cmd	file:
+cmds	iecset/iecset.c	/^static const struct cmdtbl cmds[] = {$/;"	v	typeref:struct:cmdtbl	file:
+cmdtbl	iecset/iecset.c	/^struct cmdtbl {$/;"	s	file:
+code	alsaucm/usecase.c	/^	int code;$/;"	m	struct:cmd	file:
+coded_ver	aplay/formats.h	/^	u_short coded_ver;	\/* 0x1233-version *\/$/;"	m	struct:voc_header
+command	alsactl/alsactl.c	/^char *command;$/;"	v
+command	alsaucm/usecase.c	/^	const char *command;$/;"	m	struct:context	file:
+command	aplay/aplay.c	/^static char *command;$/;"	v	file:
+command	seq/aplaymidi/arecordmidi.c	/^static void command(struct smf_track *track, unsigned char cmd)$/;"	f	file:
+comment	alsactl/alsactl.c	/^	char *comment;$/;"	m	struct:arg	file:
+compare_ids	alsactl/daemon.c	/^static int compare_ids(snd_ctl_elem_id_t *id1, snd_ctl_elem_id_t *id2)$/;"	f	file:
+compute_controls_layout	alsamixer/mixer_display.c	/^void compute_controls_layout(void)$/;"	f
+compute_max_peak	aplay/aplay.c	/^static void compute_max_peak(u_char *data, size_t count)$/;"	f	file:
+con_category	iecset/iecbits.c	/^static const struct category_str con_category[] = {$/;"	v	typeref:struct:category_str	file:
+conf_name_filter	alsactl/init_parse.c	/^static int conf_name_filter(const struct dirent *d)$/;"	f	file:
+config_bool	alsactl/state.c	/^static int config_bool(snd_config_t *n, int doit)$/;"	f	file:
+config_chmap	speaker-test/speaker-test.c	/^static int config_chmap(snd_pcm_t *handle, const char *mapstr)$/;"	f	file:
+config_enumerated	alsactl/state.c	/^static int config_enumerated(snd_config_t *n, snd_ctl_t *handle,$/;"	f	file:
+config_iface	alsactl/state.c	/^static long config_iface(snd_config_t *n)$/;"	f	file:
+config_integer	alsactl/state.c	/^static int config_integer(snd_config_t *n, long *val, int doit)$/;"	f	file:
+config_integer64	alsactl/state.c	/^static int config_integer64(snd_config_t *n, long long *val, int doit)$/;"	f	file:
+connect_ports	seq/aplaymidi/aplaymidi.c	/^static void connect_ports(void)$/;"	f	file:
+connect_ports	seq/aplaymidi/arecordmidi.c	/^static void connect_ports(void)$/;"	f	file:
+connect_ports	seq/aseqdump/aseqdump.c	/^static void connect_ports(void)$/;"	f	file:
+container_of	alsactl/list.h	19;"	d
+context	alsaucm/usecase.c	/^struct context {$/;"	s	file:
+control	alsamixer/mixer_controls.h	/^struct control {$/;"	s
+control_access	amixer/amixer.c	/^static const char *control_access(snd_ctl_elem_info_t *info)$/;"	f	file:
+control_channels	alsamixer/mixer_controls.c	/^static const snd_mixer_selem_channel_id_t control_channels[][2] = {$/;"	v	file:
+control_done	alsaloop/control.c	/^int control_done(struct loopback *loop)$/;"	f
+control_event	alsaloop/control.c	/^int control_event(struct loopback_handle *lhandle, snd_ctl_event_t *ev)$/;"	f
+control_event1	alsaloop/control.c	/^static int control_event1(struct loopback *loop,$/;"	f	file:
+control_id_match	alsaloop/control.c	/^int control_id_match(snd_ctl_elem_id_t *id1, snd_ctl_elem_id_t *id2)$/;"	f
+control_init	alsaloop/control.c	/^int control_init(struct loopback *loop)$/;"	f
+control_init1	alsaloop/control.c	/^static int control_init1(struct loopback_handle *lhandle,$/;"	f	file:
+control_init2	alsaloop/control.c	/^static int control_init2(struct loopback *loop,$/;"	f	file:
+control_name_width	alsamixer/mixer_display.c	/^static int control_name_width;$/;"	v	file:
+control_parse_id	alsaloop/control.c	/^int control_parse_id(const char *str, snd_ctl_elem_id_t *id)$/;"	f
+control_type	amixer/amixer.c	/^static const char *control_type(snd_ctl_elem_info_t *info)$/;"	f	file:
+control_values_changed	alsamixer/mixer_widget.c	/^bool control_values_changed;$/;"	v
+control_width	alsamixer/mixer_display.c	/^static int control_width;$/;"	v	file:
+controls	alsaloop/alsaloop.h	/^	struct loopback_mixer *controls;$/;"	m	struct:loopback	typeref:struct:loopback::loopback_mixer
+controls	alsamixer/mixer_controls.c	/^struct control *controls;$/;"	v	typeref:struct:control
+controls	amixer/amixer.c	/^static int controls(int level)$/;"	f	file:
+controls_changed	alsamixer/mixer_widget.c	/^bool controls_changed;$/;"	v
+controls_count	alsamixer/mixer_controls.c	/^unsigned int controls_count;$/;"	v
+convert_float_to_int16	bat/convert.c	/^void convert_float_to_int16(float *val, void *buf, int samples, int channels)$/;"	f
+convert_float_to_int24	bat/convert.c	/^void convert_float_to_int24(float *val, void *buf, int samples, int channels)$/;"	f
+convert_float_to_int32	bat/convert.c	/^void convert_float_to_int32(float *val, void *buf, int samples, int channels)$/;"	f
+convert_float_to_sample	bat/common.h	/^	void (*convert_float_to_sample)(float *, void *, int, int);$/;"	m	struct:bat
+convert_float_to_uint8	bat/convert.c	/^void convert_float_to_uint8(float *val, void *buf, int samples, int channels)$/;"	f
+convert_int16_to_float	bat/convert.c	/^void convert_int16_to_float(void *buf, float *val, int samples)$/;"	f
+convert_int24_to_float	bat/convert.c	/^void convert_int24_to_float(void *buf, float *val, int samples)$/;"	f
+convert_int32_to_float	bat/convert.c	/^void convert_int32_to_float(void *buf, float *val, int samples)$/;"	f
+convert_prange	amixer/amixer.c	/^static int convert_prange(long val, long min, long max)$/;"	f	file:
+convert_prange1	alsactl/init_parse.c	338;"	d	file:
+convert_prange1	amixer/amixer.c	203;"	d	file:
+convert_sample_to_float	bat/common.h	/^	void (*convert_sample_to_float)(void *, float *, int);$/;"	m	struct:bat
+convert_to_new_db	alsactl/state.c	/^static int convert_to_new_db(snd_config_t *value, long omin, long omax,$/;"	f	file:
+convert_uint8_to_float	bat/convert.c	/^void convert_uint8_to_float(void *buf, float *val, int samples)$/;"	f
+copy_local_to_remote	seq/aseqnet/aseqnet.c	/^static int copy_local_to_remote(void)$/;"	f	file:
+copy_remote_to_local	seq/aseqnet/aseqnet.c	/^static int copy_remote_to_local(int fd)$/;"	f	file:
+copy_value	alsaloop/control.c	/^static int copy_value(struct loopback_control *dst,$/;"	f	file:
+count	alsactl/state.c	/^	unsigned int count;$/;"	m	struct:string_array	file:
+counter	alsaloop/alsaloop.h	/^	unsigned long long counter;$/;"	m	struct:loopback_handle
+crealloc	alsamixer/mem.c	/^void *crealloc(void *ptr, size_t new_size)$/;"	f
+create	alsamixer/card_select.c	/^static bool create(void)$/;"	f	file:
+create	alsamixer/device_name.c	/^static bool create(void)$/;"	f	file:
+create	alsamixer/mixer_widget.c	/^static void create(void)$/;"	f	file:
+create	alsamixer/proc_files.c	/^static bool create(void)$/;"	f	file:
+create	alsamixer/textbox.c	/^static bool create(void)$/;"	f	file:
+create_card_select_list	alsamixer/card_select.c	/^void create_card_select_list(void)$/;"	f
+create_controls	alsamixer/mixer_controls.c	/^void create_controls(void)$/;"	f
+create_controls_for_elem	alsamixer/mixer_controls.c	/^static unsigned int create_controls_for_elem(snd_mixer_elem_t *elem, struct control *control)$/;"	f	file:
+create_device_name_form	alsamixer/device_name.c	/^void create_device_name_form(void)$/;"	f
+create_list_items	alsamixer/card_select.c	/^static void create_list_items(int cards)$/;"	f	file:
+create_loopback	alsaloop/alsaloop.c	/^static int create_loopback(struct loopback **_handle,$/;"	f	file:
+create_loopback_handle	alsaloop/alsaloop.c	/^static int create_loopback_handle(struct loopback_handle **_handle,$/;"	f	file:
+create_mixer_object	alsamixer/mixer_widget.c	/^void create_mixer_object(struct snd_mixer_selem_regopt *selem_regopt)$/;"	f
+create_mixer_widget	alsamixer/mixer_widget.c	/^void create_mixer_widget(void)$/;"	f
+create_name	alsamixer/mixer_controls.c	/^static void create_name(struct control *control)$/;"	f	file:
+create_path	aplay/aplay.c	/^int create_path(const char *path)$/;"	f
+create_port	seq/aseqdump/aseqdump.c	/^static void create_port(void)$/;"	f	file:
+create_ports	seq/aplaymidi/arecordmidi.c	/^static void create_ports(void)$/;"	f	file:
+create_proc_files_list	alsamixer/proc_files.c	/^void create_proc_files_list(void)$/;"	f
+create_queue	seq/aplaymidi/aplaymidi.c	/^static void create_queue(void)$/;"	f	file:
+create_queue	seq/aplaymidi/arecordmidi.c	/^static void create_queue(void)$/;"	f	file:
+create_source_port	seq/aplaymidi/aplaymidi.c	/^static void create_source_port(void)$/;"	f	file:
+create_text_box	alsamixer/textbox.c	/^static void create_text_box(const char *const *lines, unsigned int count,$/;"	f	file:
+cset	amixer/amixer.c	/^static int cset(int argc, char *argv[], int roflag, int keep_handle)$/;"	f	file:
+cstrdup	alsamixer/mem.c	/^char *cstrdup(const char *s)$/;"	f
+cswitch_channels	alsamixer/mixer_controls.h	/^	snd_mixer_selem_channel_id_t cswitch_channels[2];$/;"	m	struct:control
+cswitch_y	alsamixer/mixer_display.c	/^static int cswitch_y;$/;"	v	file:
+ctl	alsaloop/alsaloop.h	/^	snd_ctl_t *ctl;$/;"	m	struct:loopback_handle
+ctl_active	alsaloop/alsaloop.h	/^	snd_ctl_elem_value_t *ctl_active;$/;"	m	struct:loopback_handle
+ctl_callback	amixer/amixer.c	/^static int ctl_callback(snd_hctl_t *ctl, unsigned int mask,$/;"	f	file:
+ctl_card_info	alsactl/init_parse.c	/^	snd_ctl_card_info_t *ctl_card_info;$/;"	m	struct:space	file:
+ctl_channels	alsaloop/alsaloop.h	/^	snd_ctl_elem_value_t *ctl_channels;$/;"	m	struct:loopback_handle
+ctl_dir	alsamixer/volume_mapping.c	/^enum ctl_dir { PLAYBACK, CAPTURE };$/;"	g	file:
+ctl_event_check	alsaloop/pcmjob.c	/^static int ctl_event_check(snd_ctl_elem_value_t *val, snd_ctl_event_t *ev)$/;"	f	file:
+ctl_format	alsaloop/alsaloop.h	/^	snd_ctl_elem_value_t *ctl_format;$/;"	m	struct:loopback_handle
+ctl_handle	alsactl/init_parse.c	/^	snd_hctl_t *ctl_handle;$/;"	m	struct:space	file:
+ctl_id	alsactl/init_parse.c	/^	snd_ctl_elem_id_t *ctl_id;$/;"	m	struct:space	file:
+ctl_id_changed	alsactl/init_parse.c	/^	unsigned int ctl_id_changed;$/;"	m	struct:space	file:
+ctl_info	alsactl/init_parse.c	/^	snd_ctl_elem_info_t *ctl_info;$/;"	m	struct:space	file:
+ctl_match	alsactl/init_parse.c	/^static int ctl_match(snd_ctl_elem_id_t *pattern, snd_ctl_elem_id_t *id)$/;"	f	file:
+ctl_notify	alsaloop/alsaloop.h	/^	snd_ctl_elem_value_t *ctl_notify;$/;"	m	struct:loopback_handle
+ctl_pollfd_count	alsaloop/alsaloop.h	/^	unsigned int ctl_pollfd_count;$/;"	m	struct:loopback_handle
+ctl_rate	alsaloop/alsaloop.h	/^	snd_ctl_elem_value_t *ctl_rate;$/;"	m	struct:loopback_handle
+ctl_rate_shift	alsaloop/alsaloop.h	/^	snd_ctl_elem_value_t *ctl_rate_shift;$/;"	m	struct:loopback_handle
+ctl_value	alsactl/init_parse.c	/^	snd_ctl_elem_value_t *ctl_value;$/;"	m	struct:space	file:
+ctldev	alsaloop/alsaloop.h	/^	char *ctldev;$/;"	m	struct:loopback_handle
+cur_buf	seq/aplaymidi/arecordmidi.c	/^	struct buffer *cur_buf;$/;"	m	struct:smf_track	typeref:struct:smf_track::buffer	file:
+cur_buf_size	seq/aplaymidi/arecordmidi.c	/^	int cur_buf_size;		\/* size of cur_buf *\/$/;"	m	struct:smf_track	file:
+cur_connected	seq/aseqnet/aseqnet.c	/^static int cur_connected;$/;"	v	file:
+cur_wrlen	seq/aseqnet/aseqnet.c	/^static int cur_wrlen, max_wrlen;$/;"	v	file:
+current_control_flags	alsamixer/mixer_widget.c	/^unsigned int current_control_flags;$/;"	v
+current_event	seq/aplaymidi/aplaymidi.c	/^	struct event *current_event;	\/* used while loading and playing *\/$/;"	m	struct:track	typeref:struct:track::event	file:
+current_left	alsamixer/textbox.c	/^static int current_left;$/;"	v	file:
+current_selem_id	alsamixer/mixer_widget.c	/^snd_mixer_selem_id_t *current_selem_id;$/;"	v
+current_top	alsamixer/textbox.c	/^static int current_top;$/;"	v	file:
+curses_initialized	alsamixer/mainloop.c	/^static WINDOW *curses_initialized;$/;"	v	file:
+cursor_visibility	alsamixer/widget.c	/^static int cursor_visibility = -1;$/;"	v	file:
+cursor_visibility	alsamixer/widget.h	/^	int cursor_visibility;$/;"	m	struct:widget
+d	seq/aplaymidi/aplaymidi.c	/^		unsigned char d[3];	\/* channel and data bytes *\/$/;"	m	union:event::__anon20	file:
+daemonize	alsaloop/alsaloop.c	/^int daemonize = 0;$/;"	v
+data	seq/aplaymidi/aplaymidi.c	/^	} data;$/;"	m	struct:event	typeref:union:event::__anon20	file:
+data_size	aplay/formats.h	/^	u_int data_size;	\/* size of data *\/$/;"	m	struct:au_header
+datalen	aplay/formats.h	/^	u_char datalen;		\/* low-byte    *\/$/;"	m	struct:voc_blocktype
+datalen_h	aplay/formats.h	/^	u_char datalen_h;	\/* high-byte   *\/$/;"	m	struct:voc_blocktype
+datalen_m	aplay/formats.h	/^	u_char datalen_m;	\/* medium-byte *\/$/;"	m	struct:voc_blocktype
+dbg	alsactl/alsactl.h	19;"	d
+dbg	alsactl/alsactl.h	24;"	d
+dbg_	alsactl/utils.c	/^void dbg_(const char *fcn, long line, const char *fmt, ...)$/;"	f
+debug	speaker-test/speaker-test.c	/^static int debug = 0;$/;"	v	file:
+debugflag	alsactl/alsactl.c	/^int debugflag = 0;$/;"	v
+debugflag	amixer/amixer.c	/^static int debugflag = 0;$/;"	v	file:
+debugplay	bat/common.h	/^	char *debugplay;		\/* path name to store playback signal *\/$/;"	m	struct:bat
+decode_tlv	amixer/amixer.c	/^static void decode_tlv(unsigned int spaces, unsigned int *tlv, unsigned int tlv_size)$/;"	f	file:
+delta_time	seq/aplaymidi/arecordmidi.c	/^static void delta_time(struct smf_track *track, const snd_seq_event_t *ev)$/;"	f	file:
+desc	iecset/iecset.c	/^	const char *desc;$/;"	m	struct:cmdtbl	file:
+device	alsaloop/alsaloop.h	/^	char *device;$/;"	m	struct:loopback_handle
+device	bat/common.h	/^	char *device;$/;"	m	struct:pcm
+device	speaker-test/speaker-test.c	/^static char              *device      = "default";       \/* playback device *\/$/;"	v	file:
+device_list	amidi/amidi.c	/^static void device_list(void)$/;"	f	file:
+device_list	aplay/aplay.c	/^static void device_list(void)$/;"	f	file:
+device_name	alsamixer/card_select.c	/^	char *device_name;$/;"	m	struct:card	file:
+device_tiny	bat/common.h	/^	unsigned int device_tiny;$/;"	m	struct:pcm
+dir_mask	amixer/amixer.c	/^static unsigned int dir_mask(char **arg, unsigned int def)$/;"	f	file:
+display_card_info	alsamixer/mixer_display.c	/^void display_card_info(void)$/;"	f
+display_control	alsamixer/mixer_display.c	/^static void display_control(unsigned int control_index)$/;"	f	file:
+display_controls	alsamixer/mixer_display.c	/^void display_controls(void)$/;"	f
+display_focus_item_info	alsamixer/mixer_display.c	/^static void display_focus_item_info(void)$/;"	f	file:
+display_no_controls	alsamixer/mixer_display.c	/^static void display_no_controls(void)$/;"	f	file:
+display_scroll_indicators	alsamixer/mixer_display.c	/^static void display_scroll_indicators(void)$/;"	f	file:
+display_string_centered_in_control	alsamixer/mixer_display.c	/^static void display_string_centered_in_control(int y, int col, const char *s, int width)$/;"	f	file:
+display_string_in_field	alsamixer/mixer_display.c	/^static void display_string_in_field(int y, int x, const char *s, int width, enum align align)$/;"	f	file:
+display_unplugged	alsamixer/mixer_display.c	/^static void display_unplugged(void)$/;"	f	file:
+display_view_mode	alsamixer/mixer_display.c	/^void display_view_mode(void)$/;"	f
+dlfo	alsaloop/effect-sweep.c	/^	float lfo,dlfo,fs,fc,BW,C,D,a0,a1,a2,b1,b2,*x[3],*y[3];$/;"	m	struct:effect_private	file:
+do_commands	alsaucm/usecase.c	/^static int do_commands(struct context *context)$/;"	f	file:
+do_device_list	amidi/amidi.c	/^static int do_device_list, do_rawmidi_list;$/;"	v	file:
+do_exit	alsaucm/usecase.c	/^	unsigned int do_exit:1;$/;"	m	struct:context	file:
+do_lock	alsactl/alsactl.c	/^int do_lock = 0;$/;"	v
+do_loop	seq/aseqnet/aseqnet.c	/^static void do_loop(void)$/;"	f	file:
+do_match	alsactl/init_parse.c	/^static int do_match(const char *key, enum key_op op,$/;"	f	file:
+do_nice	alsactl/alsactl.c	/^static void do_nice(int use_nice, int sched_idle)$/;"	f	file:
+do_one	alsaucm/usecase.c	/^static int do_one(struct context *context, struct cmd *cmd, char **argv)$/;"	f	file:
+do_pause	aplay/aplay.c	/^static void do_pause(void)$/;"	f	file:
+do_rawmidi_list	amidi/amidi.c	/^static int do_device_list, do_rawmidi_list;$/;"	v	file:
+do_search_port	seq/aconnect/aconnect.c	/^static void do_search_port(snd_seq_t *seq, int perm, action_func_t do_action)$/;"	f	file:
+do_test_position	aplay/aplay.c	/^static void do_test_position(void)$/;"	f	file:
+done_stdin	aplay/aplay.c	/^static void done_stdin(void)$/;"	f	file:
+dst	alsaloop/alsaloop.h	/^	struct loopback_control dst;$/;"	m	struct:loopback_mixer	typeref:struct:loopback_mixer::loopback_control
+dump	amidi/amidi.c	/^static int dump;$/;"	v	file:
+dump_event	seq/aseqdump/aseqdump.c	/^static void dump_event(const snd_seq_event_t *ev)$/;"	f	file:
+dump_help	alsaucm/usecase.c	/^static void dump_help(struct context *context)$/;"	f	file:
+dump_hw_params	aplay/aplay.c	/^static int dump_hw_params = 0;$/;"	v	file:
+dump_iec958	iecset/iecbits.c	/^void dump_iec958(snd_aes_iec958_t *iec)$/;"	f
+dup_current_name	alsamixer/device_name.c	/^static char *dup_current_name(void)$/;"	f	file:
+effect_apply	alsaloop/effect-sweep.c	/^static int effect_apply(struct loopback *loopback,$/;"	f	file:
+effect_done	alsaloop/effect-sweep.c	/^static int effect_done(struct loopback *loopback,$/;"	f	file:
+effect_init	alsaloop/effect-sweep.c	/^static int effect_init(struct lookback *loopback,$/;"	f	file:
+effect_init_sweep	alsaloop/effect-sweep.c	/^void effect_init_sweep(void)$/;"	f
+effect_private	alsaloop/effect-sweep.c	/^struct effect_private {$/;"	s	file:
+elem	alsamixer/mixer_controls.h	/^	snd_mixer_elem_t *elem;$/;"	m	struct:control
+elem_callback	alsamixer/mixer_widget.c	/^static int elem_callback(snd_mixer_elem_t *elem, unsigned int mask)$/;"	f	file:
+element_callback	amixer/amixer.c	/^static int element_callback(snd_hctl_elem_t *elem, unsigned int mask)$/;"	f	file:
+elemid_get	alsactl/init_parse.c	/^static const char *elemid_get(struct space *space, const char *attr)$/;"	f	file:
+elemid_set	alsactl/init_parse.c	/^static int elemid_set(struct space *space, const char *attr, const char *value)$/;"	f	file:
+enable_syslog	alsaloop/alsaloop.c	/^static void enable_syslog(void)$/;"	f	file:
+encoding	aplay/formats.h	/^	u_int encoding;		\/* see to AU_FMT_XXXX *\/$/;"	m	struct:au_header
+end	aplay/aplay.c	/^	void (*end) (int fd);$/;"	m	struct:fmt_capture	file:
+end_au	aplay/aplay.c	/^static void end_au(int fd)$/;"	f	file:
+end_delay	seq/aplaymidi/aplaymidi.c	/^static int end_delay = 2;$/;"	v	file:
+end_tick	seq/aplaymidi/aplaymidi.c	/^	int end_tick;			\/* length of this track *\/$/;"	m	struct:track	file:
+end_voc	aplay/aplay.c	/^static void end_voc(int fd)$/;"	f	file:
+end_wave	aplay/aplay.c	/^static void end_wave(int fd)$/;"	f	file:
+enum_channel_bits	alsamixer/mixer_controls.h	/^	unsigned int enum_channel_bits;$/;"	m	struct:control
+err	bat/common.h	/^	FILE *err;$/;"	m	struct:bat
+error	alsactl/alsactl.h	17;"	d
+error	alsactl/alsactl.h	22;"	d
+error	amidi/amidi.c	/^static void error(const char *format, ...)$/;"	f	file:
+error	amixer/amixer.c	/^static void error(const char *fmt,...)$/;"	f	file:
+error	aplay/aplay.c	186;"	d	file:
+error	aplay/aplay.c	192;"	d	file:
+error	bat/common.h	/^	int error;$/;"	m	struct:roundtrip_latency
+error	iecset/iecset.c	/^static void error(const char *s, int err)$/;"	f	file:
+error_	alsactl/utils.c	/^void error_(const char *fcn, long line, const char *fmt, ...)$/;"	f
+error_handler	seq/aconnect/aconnect.c	/^static void error_handler(const char *file, int line, const char *function, int err, const char *fmt, ...)$/;"	f	file:
+errormsg	seq/aplaymidi/aplaymidi.c	/^static void errormsg(const char *msg, ...)$/;"	f	file:
+evaluate_result	bat/alsabat-test.sh	/^evaluate_result () {$/;"	f
+event	seq/aplaymidi/aplaymidi.c	/^struct event {$/;"	s	file:
+events	amixer/amixer.c	/^static int events(int argc ATTRIBUTE_UNUSED, char *argv[] ATTRIBUTE_UNUSED)$/;"	f	file:
+events_add	amixer/amixer.c	/^static void events_add(snd_hctl_elem_t *helem)$/;"	f	file:
+events_info	amixer/amixer.c	/^static void events_info(snd_hctl_elem_t *helem)$/;"	f	file:
+events_remove	amixer/amixer.c	/^static void events_remove(snd_hctl_elem_t *helem)$/;"	f	file:
+events_value	amixer/amixer.c	/^static void events_value(snd_hctl_elem_t *helem)$/;"	f	file:
+exec_stdin	amixer/amixer.c	/^static int exec_stdin(void)$/;"	f	file:
+exit_code	alsactl/init_parse.c	/^	int exit_code;$/;"	m	struct:space	file:
+exitcode	alsaloop/alsaloop.c	/^	int exitcode;$/;"	m	struct:loopback_thread	file:
+exp10	alsamixer/volume_mapping.c	42;"	d	file:
+ext_size	aplay/formats.h	/^	u_short ext_size;$/;"	m	struct:__anon4
+fatal	seq/aplaymidi/aplaymidi.c	/^static void fatal(const char *msg, ...)$/;"	f	file:
+fatal	seq/aplaymidi/arecordmidi.c	/^static void fatal(const char *msg, ...)$/;"	f	file:
+fatal	seq/aseqdump/aseqdump.c	/^static void fatal(const char *msg, ...)$/;"	f	file:
+fatal_alsa_error	alsamixer/die.c	/^void fatal_alsa_error(const char *msg, int err)$/;"	f
+fatal_error	alsamixer/die.c	/^void fatal_error(const char *msg)$/;"	f
+fatal_errors	aplay/aplay.c	/^static int fatal_errors = 0;$/;"	v	file:
+fc	alsaloop/effect-sweep.c	/^	float lfo,dlfo,fs,fc,BW,C,D,a0,a1,a2,b1,b2,*x[3],*y[3];$/;"	m	struct:effect_private	file:
+fct	bat/common.h	/^	void *(*fct)(struct bat *);$/;"	m	struct:pcm
+fd	aplay/aplay.c	/^static int fd = -1;$/;"	v	file:
+fdcount	aplay/aplay.c	/^static off64_t pbrec_count = LLONG_MAX, fdcount;$/;"	v	file:
+feature_list_test	bat/alsabat-test.sh	/^feature_list_test () {$/;"	f
+feature_test	bat/alsabat-test.sh	/^feature_test () {$/;"	f
+feature_test_power	bat/alsabat-test.sh	/^feature_test_power () {$/;"	f
+fields	alsamixer/device_name.c	/^static FIELD *fields[3];$/;"	v	file:
+file	bat/common.h	/^	char *file;$/;"	m	struct:pcm
+file	seq/aplaymidi/aplaymidi.c	/^static FILE *file;$/;"	v	file:
+file	seq/aplaymidi/arecordmidi.c	/^static FILE *file;$/;"	v	file:
+file_map	alsactl/utils.c	/^int file_map(const char *filename, char **buf, size_t *bufsize)$/;"	f
+file_name	seq/aplaymidi/aplaymidi.c	/^static const char *file_name;$/;"	v	file:
+file_offset	seq/aplaymidi/aplaymidi.c	/^static int file_offset;		\/* current offset in input file *\/$/;"	v	file:
+file_type	aplay/aplay.c	/^static int file_type = FORMAT_DEFAULT;$/;"	v	file:
+file_unmap	alsactl/utils.c	/^void file_unmap(void *buf, size_t bufsize)$/;"	f
+filename	alsactl/init_parse.c	/^	const char *filename;$/;"	m	struct:space	file:
+final_result	bat/common.h	/^	int final_result;$/;"	m	struct:roundtrip_latency
+find_and_check_harmonics	bat/analyze.c	/^static int find_and_check_harmonics(struct bat *bat, struct analyze *a,$/;"	f	file:
+find_and_check_noise	bat/analyze.c	/^static int find_and_check_noise(struct bat *bat, void *buf, int channel)$/;"	f	file:
+finish_tracks	seq/aplaymidi/arecordmidi.c	/^static void finish_tracks(void)$/;"	f	file:
+first_buf	seq/aplaymidi/arecordmidi.c	/^	struct buffer first_buf;	\/* list head *\/$/;"	m	struct:smf_track	typeref:struct:smf_track::buffer	file:
+first_card	alsamixer/card_select.c	/^static struct card first_card;$/;"	v	typeref:struct:card	file:
+first_control_x	alsamixer/mixer_display.c	/^static int first_control_x;$/;"	v	file:
+first_event	seq/aplaymidi/aplaymidi.c	/^	struct event *first_event;	\/* list of all events in this track *\/$/;"	m	struct:track	typeref:struct:track::event	file:
+first_visible_control_index	alsamixer/mixer_display.c	/^static int first_visible_control_index;$/;"	v	file:
+fix_format	alsaloop/pcmjob.c	/^static void fix_format(struct loopback *loop, int force)$/;"	f	file:
+flags	alsamixer/mixer_controls.h	/^	unsigned int flags;$/;"	m	struct:control
+flush_writebuf	seq/aseqnet/aseqnet.c	/^static void flush_writebuf(void)$/;"	f	file:
+fmt_capture	aplay/aplay.c	/^static const struct fmt_capture {$/;"	s	file:
+fmt_rec_table	aplay/aplay.c	/^} fmt_rec_table[] = {$/;"	v	typeref:struct:fmt_capture	file:
+fmt_size	bat/common.h	/^	unsigned int fmt_size; \/* 16 or 18 *\/$/;"	m	struct:wav_fmt
+focus_control_index	alsamixer/mixer_widget.c	/^int focus_control_index;$/;"	v
+force_frequency	speaker-test/speaker-test.c	/^static int force_frequency = 0;$/;"	v	file:
+force_restore	alsactl/alsactl.c	/^int force_restore = 1;$/;"	v
+form	alsamixer/device_name.c	/^static FORM *form;$/;"	v	file:
+form_widget	alsamixer/device_name.c	/^static struct widget form_widget = {$/;"	v	typeref:struct:widget	file:
+form_widget	alsamixer/device_name.c	/^static struct widget form_widget;$/;"	v	typeref:struct:widget	file:
+format	alsaloop/alsaloop.h	/^	snd_pcm_format_t format;$/;"	m	struct:loopback_handle
+format	aplay/aplay.c	/^	snd_pcm_format_t format;$/;"	m	struct:__anon7	file:
+format	aplay/formats.h	/^	WaveFmtBody format;$/;"	m	struct:__anon4
+format	aplay/formats.h	/^	u_short format;		\/* see WAV_FMT_* *\/$/;"	m	struct:__anon3
+format	bat/alsa.c	/^	snd_pcm_format_t format;$/;"	m	struct:pcm_container	file:
+format	bat/common.h	/^	enum _bat_pcm_format format;	\/* PCM format *\/$/;"	m	struct:bat	typeref:enum:bat::_bat_pcm_format
+format	bat/common.h	/^	struct wav_fmt format;$/;"	m	struct:wav_container	typeref:struct:wav_container::wav_fmt
+format	bat/common.h	/^	unsigned short format; \/* see WAV_FMT_* *\/$/;"	m	struct:chunk_fmt
+format	bat/common.h	/^	unsigned short format; \/* see WAV_FMT_* *\/$/;"	m	struct:wav_fmt
+format	speaker-test/speaker-test.c	/^    uint16_t format;$/;"	m	struct:wave_header::__anon16	file:
+format	speaker-test/speaker-test.c	/^static snd_pcm_format_t   format      = SND_PCM_FORMAT_S16; \/* sample format *\/$/;"	v	file:
+format_alsa	bat/alsa.c	/^	snd_pcm_format_t format_alsa;$/;"	m	struct:format_map_table	file:
+format_bat	bat/alsa.c	/^	enum _bat_pcm_format format_bat;$/;"	m	struct:format_map_table	typeref:enum:format_map_table::_bat_pcm_format	file:
+format_bat	bat/tinyalsa.c	/^	enum _bat_pcm_format format_bat;$/;"	m	struct:format_map_table	typeref:enum:format_map_table::_bat_pcm_format	file:
+format_convert	bat/alsa.c	/^static int format_convert(struct bat *bat, snd_pcm_format_t *fmt)$/;"	f	file:
+format_convert	bat/tinyalsa.c	/^static int format_convert(struct bat *bat, struct pcm_config *config)$/;"	f	file:
+format_gain	alsamixer/mixer_display.c	/^static char *format_gain(long db)$/;"	f	file:
+format_map_table	bat/alsa.c	/^struct format_map_table {$/;"	s	file:
+format_map_table	bat/tinyalsa.c	/^struct format_map_table {$/;"	s	file:
+format_tiny	bat/tinyalsa.c	/^	enum pcm_format format_tiny;$/;"	m	struct:format_map_table	typeref:enum:format_map_table::pcm_format	file:
+fp	bat/common.h	/^	FILE *fp;$/;"	m	struct:bat
+frame_bits	bat/alsa.c	/^	size_t frame_bits;$/;"	m	struct:pcm_container	file:
+frame_size	alsaloop/alsaloop.h	/^	unsigned int frame_size;$/;"	m	struct:loopback_handle
+frame_size	bat/common.h	/^	int frame_size;			\/* size of frame *\/$/;"	m	struct:bat
+frames	bat/common.h	/^	int frames;			\/* nb of frames *\/$/;"	m	struct:bat
+frames	seq/aplaymidi/arecordmidi.c	/^static int frames;$/;"	v	file:
+frames_to_time	alsaloop/pcmjob.c	/^			frames_to_time(unsigned int rate,$/;"	f	file:
+free_controls	alsamixer/mixer_controls.c	/^void free_controls(void)$/;"	f
+free_list	alsactl/daemon.c	/^static void free_list(struct id_list *list)$/;"	f	file:
+free_space	alsactl/init_parse.c	/^static void free_space(struct space *space)$/;"	f	file:
+freeit	alsaloop/pcmjob.c	/^static int freeit(struct loopback_handle *lhandle)$/;"	f	file:
+freeloop	alsaloop/pcmjob.c	/^static void freeloop(struct loopback *loop)$/;"	f	file:
+freq	speaker-test/speaker-test.c	/^static double             freq        = 440.0;              \/* sinusoidal wave frequency in Hz *\/$/;"	v	file:
+frequency	bat/common.h	/^	float frequency;$/;"	m	struct:sin_generator
+fs	alsaloop/effect-sweep.c	/^	float lfo,dlfo,fs,fc,BW,C,D,a0,a1,a2,b1,b2,*x[3],*y[3];$/;"	m	struct:effect_private	file:
+generate_input_data	bat/common.c	/^int generate_input_data(struct bat *bat, void *buffer, int bytes, int frames)$/;"	f
+generate_pattern	speaker-test/speaker-test.c	/^static void generate_pattern(uint8_t *frames, int channel, int count, int *_pattern) {$/;"	f	file:
+generate_pink_noise	speaker-test/speaker-test.c	/^static void generate_pink_noise( uint8_t *frames, int channel, int count) {$/;"	f	file:
+generate_pink_noise_sample	speaker-test/pink.c	/^float generate_pink_noise_sample( pink_noise_t *pink )$/;"	f
+generate_random_number	speaker-test/pink.c	/^static unsigned long generate_random_number( void )$/;"	f	file:
+generate_sine	speaker-test/speaker-test.c	/^static void generate_sine(uint8_t *frames, int channel, int count, double *_phase) {$/;"	f	file:
+generate_sine_wave	bat/signal.c	/^int generate_sine_wave(struct bat *bat, int frames, void *buf)$/;"	f
+generate_sine_wave_raw_mono	bat/signal.c	/^int generate_sine_wave_raw_mono(struct bat *bat, float *buf,$/;"	f
+generator_scale	speaker-test/speaker-test.c	/^static float              generator_scale  = 0.8;           \/* Scale to use for sine volume *\/$/;"	v	file:
+get	amixer/amixer.c	/^	int (*get)(snd_mixer_elem_t *elem, snd_mixer_selem_channel_id_t c,$/;"	m	struct:volume_ops	file:
+get_active	alsaloop/pcmjob.c	/^static int get_active(struct loopback_handle *lhandle)$/;"	f	file:
+get_active_widget	alsamixer/widget.c	/^struct widget *get_active_widget(void)$/;"	f
+get_alsa_library_version	alsa-info/alsa-info.sh	/^get_alsa_library_version() {$/;"	f
+get_bool	iecset/iecset.c	/^static int get_bool(const char *str)$/;"	f	file:
+get_bool_simple	amixer/amixer.c	/^static int get_bool_simple(char **ptr, char *str, int invert, int orig)$/;"	f	file:
+get_capture_controls_count	alsamixer/mixer_controls.c	/^static unsigned int get_capture_controls_count(snd_mixer_elem_t *elem)$/;"	f	file:
+get_capture_mapped_volume	amixer/amixer.c	/^static int get_capture_mapped_volume(snd_mixer_elem_t *elem,$/;"	f	file:
+get_cards	alsamixer/card_select.c	/^static int get_cards(void)$/;"	f	file:
+get_channel_name	speaker-test/speaker-test.c	/^static const char *get_channel_name(int chn)$/;"	f	file:
+get_channels	alsaloop/pcmjob.c	/^static int get_channels(struct loopback_handle *lhandle)$/;"	f	file:
+get_comment_items	alsactl/state.c	/^static int get_comment_items(snd_config_t *n, struct string_array *items)$/;"	f	file:
+get_comment_range	alsactl/state.c	/^static int get_comment_range(snd_config_t *n, int ctype,$/;"	f	file:
+get_comment_type	alsactl/state.c	/^static int get_comment_type(snd_config_t *n)$/;"	f	file:
+get_control	alsactl/state.c	/^static int get_control(snd_ctl_t *handle, snd_ctl_elem_id_t *id, snd_config_t *top)$/;"	f	file:
+get_controls	alsactl/state.c	/^static int get_controls(int cardno, snd_config_t *top)$/;"	f	file:
+get_controls_count_for_elem	alsamixer/mixer_controls.c	/^static unsigned int get_controls_count_for_elem(snd_mixer_elem_t *elem)$/;"	f	file:
+get_ctl_value	alsactl/init_parse.c	/^static const char *get_ctl_value(struct space *space)$/;"	f	file:
+get_dB	alsamixer/volume_mapping.c	/^static int (* const get_dB[2])(snd_mixer_elem_t *, snd_mixer_selem_channel_id_t, long *) = {$/;"	v	file:
+get_dB_range	alsamixer/volume_mapping.c	/^static int (* const get_dB_range[2])(snd_mixer_elem_t *, long *, long *) = {$/;"	v	file:
+get_duration	bat/bat.c	/^static int get_duration(struct bat *bat)$/;"	f	file:
+get_enum_item_index	amixer/amixer.c	/^static int get_enum_item_index(snd_mixer_elem_t *elem, char **ptrp)$/;"	f	file:
+get_focus_control	alsamixer/mixer_widget.c	/^static struct control *get_focus_control(unsigned int type)$/;"	f	file:
+get_format	alsaloop/pcmjob.c	/^static int get_format(struct loopback_handle *lhandle)$/;"	f	file:
+get_format	bat/bat.c	/^static void get_format(struct bat *bat, char *optarg)$/;"	f	file:
+get_format_attribute	alsactl/init_parse.c	/^static char *get_format_attribute(struct space *space, char **str)$/;"	f	file:
+get_format_len	alsactl/init_parse.c	/^static int get_format_len(struct space *space, char **str)$/;"	f	file:
+get_key	alsactl/init_parse.c	/^static int get_key(char **line, char **key, enum key_op *op, char **value)$/;"	f	file:
+get_key_attribute	alsactl/init_parse.c	/^static char *get_key_attribute(struct space *space, char *str, char *res, size_t ressize)$/;"	f	file:
+get_mapped_volume_range	amixer/amixer.c	/^static int get_mapped_volume_range(snd_mixer_elem_t *elem,$/;"	f	file:
+get_max_mbs_width	alsamixer/utils.c	/^unsigned int get_max_mbs_width(const char *const *s, unsigned int count)$/;"	f
+get_mbs_width	alsamixer/utils.c	/^unsigned int get_mbs_width(const char *s)$/;"	f
+get_normalized_capture_volume	alsamixer/volume_mapping.c	/^double get_normalized_capture_volume(snd_mixer_elem_t *elem,$/;"	f
+get_normalized_playback_volume	alsamixer/volume_mapping.c	/^double get_normalized_playback_volume(snd_mixer_elem_t *elem,$/;"	f
+get_normalized_volume	alsamixer/volume_mapping.c	/^static double get_normalized_volume(snd_mixer_elem_t *elem,$/;"	f	file:
+get_platform_info	bat/tests/alsabat_main.sh	/^function get_platform_info()$/;"	f
+get_playback_controls_count	alsamixer/mixer_controls.c	/^static unsigned int get_playback_controls_count(snd_mixer_elem_t *elem)$/;"	f	file:
+get_playback_mapped_volume	amixer/amixer.c	/^static int get_playback_mapped_volume(snd_mixer_elem_t *elem,$/;"	f	file:
+get_port	seq/aseqnet/aseqnet.c	/^static int get_port(char *service)$/;"	f	file:
+get_queued_capture_samples	alsaloop/pcmjob.c	/^static snd_pcm_sframes_t get_queued_capture_samples(struct loopback *loop)$/;"	f	file:
+get_queued_playback_samples	alsaloop/pcmjob.c	/^static snd_pcm_sframes_t get_queued_playback_samples(struct loopback *loop)$/;"	f	file:
+get_range	amixer/amixer.c	/^	int (*get_range)(snd_mixer_elem_t *elem, long *min, long *max);$/;"	m	struct:volume_ops	file:
+get_rate	alsaloop/pcmjob.c	/^static int get_rate(struct loopback_handle *lhandle)$/;"	f	file:
+get_raw	alsamixer/volume_mapping.c	/^static int (* const get_raw[2])(snd_mixer_elem_t *, snd_mixer_selem_channel_id_t, long *) = {$/;"	v	file:
+get_raw_range	alsamixer/volume_mapping.c	/^static int (* const get_raw_range[2])(snd_mixer_elem_t *, long *, long *) = {$/;"	v	file:
+get_sine_frequencies	bat/bat.c	/^static void get_sine_frequencies(struct bat *bat, char *freq)$/;"	f	file:
+get_snr_thd_db	bat/bat.c	/^static void get_snr_thd_db(struct bat *bat, char *thd)$/;"	f	file:
+get_snr_thd_pc	bat/bat.c	/^static void get_snr_thd_pc(struct bat *bat, char *thd)$/;"	f	file:
+get_speaker_channel	speaker-test/speaker-test.c	/^static int get_speaker_channel(int chn)$/;"	f	file:
+get_tiny_device	bat/tinyalsa.c	/^static int get_tiny_device(struct bat *bat, char *alsa_device,$/;"	f	file:
+get_whole_latency	alsaloop/pcmjob.c	/^static inline snd_pcm_uframes_t get_whole_latency(struct loopback *loop)$/;"	f	file:
+get_writebuf	seq/aseqnet/aseqnet.c	/^static char *get_writebuf(int len)$/;"	f	file:
+getcurtimestamp	alsaloop/pcmjob.c	/^static int getcurtimestamp(snd_timestamp_t *ts)$/;"	f	file:
+gettext	include/gettext.h	13;"	d
+gettext_noop	include/gettext.h	19;"	d
+given_test_wav_file	speaker-test/speaker-test.c	/^static const char *given_test_wav_file = NULL;$/;"	v	file:
+go_to	alsactl/init_parse.c	/^	char *go_to;$/;"	m	struct:space	file:
+guid_format	aplay/formats.h	/^	u_short guid_format;	\/* WAV_FMT_* *\/$/;"	m	struct:__anon4
+guid_tag	aplay/formats.h	/^	u_char guid_tag[14];	\/* WAV_GUID_TAG *\/$/;"	m	struct:__anon4
+handle	alsactl/daemon.c	/^	snd_ctl_t *handle;$/;"	m	struct:card	file:
+handle	alsaloop/alsaloop.h	/^	snd_pcm_t *handle;$/;"	m	struct:loopback_handle
+handle	aplay/aplay.c	/^static snd_pcm_t *handle;$/;"	v	file:
+handle	bat/alsa.c	/^	snd_pcm_t *handle;$/;"	m	struct:pcm_container	file:
+handle	seq/aseqnet/aseqnet.c	/^static snd_seq_t *handle;$/;"	v	file:
+handle_big_sysex	seq/aplaymidi/aplaymidi.c	/^static void handle_big_sysex(snd_seq_event_t *ev)$/;"	f	file:
+handle_ctl_events	alsaloop/pcmjob.c	/^static int handle_ctl_events(struct loopback_handle *lhandle,$/;"	f	file:
+handle_key	alsamixer/widget.h	/^	void (*handle_key)(int key);$/;"	m	struct:widget
+handleinput	bat/latencytest.c	/^int handleinput(struct bat *bat, void *buffer, int frames)$/;"	f
+handleoutput	bat/latencytest.c	/^int handleoutput(struct bat *bat, void *buffer, int bytes, int frames)$/;"	f
+has_any_control_channel	alsamixer/mixer_controls.c	/^static bool has_any_control_channel(snd_mixer_elem_t *elem,$/;"	f	file:
+has_info_items	alsamixer/mixer_display.c	/^static bool has_info_items;$/;"	v	file:
+has_merged_cswitch	alsamixer/mixer_controls.c	/^static bool has_merged_cswitch(snd_mixer_elem_t *elem)$/;"	f	file:
+has_more_than_front_capture_channels	alsamixer/mixer_controls.c	/^static bool has_more_than_front_capture_channels(snd_mixer_elem_t *elem)$/;"	f	file:
+has_volume	amixer/amixer.c	/^	int (*has_volume)(snd_mixer_elem_t *elem);$/;"	m	struct:volume_ops_set	file:
+hdr	speaker-test/speaker-test.c	/^  } hdr;$/;"	m	struct:wave_header	typeref:struct:wave_header::__anon14	file:
+hdr_size	aplay/formats.h	/^	u_int hdr_size;		\/* size of header (min 24) *\/$/;"	m	struct:au_header
+header	aplay/aplay.c	/^static void header(int rtype, char *name)$/;"	f	file:
+header	bat/common.h	/^	struct wav_header header;$/;"	m	struct:wav_container	typeref:struct:wav_container::wav_header
+headerlen	aplay/formats.h	/^	u_short headerlen;	\/* Headerlength, should be 0x1A *\/$/;"	m	struct:voc_header
+help	alsactl/alsactl.c	/^static void help(void)$/;"	f	file:
+help	alsaloop/alsaloop.c	/^void help(void)$/;"	f
+help	amixer/amixer.c	/^static int help(void)$/;"	f	file:
+help	seq/aplaymidi/arecordmidi.c	/^static void help(const char *argv0)$/;"	f	file:
+help	seq/aseqdump/aseqdump.c	/^static void help(const char *argv0)$/;"	f	file:
+help	speaker-test/speaker-test.c	/^static void help(void)$/;"	f	file:
+hex_value	amidi/amidi.c	/^static int hex_value(char c)$/;"	f	file:
+hextodigit	alsactl/alsactl.h	/^static inline int hextodigit(int c)$/;"	f
+hw_map	aplay/aplay.c	/^static unsigned int *hw_map = NULL; \/* chmap to follow *\/$/;"	v	file:
+hwparams	aplay/aplay.c	/^} hwparams, rhwparams;$/;"	v	typeref:struct:__anon7	file:
+id	alsaloop/alsaloop.h	/^	char *id;$/;"	m	struct:loopback
+id	alsaloop/alsaloop.h	/^	char *id;$/;"	m	struct:loopback_handle
+id	alsaloop/alsaloop.h	/^	snd_ctl_elem_id_t *id;$/;"	m	struct:loopback_control
+id	alsaucm/usecase.c	/^	const char *id;$/;"	m	struct:cmd	file:
+id_list	alsactl/daemon.c	/^struct id_list {$/;"	s	file:
+id_str	alsactl/state.c	/^static char *id_str(snd_ctl_elem_id_t *id)$/;"	f	file:
+id_str	alsaloop/control.c	/^static char *id_str(snd_ctl_elem_id_t *id)$/;"	f	file:
+idx	iecset/iecset.c	/^	int idx;$/;"	m	struct:cmdtbl	file:
+ignore_error	amixer/amixer.c	/^static int ignore_error = 0;$/;"	v	file:
+ignore_nocards	alsactl/alsactl.c	/^int ignore_nocards = 0;$/;"	v
+in	bat/common.h	/^	float *in;$/;"	m	struct:analyze
+in_aborting	aplay/aplay.c	/^static volatile sig_atomic_t in_aborting = 0;$/;"	v	file:
+in_aborting	speaker-test/speaker-test.c	/^static int in_aborting = 0;$/;"	v	file:
+in_list	alsactl/daemon.c	/^static int in_list(struct id_list *list, snd_ctl_elem_id_t *id)$/;"	f	file:
+increase_playback_avail_min	alsaloop/pcmjob.c	/^static int increase_playback_avail_min(struct loopback_handle *lhandle)$/;"	f	file:
+index	alsactl/daemon.c	/^	int index;$/;"	m	struct:card	file:
+indexstr	alsamixer/card_select.c	/^	char *indexstr;$/;"	m	struct:card	file:
+info	alsactl/alsactl.h	16;"	d
+info	alsactl/alsactl.h	21;"	d
+info	alsaloop/alsaloop.h	/^	snd_ctl_elem_info_t *info;$/;"	m	struct:loopback_control
+info	amixer/amixer.c	/^static int info(void)$/;"	f	file:
+info	seq/aseqnet/aseqnet.c	/^static int info = 0;$/;"	v	file:
+info_	alsactl/utils.c	/^void info_(const char *fcn, long line, const char *fmt, ...)$/;"	f
+info_items_left	alsamixer/mixer_display.c	/^static int info_items_left;$/;"	v	file:
+info_items_width	alsamixer/mixer_display.c	/^static int info_items_width;$/;"	v	file:
+init	alsactl/init_parse.c	/^int init(const char *filename, const char *cardname)$/;"	f
+init_buf	seq/aseqnet/aseqnet.c	/^static void init_buf(void)$/;"	f	file:
+init_client	seq/aseqnet/aseqnet.c	/^static void init_client(char *server, int port)$/;"	f	file:
+init_colors	alsamixer/colors.c	/^void init_colors(int use_color)$/;"	f
+init_config	bat/tinyalsa.c	/^static int init_config(struct bat *bat, struct pcm_config *config)$/;"	f	file:
+init_counter	bat/alsabat-test.sh	/^init_counter () {$/;"	f
+init_handle	alsaloop/pcmjob.c	/^static int init_handle(struct loopback_handle *lhandle, int alloc)$/;"	f	file:
+init_metronome	seq/aplaymidi/arecordmidi.c	/^static void init_metronome(const char *arg)$/;"	f	file:
+init_mixer_control	alsaloop/alsaloop.c	/^static int init_mixer_control(struct loopback_control *control,$/;"	f	file:
+init_mixer_layout	alsamixer/mixer_display.c	/^void init_mixer_layout(void)$/;"	f
+init_pollfds	seq/aseqnet/aseqnet.c	/^static void init_pollfds(void)$/;"	f	file:
+init_raw_data	aplay/aplay.c	/^static void init_raw_data(void)$/;"	f	file:
+init_seq	seq/aplaymidi/aplaymidi.c	/^static void init_seq(void)$/;"	f	file:
+init_seq	seq/aplaymidi/arecordmidi.c	/^static void init_seq(void)$/;"	f	file:
+init_seq	seq/aseqdump/aseqdump.c	/^static void init_seq(void)$/;"	f	file:
+init_seq	seq/aseqnet/aseqnet.c	/^static void init_seq(char *source, char *dest)$/;"	f	file:
+init_server	seq/aseqnet/aseqnet.c	/^static void init_server(int port)$/;"	f	file:
+init_space	alsactl/init_parse.c	/^static int init_space(struct space **space, int card)$/;"	f	file:
+init_stdin	aplay/aplay.c	/^static void init_stdin(void)$/;"	f	file:
+init_tracks	seq/aplaymidi/arecordmidi.c	/^static void init_tracks(void)$/;"	f	file:
+initfailed	alsactl/utils.c	/^void initfailed(int cardnumber, const char *reason, int exitcode)$/;"	f
+initial_item	alsamixer/card_select.c	/^static ITEM *initial_item;$/;"	v	file:
+initialize_curses	alsamixer/mainloop.c	/^void initialize_curses(bool use_color)$/;"	f
+initialize_pink_noise	speaker-test/pink.c	/^void initialize_pink_noise( pink_noise_t *pink, int num_rows )$/;"	f
+input	amidi/amidi.c	/^static snd_rawmidi_t *input, **inputp;$/;"	v	file:
+inputp	amidi/amidi.c	/^static snd_rawmidi_t *input, **inputp;$/;"	v	file:
+interactive	alsaucm/usecase.c	/^	unsigned int interactive:1;$/;"	m	struct:context	file:
+interactive	aplay/aplay.c	/^static int interactive = 0;$/;"	v	file:
+interleaved	aplay/aplay.c	/^static int interleaved = 1;$/;"	v	file:
+is_capturing	bat/common.h	/^	bool is_capturing;$/;"	m	struct:roundtrip_latency
+is_playing	bat/common.h	/^	bool is_playing;$/;"	m	struct:roundtrip_latency
+items	alsamixer/card_select.c	/^static ITEM **items;$/;"	v	file:
+items	alsamixer/proc_files.c	/^static ITEM *items[7];$/;"	v	file:
+items_count	alsamixer/proc_files.c	/^static unsigned int items_count;$/;"	v	file:
+key	alsactl/init_parse.c	/^	char *key;$/;"	m	struct:pair	file:
+key_op	alsactl/init_parse.c	/^enum key_op {$/;"	g	file:
+larg	alsactl/alsactl.c	/^	char *larg;$/;"	m	struct:arg	file:
+last_command	seq/aplaymidi/arecordmidi.c	/^	unsigned char last_command;	\/* used for running status *\/$/;"	m	struct:smf_track	file:
+last_delay	alsaloop/alsaloop.h	/^	snd_pcm_sframes_t last_delay;$/;"	m	struct:loopback_handle
+last_tick	seq/aplaymidi/arecordmidi.c	/^	snd_seq_tick_time_t last_tick;	\/* end of track *\/$/;"	m	struct:smf_track	file:
+latency	alsaloop/alsaloop.h	/^	snd_pcm_uframes_t latency;	\/* final latency in frames *\/$/;"	m	struct:loopback
+latency	bat/common.h	/^	struct roundtrip_latency latency;$/;"	m	struct:bat	typeref:struct:bat::roundtrip_latency
+latency_req	alsaloop/alsaloop.h	/^	unsigned int latency_req;	\/* in frames *\/$/;"	m	struct:loopback
+latency_reqtime	alsaloop/alsaloop.h	/^	unsigned int latency_reqtime;	\/* in us *\/$/;"	m	struct:loopback
+latency_state	bat/common.h	/^enum latency_state {$/;"	g
+latencytest_process_input	bat/alsa.c	/^static int latencytest_process_input(struct pcm_container *sndpcm,$/;"	f	file:
+latencytest_process_input	bat/tinyalsa.c	/^static int latencytest_process_input(struct bat *bat, struct pcm *pcm,$/;"	f	file:
+latencytest_process_output	bat/alsa.c	/^static int latencytest_process_output(struct pcm_container *sndpcm,$/;"	f	file:
+latencytest_process_output	bat/tinyalsa.c	/^static int latencytest_process_output(struct bat *bat, struct pcm *pcm,$/;"	f	file:
+le16toh	aplay/aplay.c	67;"	d	file:
+le32toh	aplay/aplay.c	69;"	d	file:
+length	aplay/formats.h	/^	u_int length;		\/* filelen *\/$/;"	m	struct:__anon2
+length	aplay/formats.h	/^	u_int length;		\/* samplecount *\/$/;"	m	struct:__anon5
+length	bat/common.h	/^	unsigned int length; \/* file len *\/$/;"	m	struct:wav_header
+length	bat/common.h	/^	unsigned int length; \/* sample count *\/$/;"	m	struct:wav_chunk_header
+length	seq/aplaymidi/aplaymidi.c	/^		unsigned int length;	\/* length of sysex data *\/$/;"	m	union:event::__anon20	file:
+length	speaker-test/speaker-test.c	/^    uint32_t length;$/;"	m	struct:wave_header::__anon14	file:
+length	speaker-test/speaker-test.c	/^    uint32_t length;$/;"	m	struct:wave_header::__anon15	file:
+length	speaker-test/speaker-test.c	/^    uint32_t length;$/;"	m	struct:wave_header::__anon17	file:
+lfo	alsaloop/effect-sweep.c	/^	float lfo,dlfo,fs,fc,BW,C,D,a0,a1,a2,b1,b2,*x[3],*y[3];$/;"	m	struct:effect_private	file:
+lfo_center	alsaloop/effect-sweep.c	/^	float lfo_depth, lfo_center;$/;"	m	struct:effect_private	file:
+lfo_depth	alsaloop/effect-sweep.c	/^	float lfo_depth, lfo_center;$/;"	m	struct:effect_private	file:
+lhandle_start	alsaloop/pcmjob.c	/^static void lhandle_start(struct loopback_handle *lhandle)$/;"	f	file:
+line_width	alsactl/utils.c	/^size_t line_width(const char *buf, size_t bufsize, size_t pos)$/;"	f
+linenum	alsactl/init_parse.c	/^	int linenum;$/;"	m	struct:space	file:
+linked	alsaloop/alsaloop.h	/^	unsigned int linked:1;		\/* linked streams *\/$/;"	m	struct:loopback
+list	alsactl/daemon.c	/^	snd_ctl_elem_id_t **list;$/;"	m	struct:id_list	file:
+list_add	alsactl/list.h	/^static inline void list_add(struct list_head *new, struct list_head *head)$/;"	f
+list_add_tail	alsactl/list.h	/^static inline void list_add_tail(struct list_head *new, struct list_head *head)$/;"	f
+list_card_devices	amidi/amidi.c	/^static void list_card_devices(int card)$/;"	f	file:
+list_del	alsactl/list.h	/^static inline void list_del(struct list_head *entry)$/;"	f
+list_del_init	alsactl/list.h	/^static inline void list_del_init(struct list_head *entry)$/;"	f
+list_device	amidi/amidi.c	/^static void list_device(snd_ctl_t *ctl, int card, int device)$/;"	f	file:
+list_each_subs	seq/aconnect/aconnect.c	/^static void list_each_subs(snd_seq_t *seq, snd_seq_query_subscribe_t *subs, int type, const char *msg)$/;"	f	file:
+list_empty	alsactl/list.h	/^static inline int list_empty(struct list_head *head)$/;"	f
+list_entry	alsactl/list.h	211;"	d
+list_for_each	alsactl/list.h	219;"	d
+list_for_each_entry	alsactl/list.h	260;"	d
+list_for_each_entry_reverse	alsactl/list.h	271;"	d
+list_for_each_entry_safe	alsactl/list.h	283;"	d
+list_for_each_prev	alsactl/list.h	241;"	d
+list_for_each_safe	alsactl/list.h	250;"	d
+list_head	alsactl/list.h	/^struct list_head {$/;"	s
+list_move	alsactl/list.h	/^static inline void list_move(struct list_head *list, struct list_head *head)$/;"	f
+list_move_tail	alsactl/list.h	/^static inline void list_move_tail(struct list_head *list,$/;"	f
+list_ports	seq/aplaymidi/aplaymidi.c	/^static void list_ports(void)$/;"	f	file:
+list_ports	seq/aplaymidi/arecordmidi.c	/^static void list_ports(void)$/;"	f	file:
+list_ports	seq/aseqdump/aseqdump.c	/^static void list_ports(void)$/;"	f	file:
+list_splice	alsactl/list.h	/^static inline void list_splice(struct list_head *list, struct list_head *head)$/;"	f
+list_splice_init	alsactl/list.h	/^static inline void list_splice_init(struct list_head *list,$/;"	f
+list_subscribers	seq/aconnect/aconnect.c	/^static void list_subscribers(snd_seq_t *seq, const snd_seq_addr_t *addr)$/;"	f	file:
+list_widget	alsamixer/card_select.c	/^static struct widget list_widget = {$/;"	v	typeref:struct:widget	file:
+list_widget	alsamixer/card_select.c	/^static struct widget list_widget;$/;"	v	typeref:struct:widget	file:
+load_file	amidi/amidi.c	/^static void load_file(void)$/;"	f	file:
+load_state	alsactl/state.c	/^int load_state(const char *file, const char *initfile, const char *cardname,$/;"	f
+local	bat/common.h	/^	bool local;			\/* true for internal test *\/$/;"	m	struct:bat
+lockfile	alsactl/alsactl.c	/^char *lockfile = SYS_LOCKFILE;$/;"	v
+log	aplay/aplay.c	/^static snd_output_t *log;$/;"	v	file:
+log	bat/common.h	/^	FILE *log;$/;"	m	struct:bat
+log	topology/topology.c	/^static snd_output_t *log;$/;"	v	file:
+log_run	alsactl/init_parse.c	/^	int log_run;$/;"	m	struct:space	file:
+logarg	bat/common.h	/^	char *logarg;			\/* path name of log file *\/$/;"	m	struct:bat
+logit	alsaloop/alsaloop.h	200;"	d
+long_option	seq/aconnect/aconnect.c	/^static const struct option long_option[] = {$/;"	v	typeref:struct:option	file:
+long_option	seq/aseqnet/aseqnet.c	/^static const struct option long_option[] = {$/;"	v	typeref:struct:option	file:
+loop_limit	alsaloop/alsaloop.h	/^	unsigned long long loop_limit;	\/* ~0 = unlimited (in frames) *\/$/;"	m	struct:loopback
+loop_time	alsaloop/alsaloop.h	/^	unsigned long loop_time;	\/* ~0 = unlimited (in seconds) *\/$/;"	m	struct:loopback
+loopback	alsaloop/alsaloop.h	/^	struct loopback *loopback;$/;"	m	struct:loopback_handle	typeref:struct:loopback_handle::loopback
+loopback	alsaloop/alsaloop.h	/^struct loopback {$/;"	s
+loopback_control	alsaloop/alsaloop.h	/^struct loopback_control {$/;"	s
+loopback_handle	alsaloop/alsaloop.h	/^struct loopback_handle {$/;"	s
+loopback_mixer	alsaloop/alsaloop.h	/^struct loopback_mixer {$/;"	s
+loopback_ossmixer	alsaloop/alsaloop.h	/^struct loopback_ossmixer {$/;"	s
+loopback_thread	alsaloop/alsaloop.c	/^struct loopback_thread {$/;"	s	file:
+loopbacks	alsaloop/alsaloop.c	/^	struct loopback **loopbacks;$/;"	m	struct:loopback_thread	typeref:struct:loopback_thread::loopback	file:
+loopbacks	alsaloop/alsaloop.c	/^struct loopback **loopbacks = NULL;$/;"	v	typeref:struct:loopback
+loopbacks_count	alsaloop/alsaloop.c	/^	int loopbacks_count;$/;"	m	struct:loopback_thread	file:
+loopbacks_count	alsaloop/alsaloop.c	/^int loopbacks_count = 0;$/;"	v
+lrint_dir	alsamixer/volume_mapping.c	/^static long lrint_dir(double x, int dir)$/;"	f	file:
+mag	bat/common.h	/^	float *mag;$/;"	m	struct:analyze
+magic	aplay/formats.h	/^	u_char magic[20];	\/* must be MAGIC_STRING *\/$/;"	m	struct:voc_header
+magic	aplay/formats.h	/^	u_int magic;		\/* '.snd' *\/$/;"	m	struct:au_header
+magic	aplay/formats.h	/^	u_int magic;		\/* 'RIFF' *\/$/;"	m	struct:__anon2
+magic	bat/common.h	/^	unsigned int magic; \/* 'FMT '*\/$/;"	m	struct:wav_fmt
+magic	bat/common.h	/^	unsigned int magic; \/* 'RIFF' *\/$/;"	m	struct:wav_header
+magic	speaker-test/speaker-test.c	/^    uint32_t magic;$/;"	m	struct:wave_header::__anon14	file:
+magnitude	bat/common.h	/^	float magnitude;$/;"	m	struct:sin_generator
+main	alsactl/alsactl.c	/^int main(int argc, char *argv[])$/;"	f
+main	alsaloop/alsaloop.c	/^int main(int argc, char *argv[])$/;"	f
+main	alsamixer/cli.c	/^int main(int argc, char *argv[])$/;"	f
+main	alsaucm/usecase.c	/^int main(int argc, char *argv[])$/;"	f
+main	amidi/amidi.c	/^int main(int argc, char *argv[])$/;"	f
+main	amixer/amixer.c	/^int main(int argc, char *argv[])$/;"	f
+main	aplay/aplay.c	/^int main(int argc, char *argv[])$/;"	f
+main	bat/bat.c	/^int main(int argc, char *argv[])$/;"	f
+main	bat/tests/alsabat_main.sh	/^function main ( )$/;"	f
+main	iecset/iecset.c	/^int main(int argc, char **argv)$/;"	f
+main	seq/aconnect/aconnect.c	/^int main(int argc, char **argv)$/;"	f
+main	seq/aplaymidi/aplaymidi.c	/^int main(int argc, char *argv[])$/;"	f
+main	seq/aplaymidi/arecordmidi.c	/^int main(int argc, char *argv[])$/;"	f
+main	seq/aseqdump/aseqdump.c	/^int main(int argc, char *argv[])$/;"	f
+main	seq/aseqnet/aseqnet.c	/^int main(int argc, char **argv)$/;"	f
+main	speaker-test/speaker-test.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	topology/topology.c	/^int main(int argc, char *argv[])$/;"	f
+main_job	alsaloop/alsaloop.c	/^pthread_t main_job;$/;"	v
+mainloop	alsamixer/mainloop.c	/^void mainloop(void)$/;"	f
+map_tables	bat/alsa.c	/^static struct format_map_table map_tables[] = {$/;"	v	typeref:struct:format_map_table	file:
+map_tables	bat/tinyalsa.c	/^static struct format_map_table map_tables[] = {$/;"	v	typeref:struct:format_map_table	file:
+mask	amixer/amixer.c	/^	unsigned int mask;$/;"	m	struct:channel_mask	file:
+max	alsaloop/alsaloop.h	/^	snd_pcm_uframes_t max;$/;"	m	struct:loopback_handle
+max_connection	seq/aseqnet/aseqnet.c	/^static int max_connection;$/;"	v	file:
+max_file_size	aplay/aplay.c	/^static long long max_file_size = 0;$/;"	v	file:
+max_file_time	aplay/aplay.c	/^static int max_file_time = 0;$/;"	v	file:
+max_filesize	aplay/aplay.c	/^	long long max_filesize;$/;"	m	struct:fmt_capture	file:
+max_line_width	alsamixer/textbox.c	/^static int max_line_width;$/;"	v	file:
+max_rdlen	seq/aseqnet/aseqnet.c	/^static int max_rdlen;$/;"	v	file:
+max_scroll_x	alsamixer/textbox.c	/^static int max_scroll_x;$/;"	v	file:
+max_scroll_y	alsamixer/textbox.c	/^static int max_scroll_y;$/;"	v	file:
+max_wrlen	seq/aseqnet/aseqnet.c	/^static int cur_wrlen, max_wrlen;$/;"	v	file:
+mbs_at_width	alsamixer/utils.c	/^const char *mbs_at_width(const char *s, int *width, int dir)$/;"	f
+melem_event	amixer/amixer.c	/^static int melem_event(snd_mixer_elem_t *elem, unsigned int mask)$/;"	f	file:
+menu	alsamixer/card_select.c	/^static MENU *menu;$/;"	v	file:
+menu	alsamixer/proc_files.c	/^static MENU *menu;$/;"	v	file:
+metronome_channel	seq/aplaymidi/arecordmidi.c	/^static int metronome_channel = METRONOME_CHANNEL;$/;"	v	file:
+metronome_echo	seq/aplaymidi/arecordmidi.c	/^static void metronome_echo(unsigned int tick)$/;"	f	file:
+metronome_note	seq/aplaymidi/arecordmidi.c	/^static void metronome_note(unsigned char note, unsigned int tick)$/;"	f	file:
+metronome_pattern	seq/aplaymidi/arecordmidi.c	/^static void metronome_pattern(unsigned int tick)$/;"	f	file:
+metronome_port	seq/aplaymidi/arecordmidi.c	/^static snd_seq_addr_t metronome_port;$/;"	v	file:
+metronome_program	seq/aplaymidi/arecordmidi.c	/^static int metronome_program = METRONOME_PROGRAM;$/;"	v	file:
+metronome_set_program	seq/aplaymidi/arecordmidi.c	/^static void metronome_set_program(void)$/;"	f	file:
+metronome_strong_note	seq/aplaymidi/arecordmidi.c	/^static int metronome_strong_note = METRONOME_STRONG_NOTE;$/;"	v	file:
+metronome_velocity	seq/aplaymidi/arecordmidi.c	/^static int metronome_velocity = METRONOME_VELOCITY;$/;"	v	file:
+metronome_weak_note	seq/aplaymidi/arecordmidi.c	/^static int metronome_weak_note = METRONOME_WEAK_NOTE;$/;"	v	file:
+mixer	alsamixer/mixer_widget.c	/^snd_mixer_t *mixer;$/;"	v
+mixer_callback	alsamixer/mixer_widget.c	/^static int mixer_callback(snd_mixer_t *mixer, unsigned int mask, snd_mixer_elem_t *elem)$/;"	f	file:
+mixer_device_name	alsamixer/mixer_widget.c	/^char *mixer_device_name;$/;"	v
+mixer_event	amixer/amixer.c	/^static int mixer_event(snd_mixer_t *mixer, unsigned int mask,$/;"	f	file:
+mixer_shutdown	alsamixer/mixer_widget.c	/^void mixer_shutdown(void)$/;"	f
+mixer_widget	alsamixer/mixer_widget.c	/^struct widget mixer_widget = {$/;"	v	typeref:struct:widget
+mixer_widget	alsamixer/mixer_widget.c	/^struct widget mixer_widget;$/;"	v	typeref:struct:widget
+mmap_flag	aplay/aplay.c	/^static int mmap_flag = 0;$/;"	v	file:
+mode	aplay/formats.h	/^	u_char mode;$/;"	m	struct:voc_ext_block
+mode	bat/common.h	/^	enum _bat_op_mode mode;$/;"	m	struct:pcm	typeref:enum:pcm::_bat_op_mode
+monitor	alsactl/monitor.c	/^int monitor(const char *name)$/;"	f
+monotonic	aplay/aplay.c	/^static int monotonic = 0;$/;"	v	file:
+move_x	alsamixer/textbox.c	/^static void move_x(int delta)$/;"	f	file:
+move_y	alsamixer/textbox.c	/^static void move_y(int delta)$/;"	f	file:
+my_argc	alsaloop/alsaloop.c	/^int my_argc = 0;$/;"	v
+my_argv	alsaloop/alsaloop.c	/^char **my_argv = NULL;$/;"	v
+my_exit	alsaloop/alsaloop.c	/^static void my_exit(struct loopback_thread *thread, int exitcode)$/;"	f	file:
+my_exit	alsaucm/usecase.c	/^static void my_exit(struct context *context, int exitcode)$/;"	f	file:
+my_malloc	amidi/amidi.c	/^static void *my_malloc(size_t size)$/;"	f	file:
+mystrftime	aplay/aplay.c	/^size_t mystrftime(char *s, size_t max, const char *userformat,$/;"	f
+name	alsamixer/card_select.c	/^	char *name;$/;"	m	struct:card	file:
+name	alsamixer/mixer_controls.h	/^	char *name;$/;"	m	struct:control
+name	amixer/amixer.c	/^	char *name;$/;"	m	struct:channel_mask	file:
+name	iecset/iecbits.c	/^	const char *name;$/;"	m	struct:category_str	file:
+name	iecset/iecset.c	/^	const char *name;$/;"	m	struct:cmdtbl	file:
+name_y	alsamixer/mixer_display.c	/^static int name_y;$/;"	v	file:
+narg	bat/common.h	/^	char *narg;			\/* argument string of duration *\/$/;"	m	struct:bat
+nblock	alsaloop/alsaloop.h	/^	unsigned int nblock:1;		\/* do block (period size) transfers *\/$/;"	m	struct:loopback_handle
+netfd	seq/aseqnet/aseqnet.c	/^static int sockfd, netfd[MAX_CONNECTION] = {[0 ... MAX_CONNECTION-1] = -1};$/;"	v	file:
+new_capture_file	aplay/aplay.c	/^static int new_capture_file(char *name, char *namebuf, size_t namelen,$/;"	f	file:
+new_event	seq/aplaymidi/aplaymidi.c	/^static struct event *new_event(struct track *track, int sysex_length)$/;"	f	file:
+new_root_dir	alsactl/init_parse.c	/^static char *new_root_dir(const char *filename)$/;"	f	file:
+next	alsactl/init_parse.c	/^	struct pair *next;$/;"	m	struct:pair	typeref:struct:pair::pair	file:
+next	alsactl/list.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::list_head
+next	alsaloop/alsaloop.h	/^	struct loopback_mixer *next;$/;"	m	struct:loopback_mixer	typeref:struct:loopback_mixer::loopback_mixer
+next	alsaloop/alsaloop.h	/^	struct loopback_ossmixer *next;$/;"	m	struct:loopback_ossmixer	typeref:struct:loopback_ossmixer::loopback_ossmixer
+next	alsamixer/card_select.c	/^	struct card *next;$/;"	m	struct:card	typeref:struct:card::card	file:
+next	seq/aplaymidi/aplaymidi.c	/^	struct event *next;		\/* linked list *\/$/;"	m	struct:event	typeref:struct:event::event	file:
+next	seq/aplaymidi/arecordmidi.c	/^	struct buffer *next;$/;"	m	struct:buffer	typeref:struct:buffer::buffer	file:
+no_check	amixer/amixer.c	/^static int no_check = 0;$/;"	v	file:
+no_open	alsaucm/usecase.c	/^	unsigned int no_open:1;$/;"	m	struct:context	file:
+node	alsactl/init_sysfs.c	/^	struct list_head node;$/;"	m	struct:sysfs_attr	typeref:struct:sysfs_attr::list_head	file:
+noise_analyzer	bat/common.h	/^struct noise_analyzer {$/;"	s
+nonblock	aplay/aplay.c	/^static int nonblock = 0;$/;"	v	file:
+nperiods	speaker-test/speaker-test.c	/^static unsigned int       nperiods    = 4;                  \/* number of periods *\/$/;"	v	file:
+nsamples	bat/common.h	/^	int nsamples;			\/* number of sample *\/$/;"	m	struct:noise_analyzer
+num_str	alsactl/state.c	/^static char *num_str(long n)$/;"	f	file:
+num_tracks	seq/aplaymidi/aplaymidi.c	/^static int num_tracks;$/;"	v	file:
+num_tracks	seq/aplaymidi/arecordmidi.c	/^static int num_tracks;$/;"	v	file:
+number	bat/common.h	/^	int number;$/;"	m	struct:roundtrip_latency
+on_close	alsamixer/card_select.c	/^static void on_close(void)$/;"	f	file:
+on_close	alsamixer/device_name.c	/^static void on_close(void)$/;"	f	file:
+on_close	alsamixer/mixer_widget.c	/^static void on_close(void)$/;"	f	file:
+on_close	alsamixer/proc_files.c	/^static void on_close(void)$/;"	f	file:
+on_close	alsamixer/textbox.c	/^static void on_close(void)$/;"	f	file:
+on_form_key	alsamixer/device_name.c	/^static void on_form_key(int key)$/;"	f	file:
+on_handle_key	alsamixer/card_select.c	/^static void on_handle_key(int key)$/;"	f	file:
+on_handle_key	alsamixer/device_name.c	/^static void on_handle_key(int key)$/;"	f	file:
+on_handle_key	alsamixer/mixer_widget.c	/^static void on_handle_key(int key)$/;"	f	file:
+on_handle_key	alsamixer/proc_files.c	/^static void on_handle_key(int key)$/;"	f	file:
+on_handle_key	alsamixer/textbox.c	/^static void on_handle_key(int key)$/;"	f	file:
+on_key_enter	alsamixer/card_select.c	/^static void on_key_enter(void)$/;"	f	file:
+on_key_enter	alsamixer/device_name.c	/^static void on_key_enter(void)$/;"	f	file:
+on_menu_key	alsamixer/card_select.c	/^static void on_menu_key(int key)$/;"	f	file:
+on_menu_key	alsamixer/proc_files.c	/^static void on_menu_key(int key)$/;"	f	file:
+on_window_size_changed	alsamixer/card_select.c	/^static void on_window_size_changed(void)$/;"	f	file:
+on_window_size_changed	alsamixer/device_name.c	/^static void on_window_size_changed(void)$/;"	f	file:
+on_window_size_changed	alsamixer/mixer_widget.c	/^static void on_window_size_changed(void)$/;"	f	file:
+on_window_size_changed	alsamixer/proc_files.c	/^static void on_window_size_changed(void)$/;"	f	file:
+on_window_size_changed	alsamixer/textbox.c	/^static void on_window_size_changed(void)$/;"	f	file:
+open_ctl	alsactl/monitor.c	/^static int open_ctl(const char *name, snd_ctl_t **ctlp)$/;"	f	file:
+open_mode	aplay/aplay.c	/^static int open_mode = 0;$/;"	v	file:
+opencard	alsaucm/usecase.c	/^	unsigned int opencard:1;$/;"	m	struct:cmd	file:
+openctl	alsaloop/pcmjob.c	/^static int openctl(struct loopback_handle *lhandle, int device, int subdevice)$/;"	f	file:
+openctl_elem	alsaloop/pcmjob.c	/^static void openctl_elem(struct loopback_handle *lhandle,$/;"	f	file:
+openit	alsaloop/pcmjob.c	/^static int openit(struct loopback_handle *lhandle)$/;"	f	file:
+order_channels	speaker-test/speaker-test.c	/^static int *order_channels(void)$/;"	f	file:
+ordered_channels	speaker-test/speaker-test.c	/^static int *ordered_channels;$/;"	v	file:
+oss_controls	alsaloop/alsaloop.h	/^	struct loopback_ossmixer *oss_controls;$/;"	m	struct:loopback	typeref:struct:loopback::loopback_ossmixer
+oss_id	alsaloop/alsaloop.h	/^	const char *oss_id;$/;"	m	struct:loopback_ossmixer
+oss_set	alsaloop/control.c	/^static int oss_set(struct loopback *loop,$/;"	f	file:
+out	bat/common.h	/^	float *out;$/;"	m	struct:analyze
+output	alsaloop/alsaloop.c	/^	snd_output_t *output;$/;"	m	struct:loopback_thread	file:
+output	alsaloop/alsaloop.h	/^	snd_output_t *output;$/;"	m	struct:loopback
+output	amidi/amidi.c	/^static snd_rawmidi_t *output, **outputp;$/;"	v	file:
+outputp	amidi/amidi.c	/^static snd_rawmidi_t *output, **outputp;$/;"	v	file:
+pack	aplay/formats.h	/^	u_char pack;$/;"	m	struct:voc_ext_block
+pack	aplay/formats.h	/^	u_char pack;$/;"	m	struct:voc_voice_data
+pair	alsactl/init_parse.c	/^struct pair {$/;"	s	file:
+pairs	alsactl/init_parse.c	/^	struct pair *pairs;$/;"	m	struct:space	typeref:struct:space::pair	file:
+panel	alsamixer/widget.h	/^	PANEL *panel;$/;"	m	struct:widget
+parse	alsactl/init_parse.c	/^static int parse(struct space *space, const char *filename)$/;"	f	file:
+parse_arguments	bat/bat.c	/^static void parse_arguments(struct bat *bat, int argc, char *argv[])$/;"	f	file:
+parse_command	iecset/iecset.c	/^static void parse_command(int *parms, const char *c, const char *arg)$/;"	f	file:
+parse_config	alsaloop/alsaloop.c	/^static int parse_config(int argc, char *argv[], snd_output_t *output,$/;"	f	file:
+parse_config_file	alsaloop/alsaloop.c	/^static int parse_config_file(const char *file, snd_output_t *output)$/;"	f	file:
+parse_data	amidi/amidi.c	/^static void parse_data(void)$/;"	f	file:
+parse_file	iecset/iecset.c	/^static void parse_file(int *parms, FILE *fp)$/;"	f	file:
+parse_line	alsactl/init_parse.c	/^static int parse_line(struct space *space, char *line, size_t linesize)$/;"	f	file:
+parse_line	alsaucm/usecase.c	/^static int parse_line(struct context *context, char *line)$/;"	f	file:
+parse_long	aplay/aplay.c	/^static long parse_long(const char *str, int *err)$/;"	f	file:
+parse_options	alsamixer/cli.c	/^static void parse_options(int argc, char *argv[])$/;"	f	file:
+parse_ports	seq/aplaymidi/aplaymidi.c	/^static void parse_ports(const char *arg)$/;"	f	file:
+parse_ports	seq/aplaymidi/arecordmidi.c	/^static void parse_ports(const char *arg)$/;"	f	file:
+parse_ports	seq/aseqdump/aseqdump.c	/^static void parse_ports(const char *arg)$/;"	f	file:
+parse_simple_id	amixer/amixer.c	/^static int parse_simple_id(const char *str, snd_mixer_selem_id_t *sid)$/;"	f	file:
+path	alsactl/init_sysfs.c	/^	char path[PATH_SIZE];$/;"	m	struct:sysfs_attr	file:
+pbcheck	alsa-info/alsa-info.sh	/^pbcheck(){$/;"	f
+pbrec_count	aplay/aplay.c	/^static off64_t pbrec_count = LLONG_MAX, fdcount;$/;"	v	file:
+pcm	bat/common.h	/^struct pcm {$/;"	s
+pcm_cleanup	bat/alsa.c	/^static void pcm_cleanup(void *p)$/;"	f	file:
+pcm_container	bat/alsa.c	/^struct pcm_container {$/;"	s	file:
+pcm_handle	speaker-test/speaker-test.c	/^static snd_pcm_t *pcm_handle = NULL;$/;"	v	file:
+pcm_list	aplay/aplay.c	/^static void pcm_list(void)$/;"	f	file:
+pcm_open_init_mutex	alsaloop/pcmjob.c	/^static void pcm_open_init_mutex(void)$/;"	f	file:
+pcm_open_lock	alsaloop/pcmjob.c	/^static inline void pcm_open_lock(void)$/;"	f	file:
+pcm_open_mutex	alsaloop/pcmjob.c	/^static pthread_mutex_t pcm_open_mutex;$/;"	v	file:
+pcm_open_mutex_once	alsaloop/pcmjob.c	/^static pthread_once_t pcm_open_mutex_once = PTHREAD_ONCE_INIT;$/;"	v	file:
+pcm_open_unlock	alsaloop/pcmjob.c	/^static inline void pcm_open_unlock(void)$/;"	f	file:
+pcm_read	aplay/aplay.c	/^static ssize_t pcm_read(u_char *data, size_t rcount)$/;"	f	file:
+pcm_readv	aplay/aplay.c	/^static ssize_t pcm_readv(u_char **data, unsigned int channels, size_t rcount)$/;"	f	file:
+pcm_write	aplay/aplay.c	/^static ssize_t pcm_write(u_char *data, size_t count)$/;"	f	file:
+pcm_writev	aplay/aplay.c	/^static ssize_t pcm_writev(u_char **data, unsigned int channels, size_t count)$/;"	f	file:
+pcmjob_done	alsaloop/pcmjob.c	/^int pcmjob_done(struct loopback *loop)$/;"	f
+pcmjob_init	alsaloop/pcmjob.c	/^int pcmjob_init(struct loopback *loop)$/;"	f
+pcmjob_pollfds_handle	alsaloop/pcmjob.c	/^int pcmjob_pollfds_handle(struct loopback *loop, struct pollfd *fds)$/;"	f
+pcmjob_pollfds_init	alsaloop/pcmjob.c	/^int pcmjob_pollfds_init(struct loopback *loop, struct pollfd *fds)$/;"	f
+pcmjob_start	alsaloop/pcmjob.c	/^int pcmjob_start(struct loopback *loop)$/;"	f
+pcmjob_state	alsaloop/pcmjob.c	/^void pcmjob_state(struct loopback *loop)$/;"	f
+pcmjob_stop	alsaloop/pcmjob.c	/^int pcmjob_stop(struct loopback *loop)$/;"	f
+period_bytes	bat/alsa.c	/^	size_t period_bytes;$/;"	m	struct:pcm_container	file:
+period_frames	aplay/aplay.c	/^static snd_pcm_uframes_t period_frames = 0;$/;"	v	file:
+period_is_limited	bat/common.h	/^	bool period_is_limited;$/;"	m	struct:bat
+period_size	alsaloop/alsaloop.h	/^	unsigned int period_size;$/;"	m	struct:loopback_handle
+period_size	bat/alsa.c	/^	snd_pcm_uframes_t period_size;$/;"	m	struct:pcm_container	file:
+period_size	bat/common.h	/^	int period_size;		\/* period size in frames *\/$/;"	m	struct:bat
+period_size	speaker-test/speaker-test.c	/^static snd_pcm_uframes_t  period_size;$/;"	v	file:
+period_size_req	alsaloop/alsaloop.h	/^	unsigned int period_size_req;$/;"	m	struct:loopback_handle
+period_time	aplay/aplay.c	/^static unsigned period_time = 0;$/;"	v	file:
+period_time	speaker-test/speaker-test.c	/^static unsigned int       period_time = 0;	            \/* period time in us *\/$/;"	v	file:
+periods_played	bat/common.h	/^	unsigned int periods_played;$/;"	m	struct:bat
+periods_total	bat/common.h	/^	unsigned int periods_total;$/;"	m	struct:bat
+perm_ok	seq/aconnect/aconnect.c	75;"	d	file:
+pfds	alsactl/daemon.c	/^	int pfds;$/;"	m	struct:card	file:
+pfile	alsaloop/alsaloop.h	/^	FILE *pfile;$/;"	m	struct:loopback
+phasor_imag	bat/common.h	/^	double phasor_imag;$/;"	m	struct:sin_generator
+phasor_real	bat/common.h	/^	double phasor_real;$/;"	m	struct:sin_generator
+pidf	aplay/aplay.c	/^FILE *pidf = NULL;$/;"	v
+pidfile_name	aplay/aplay.c	/^static char *pidfile_name = NULL;$/;"	v	file:
+pidfile_written	aplay/aplay.c	/^static int pidfile_written = 0;$/;"	v	file:
+pink	speaker-test/speaker-test.c	/^static pink_noise_t pink;$/;"	v	file:
+pink_index	speaker-test/pink.h	/^  int       pink_index;        \/* Incremented each sample. *\/$/;"	m	struct:__anon12
+pink_index_mask	speaker-test/pink.h	/^  int       pink_index_mask;    \/* Index wrapped by ANDing with this mask. *\/$/;"	m	struct:__anon12
+pink_noise_t	speaker-test/pink.h	/^} pink_noise_t;$/;"	t	typeref:struct:__anon12
+pink_rows	speaker-test/pink.h	/^  long      pink_rows[PINK_MAX_RANDOM_ROWS];$/;"	m	struct:__anon12
+pink_running_sum	speaker-test/pink.h	/^  long      pink_running_sum;   \/* Used to optimize summing of generators. *\/$/;"	m	struct:__anon12
+pink_scalar	speaker-test/pink.h	/^  float     pink_scalar;       \/* Used to scale within range of -1.0 to +1.0 *\/$/;"	m	struct:__anon12
+pitch	alsaloop/alsaloop.h	/^	double pitch;$/;"	m	struct:loopback
+pitch	alsaloop/alsaloop.h	/^	double pitch;$/;"	m	struct:loopback_handle
+pitch_delta	alsaloop/alsaloop.h	/^	double pitch_delta;$/;"	m	struct:loopback
+pitch_diff	alsaloop/alsaloop.h	/^	snd_pcm_sframes_t pitch_diff;$/;"	m	struct:loopback
+pitch_diff_max	alsaloop/alsaloop.h	/^	snd_pcm_sframes_t pitch_diff_max;$/;"	m	struct:loopback
+pitch_diff_min	alsaloop/alsaloop.h	/^	snd_pcm_sframes_t pitch_diff_min;$/;"	m	struct:loopback
+play	alsaloop/alsaloop.h	/^	struct loopback_handle *play;$/;"	m	struct:loopback	typeref:struct:loopback::loopback_handle
+play_and_listen	bat/latencytest.c	/^static void play_and_listen(struct bat *bat, void *buffer, int frames)$/;"	f	file:
+play_file	seq/aplaymidi/aplaymidi.c	/^static void play_file(void)$/;"	f	file:
+play_midi	seq/aplaymidi/aplaymidi.c	/^static void play_midi(void)$/;"	f	file:
+play_sample	bat/tinyalsa.c	/^static int play_sample(struct bat *bat, struct pcm *pcm,$/;"	f	file:
+playback	aplay/aplay.c	/^static void playback(char *name)$/;"	f	file:
+playback	bat/common.h	/^	struct pcm playback;$/;"	m	struct:bat	typeref:struct:bat::pcm
+playback_alsa	bat/alsa.c	/^void *playback_alsa(struct bat *bat)$/;"	f
+playback_au	aplay/aplay.c	/^static int playback_au(char *name, int *loaded)$/;"	f	file:
+playback_go	aplay/aplay.c	/^static void playback_go(int fd, size_t loaded, off64_t count, int rtype, char *name)$/;"	f	file:
+playback_raw	aplay/aplay.c	/^static int playback_raw(char *name, int *loaded)$/;"	f	file:
+playback_tinyalsa	bat/tinyalsa.c	/^void *playback_tinyalsa(struct bat *bat)$/;"	f
+playback_voc	aplay/aplay.c	/^static int playback_voc(char *name, int *loaded)$/;"	f	file:
+playback_wave	aplay/aplay.c	/^static int playback_wave(char *name, int *loaded)$/;"	f	file:
+playbackv	aplay/aplay.c	/^static void playbackv(char **names, unsigned int count)$/;"	f	file:
+playbackv_go	aplay/aplay.c	/^static void playbackv_go(int* fds, unsigned int channels, size_t loaded, off64_t count, int rtype, char **names)$/;"	f	file:
+pollfd_count	alsaloop/alsaloop.h	/^	int pollfd_count;$/;"	m	struct:loopback
+pollfd_count	alsaloop/alsaloop.h	/^	unsigned int pollfd_count;$/;"	m	struct:loopback_handle
+pollfds	seq/aseqnet/aseqnet.c	/^static struct pollfd *pollfds = NULL;$/;"	v	typeref:struct:pollfd	file:
+pollfds_count	seq/aseqnet/aseqnet.c	/^static int pollfds_count = 0;$/;"	v	file:
+port	seq/aplaymidi/aplaymidi.c	/^	unsigned char port;		\/* port index *\/$/;"	m	struct:event	file:
+port_count	seq/aplaymidi/aplaymidi.c	/^static int port_count;$/;"	v	file:
+port_count	seq/aplaymidi/arecordmidi.c	/^static int port_count;$/;"	v	file:
+port_count	seq/aseqdump/aseqdump.c	/^static int port_count;$/;"	v	file:
+port_name	amidi/amidi.c	/^static char *port_name = "default";$/;"	v	file:
+ports	seq/aplaymidi/aplaymidi.c	/^static snd_seq_addr_t *ports;$/;"	v	file:
+ports	seq/aplaymidi/arecordmidi.c	/^static snd_seq_addr_t *ports;$/;"	v	file:
+ports	seq/aseqdump/aseqdump.c	/^static snd_seq_addr_t *ports;$/;"	v	file:
+prepare_wav_info	bat/common.c	/^void prepare_wav_info(struct wav_container *wav, struct bat *bat)$/;"	f
+prev	alsactl/list.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::
+prg_exit	aplay/aplay.c	/^static void prg_exit(int code) $/;"	f	file:
+prg_exit	speaker-test/speaker-test.c	/^static int prg_exit(int code)$/;"	f	file:
+print_byte	amidi/amidi.c	/^static void print_byte(unsigned char byte)$/;"	f	file:
+print_dB	amixer/amixer.c	/^static void print_dB(long dB)$/;"	f	file:
+print_event	alsactl/monitor.c	/^static int print_event(int card, snd_ctl_t *ctl)$/;"	f	file:
+print_event	seq/aseqnet/aseqnet.c	/^static void print_event(snd_seq_event_t *ev)$/;"	f	file:
+print_port	seq/aconnect/aconnect.c	/^static void print_port(snd_seq_t *seq, snd_seq_client_info_t *cinfo,$/;"	f	file:
+print_port_and_subs	seq/aconnect/aconnect.c	/^static void print_port_and_subs(snd_seq_t *seq, snd_seq_client_info_t *cinfo,$/;"	f	file:
+print_result	bat/alsabat-test.sh	/^print_result () {$/;"	f
+print_spaces	amixer/amixer.c	/^static void print_spaces(unsigned int spaces)$/;"	f	file:
+print_vu_meter	aplay/aplay.c	/^static void print_vu_meter(signed int *perc, signed int *maxperc)$/;"	f	file:
+print_vu_meter_mono	aplay/aplay.c	/^static void print_vu_meter_mono(int perc, int maxperc)$/;"	f	file:
+print_vu_meter_stereo	aplay/aplay.c	/^static void print_vu_meter_stereo(int *perc, int *maxperc)$/;"	f	file:
+proc_widget	alsamixer/proc_files.c	/^static struct widget proc_widget = {$/;"	v	typeref:struct:widget	file:
+proc_widget	alsamixer/proc_files.c	/^static struct widget proc_widget;$/;"	v	typeref:struct:widget	file:
+program_result	alsactl/init_parse.c	/^	char *program_result;$/;"	m	struct:space	file:
+pswitch_channels	alsamixer/mixer_controls.h	/^	snd_mixer_selem_channel_id_t pswitch_channels[2];$/;"	m	struct:control
+queue	seq/aplaymidi/aplaymidi.c	/^static int queue;$/;"	v	file:
+queue	seq/aplaymidi/arecordmidi.c	/^static int queue;$/;"	v	file:
+quiet	amixer/amixer.c	/^static int quiet = 0;$/;"	v	file:
+quiet_mode	aplay/aplay.c	/^static int quiet_mode = 0;$/;"	v	file:
+quit	alsactl/daemon.c	/^static int quit = 0;$/;"	v	file:
+quit	alsactl/init_parse.c	/^	int quit;$/;"	m	struct:space	file:
+quit	alsaloop/alsaloop.c	/^int quit = 0;$/;"	v
+rate	alsaloop/alsaloop.h	/^	unsigned int rate;$/;"	m	struct:loopback_handle
+rate	aplay/aplay.c	/^	unsigned int rate;$/;"	m	struct:__anon7	file:
+rate	bat/common.h	/^	unsigned int rate;		\/* sampling rate *\/$/;"	m	struct:bat
+rate	speaker-test/speaker-test.c	/^    uint32_t rate;$/;"	m	struct:wave_header::__anon16	file:
+rate	speaker-test/speaker-test.c	/^static unsigned int       rate        = 48000;	            \/* stream rate *\/$/;"	v	file:
+rate_req	alsaloop/alsaloop.h	/^	unsigned int rate_req;$/;"	m	struct:loopback_handle
+rawmidi_list	amidi/amidi.c	/^static void rawmidi_list(void)$/;"	f	file:
+read_32_le	seq/aplaymidi/aplaymidi.c	/^static int read_32_le(void)$/;"	f	file:
+read_byte	seq/aplaymidi/aplaymidi.c	/^static int read_byte(void)$/;"	f	file:
+read_chunk_fmt	bat/common.c	/^static int read_chunk_fmt(struct bat *bat, char *file, FILE *fp, bool skip,$/;"	f	file:
+read_file	alsamixer/textbox.c	/^static char *read_file(const char *file_name, unsigned int *file_size)$/;"	f	file:
+read_from_pcm	bat/alsa.c	/^static int read_from_pcm(struct pcm_container *sndpcm,$/;"	f	file:
+read_from_pcm_loop	bat/alsa.c	/^static int read_from_pcm_loop(struct pcm_container *sndpcm, struct bat *bat)$/;"	f	file:
+read_header	aplay/aplay.c	/^static int read_header(int *loaded, int header_size)$/;"	f	file:
+read_id	seq/aplaymidi/aplaymidi.c	/^static int read_id(void)$/;"	f	file:
+read_int	seq/aplaymidi/aplaymidi.c	/^static int read_int(int bytes)$/;"	f	file:
+read_pid_file	alsactl/daemon.c	/^static long read_pid_file(const char *pidfile)$/;"	f	file:
+read_riff	seq/aplaymidi/aplaymidi.c	/^static int read_riff(void)$/;"	f	file:
+read_smf	seq/aplaymidi/aplaymidi.c	/^static int read_smf(void)$/;"	f	file:
+read_track	seq/aplaymidi/aplaymidi.c	/^static int read_track(struct track *track, int track_end)$/;"	f	file:
+read_var	seq/aplaymidi/aplaymidi.c	/^static int read_var(void)$/;"	f	file:
+read_wav	speaker-test/speaker-test.c	/^static int read_wav(uint16_t *buf, int channel, int offset, int bufsize)$/;"	f	file:
+read_wav_header	bat/common.c	/^int read_wav_header(struct bat *bat, char *file, FILE *fp, bool skip)$/;"	f
+readbuf	seq/aseqnet/aseqnet.c	/^static char *readbuf;$/;"	v	file:
+readi_func	aplay/aplay.c	/^static snd_pcm_sframes_t (*readi_func)(snd_pcm_t *handle, void *buffer, snd_pcm_uframes_t size);$/;"	v	file:
+readit	alsaloop/pcmjob.c	/^static int readit(struct loopback_handle *lhandle)$/;"	f	file:
+readn_func	aplay/aplay.c	/^static snd_pcm_sframes_t (*readn_func)(snd_pcm_t *handle, void **bufs, snd_pcm_uframes_t size);$/;"	v	file:
+receive_file	amidi/amidi.c	/^static int receive_file;$/;"	v	file:
+receive_file_name	amidi/amidi.c	/^static char *receive_file_name;$/;"	v	file:
+record_alsa	bat/alsa.c	/^void *record_alsa(struct bat *bat)$/;"	f
+record_event	seq/aplaymidi/arecordmidi.c	/^static void record_event(const snd_seq_event_t *ev)$/;"	f	file:
+record_port_numbers	seq/aplaymidi/arecordmidi.c	/^static void record_port_numbers(void)$/;"	f	file:
+record_tinyalsa	bat/tinyalsa.c	/^void *record_tinyalsa(struct bat *bat)$/;"	f
+recycle_capture_file	aplay/aplay.c	/^volatile static int recycle_capture_file = 0;$/;"	v	file:
+refocus_control	alsamixer/mixer_widget.c	/^void refocus_control(void)$/;"	f
+reinit	alsaloop/alsaloop.h	/^	unsigned int reinit:1;$/;"	m	struct:loopback
+remap_data	aplay/aplay.c	/^static u_char *remap_data(u_char *data, size_t count)$/;"	f	file:
+remap_data	aplay/aplay.c	2018;"	d	file:
+remap_datav	aplay/aplay.c	/^static u_char **remap_datav(u_char **data, size_t count)$/;"	f	file:
+remap_datav	aplay/aplay.c	2019;"	d	file:
+remove_all_connections	seq/aconnect/aconnect.c	/^static void remove_all_connections(snd_seq_t *seq)$/;"	f	file:
+remove_connection	seq/aconnect/aconnect.c	/^static void remove_connection(snd_seq_t *seq, snd_seq_client_info_t *cinfo,$/;"	f	file:
+remove_from_list	alsactl/daemon.c	/^static void remove_from_list(struct id_list *list, snd_ctl_elem_id_t *id)$/;"	f	file:
+remove_samples	alsaloop/pcmjob.c	/^static snd_pcm_sframes_t remove_samples(struct loopback *loop,$/;"	f	file:
+remove_trailing_chars	alsactl/init_utils_string.c	/^static void remove_trailing_chars(char *path, char c)$/;"	f	file:
+reorder	bat/signal.c	/^static int reorder(struct bat *bat, float *val, int frames)$/;"	f	file:
+reorder_data	bat/analyze.c	/^static int reorder_data(struct bat *bat)$/;"	f	file:
+replace_untrusted_chars	alsactl/init_utils_string.c	/^static int replace_untrusted_chars(char *str)$/;"	f	file:
+resample	alsaloop/alsaloop.h	/^	unsigned int resample:1;	\/* do resample *\/$/;"	m	struct:loopback_handle
+rescan	alsactl/daemon.c	/^static int rescan = 0;$/;"	v	file:
+restore_config_value	alsactl/state.c	/^static int restore_config_value(snd_ctl_t *handle, snd_ctl_elem_info_t *info,$/;"	f	file:
+restore_config_value2	alsactl/state.c	/^static int restore_config_value2(snd_ctl_t *handle, snd_ctl_elem_info_t *info,$/;"	f	file:
+result	bat/common.h	/^	float result[LATENCY_TEST_NUMBER];$/;"	m	struct:roundtrip_latency
+retval_play	bat/common.c	/^int retval_play;$/;"	v
+retval_record	bat/common.c	/^int retval_record;$/;"	v
+rhwparams	aplay/aplay.c	/^} hwparams, rhwparams;$/;"	v	typeref:struct:__anon7	file:
+rms_tgt	bat/common.h	/^	float rms_tgt;			\/* rms of target single-tone *\/$/;"	m	struct:noise_analyzer
+rootdir	alsactl/init_parse.c	/^	char *rootdir;$/;"	m	struct:space	file:
+roundtrip_latency	bat/common.h	/^struct roundtrip_latency {$/;"	s
+roundtrip_latency_init	bat/latencytest.c	/^void roundtrip_latency_init(struct bat *bat)$/;"	f
+roundtriplatency	bat/common.h	/^	bool roundtriplatency;		\/* enable round trip latency *\/$/;"	m	struct:bat
+run_program	alsactl/init_utils_run.c	/^int run_program(struct space *space, const char *command0, char *result,$/;"	f	file:
+run_program0	alsactl/init_utils_run.c	/^int run_program0(struct space *space,$/;"	f	file:
+run_program1	alsactl/init_parse.c	/^int run_program1(struct space *space,$/;"	f	file:
+run_test	bat/tests/alsabat_main.sh	/^function run_test()$/;"	f
+running	alsaloop/alsaloop.h	/^	unsigned int running:1;$/;"	m	struct:loopback
+safe_open	aplay/aplay.c	/^static int safe_open(const char *name)$/;"	f	file:
+safe_read	aplay/aplay.c	/^static ssize_t safe_read(int fd, void *buf, size_t count)$/;"	f	file:
+sample_bits	bat/alsa.c	/^	size_t sample_bits;$/;"	m	struct:pcm_container	file:
+sample_bits	speaker-test/speaker-test.c	/^    uint16_t sample_bits;$/;"	m	struct:wave_header::__anon16	file:
+sample_fq	aplay/formats.h	/^	u_int sample_fq;	\/* frequence of sample *\/$/;"	m	struct:__anon3
+sample_length	bat/common.h	/^	unsigned short sample_length; \/* 8, 12 or 16 bit *\/$/;"	m	struct:chunk_fmt
+sample_length	bat/common.h	/^	unsigned short sample_length; \/* 8, 12 or 16 bit *\/$/;"	m	struct:wav_fmt
+sample_rate	aplay/formats.h	/^	u_int sample_rate;	\/* sample rate *\/$/;"	m	struct:au_header
+sample_rate	bat/common.h	/^	float sample_rate;$/;"	m	struct:sin_generator
+sample_rate	bat/common.h	/^	unsigned int sample_rate; \/* Frequency of sample *\/$/;"	m	struct:chunk_fmt
+sample_rate	bat/common.h	/^	unsigned int sample_rate; \/* Frequency of sample *\/$/;"	m	struct:wav_fmt
+sample_size	bat/common.h	/^	int sample_size;		\/* size of sample *\/$/;"	m	struct:bat
+sample_size	speaker-test/speaker-test.c	/^    uint16_t sample_size;$/;"	m	struct:wave_header::__anon16	file:
+samples	bat/common.h	/^	int samples;$/;"	m	struct:roundtrip_latency
+sampleslimit	aplay/aplay.c	/^static int sampleslimit = 0;$/;"	v	file:
+sarg	alsactl/alsactl.c	/^	int sarg;$/;"	m	struct:arg	file:
+save_now	alsactl/daemon.c	/^static int save_now = 0;$/;"	v	file:
+save_state	alsactl/state.c	/^int save_state(const char *file, const char *cardname)$/;"	f
+screen_cols	alsamixer/widget.c	/^int screen_cols;$/;"	v
+screen_lines	alsamixer/widget.c	/^int screen_lines;$/;"	v
+screen_too_small	alsamixer/mixer_display.c	/^static bool screen_too_small;$/;"	v	file:
+search_for_file	speaker-test/speaker-test.c	/^static const char *search_for_file(const char *name)$/;"	f	file:
+search_for_focus_control	alsamixer/mixer_controls.c	/^static void search_for_focus_control(void)$/;"	f	file:
+select_card_by_name	alsamixer/mixer_widget.c	/^bool select_card_by_name(const char *device_name)$/;"	f
+selem_regopt	alsamixer/cli.c	/^static struct snd_mixer_selem_regopt selem_regopt = {$/;"	v	typeref:struct:snd_mixer_selem_regopt	file:
+selems	amixer/amixer.c	/^static int selems(int level)$/;"	f	file:
+send_data	amidi/amidi.c	/^static char *send_data;$/;"	v	file:
+send_data_length	amidi/amidi.c	/^static int send_data_length;$/;"	v	file:
+send_file_name	amidi/amidi.c	/^static char *send_file_name;$/;"	v	file:
+send_hex	amidi/amidi.c	/^static char *send_hex;$/;"	v	file:
+send_midi_interleaved	amidi/amidi.c	/^static int send_midi_interleaved(void)$/;"	f	file:
+send_to_all	alsaloop/alsaloop.c	/^static void send_to_all(int sig)$/;"	f	file:
+seq	seq/aplaymidi/aplaymidi.c	/^static snd_seq_t *seq;$/;"	v	file:
+seq	seq/aplaymidi/arecordmidi.c	/^static snd_seq_t *seq;$/;"	v	file:
+seq	seq/aseqdump/aseqdump.c	/^static snd_seq_t *seq;$/;"	v	file:
+seq_port	seq/aseqnet/aseqnet.c	/^static int seq_port;$/;"	v	file:
+seqifds	seq/aseqnet/aseqnet.c	/^static struct pollfd *seqifds = NULL;$/;"	v	typeref:struct:pollfd	file:
+seqifds_count	seq/aseqnet/aseqnet.c	/^static int seqifds_count = 0;$/;"	v	file:
+seqofds	seq/aseqnet/aseqnet.c	/^static struct pollfd *seqofds = NULL;$/;"	v	typeref:struct:pollfd	file:
+seqofds_count	seq/aseqnet/aseqnet.c	/^static int seqofds_count = 0;$/;"	v	file:
+server_mode	seq/aseqnet/aseqnet.c	/^static int server_mode;$/;"	v	file:
+set	amixer/amixer.c	/^	int (*set)(snd_mixer_elem_t *elem, snd_mixer_selem_channel_id_t c,$/;"	m	struct:volume_ops	file:
+set_capture_dB	amixer/amixer.c	/^static int set_capture_dB(snd_mixer_elem_t *elem,$/;"	f	file:
+set_capture_mapped_volume	amixer/amixer.c	/^static int set_capture_mapped_volume(snd_mixer_elem_t *elem,$/;"	f	file:
+set_capture_raw_volume	amixer/amixer.c	/^static int set_capture_raw_volume(snd_mixer_elem_t *elem,$/;"	f	file:
+set_control	alsactl/state.c	/^static int set_control(snd_ctl_t *handle, snd_config_t *control,$/;"	f	file:
+set_controls	alsactl/state.c	/^static int set_controls(int card, snd_config_t *top, int doit)$/;"	f	file:
+set_ctl_value	alsactl/init_parse.c	/^static int set_ctl_value(struct space *space, const char *value, int all)$/;"	f	file:
+set_dB	alsamixer/volume_mapping.c	/^static int (* const set_dB[2])(snd_mixer_elem_t *, snd_mixer_selem_channel_id_t, long, int) = {$/;"	v	file:
+set_defaults	bat/bat.c	/^static void set_defaults(struct bat *bat)$/;"	f	file:
+set_hwparams	speaker-test/speaker-test.c	/^static int set_hwparams(snd_pcm_t *handle, snd_pcm_hw_params_t *params, snd_pcm_access_t access) {$/;"	f	file:
+set_loop_time	alsaloop/alsaloop.c	/^static void set_loop_time(struct loopback *loop, unsigned long loop_time)$/;"	f	file:
+set_normalized_capture_volume	alsamixer/volume_mapping.c	/^int set_normalized_capture_volume(snd_mixer_elem_t *elem,$/;"	f
+set_normalized_playback_volume	alsamixer/volume_mapping.c	/^int set_normalized_playback_volume(snd_mixer_elem_t *elem,$/;"	f
+set_normalized_volume	alsamixer/volume_mapping.c	/^static int set_normalized_volume(snd_mixer_elem_t *elem,$/;"	f	file:
+set_notify	alsaloop/pcmjob.c	/^static int set_notify(struct loopback_handle *lhandle, int enable)$/;"	f	file:
+set_params	aplay/aplay.c	/^static void set_params(void)$/;"	f	file:
+set_playback_dB	amixer/amixer.c	/^static int set_playback_dB(snd_mixer_elem_t *elem,$/;"	f	file:
+set_playback_mapped_volume	amixer/amixer.c	/^static int set_playback_mapped_volume(snd_mixer_elem_t *elem,$/;"	f	file:
+set_playback_raw_volume	amixer/amixer.c	/^static int set_playback_raw_volume(snd_mixer_elem_t *elem,$/;"	f	file:
+set_rate_shift	alsaloop/pcmjob.c	/^static int set_rate_shift(struct loopback_handle *lhandle, double pitch)$/;"	f	file:
+set_raw	alsamixer/volume_mapping.c	/^static int (* const set_raw[2])(snd_mixer_elem_t *, snd_mixer_selem_channel_id_t, long) = {$/;"	v	file:
+set_snd_pcm_params	bat/alsa.c	/^static int set_snd_pcm_params(struct bat *bat, struct pcm_container *sndpcm)$/;"	f	file:
+set_swparams	speaker-test/speaker-test.c	/^static int set_swparams(snd_pcm_t *handle, snd_pcm_sw_params_t *swparams) {$/;"	f	file:
+set_view_mode	alsamixer/mixer_widget.c	/^static void set_view_mode(enum view_mode m)$/;"	f	file:
+set_volume_simple	amixer/amixer.c	/^static int set_volume_simple(snd_mixer_elem_t *elem,$/;"	f	file:
+setparams	alsaloop/pcmjob.c	/^static int setparams(struct loopback *loop, snd_pcm_uframes_t bufsize)$/;"	f	file:
+setparams_bufsize	alsaloop/pcmjob.c	/^static int setparams_bufsize(struct loopback_handle *lhandle,$/;"	f	file:
+setparams_set	alsaloop/pcmjob.c	/^static int setparams_set(struct loopback_handle *lhandle,$/;"	f	file:
+setparams_stream	alsaloop/pcmjob.c	/^static int setparams_stream(struct loopback_handle *lhandle,$/;"	f	file:
+setscheduler	alsaloop/alsaloop.c	/^static void setscheduler(void)$/;"	f	file:
+setup_chmap	aplay/aplay.c	/^static int setup_chmap(void)$/;"	f	file:
+setup_chmap	aplay/aplay.c	1294;"	d	file:
+setup_wav_file	speaker-test/speaker-test.c	/^static int setup_wav_file(int chn)$/;"	f	file:
+sevents	amixer/amixer.c	/^static int sevents(int argc ATTRIBUTE_UNUSED, char *argv[] ATTRIBUTE_UNUSED)$/;"	f	file:
+sevents_add	amixer/amixer.c	/^static void sevents_add(snd_mixer_elem_t *elem)$/;"	f	file:
+sevents_info	amixer/amixer.c	/^static void sevents_info(snd_mixer_selem_id_t *sid)$/;"	f	file:
+sevents_remove	amixer/amixer.c	/^static void sevents_remove(snd_mixer_selem_id_t *sid)$/;"	f	file:
+sevents_value	amixer/amixer.c	/^static void sevents_value(snd_mixer_selem_id_t *sid)$/;"	f	file:
+show_alsa_error	alsamixer/textbox.c	/^void show_alsa_error(const char *msg, int err)$/;"	f
+show_available_sample_formats	aplay/aplay.c	/^static void show_available_sample_formats(snd_pcm_hw_params_t* params)$/;"	f	file:
+show_control	amixer/amixer.c	/^static int show_control(const char *space, snd_hctl_elem_t *elem,$/;"	f	file:
+show_control_id	amixer/amixer.c	/^static void show_control_id(snd_ctl_elem_id_t *id)$/;"	f	file:
+show_error	alsamixer/textbox.c	/^void show_error(const char *msg, int err)$/;"	f
+show_fail	bat/tests/alsabat_main.sh	/^show_fail()$/;"	f
+show_handle	alsaloop/pcmjob.c	/^static void show_handle(struct loopback_handle *lhandle, const char *id)$/;"	f	file:
+show_help	alsamixer/cli.c	/^static void show_help(void)$/;"	f	file:
+show_help	alsamixer/mixer_widget.c	/^static void show_help(void)$/;"	f	file:
+show_pass	bat/tests/alsabat_main.sh	/^show_pass()$/;"	f
+show_selem	amixer/amixer.c	/^static int show_selem(snd_mixer_t *handle, snd_mixer_selem_id_t *id, const char *space, int level)$/;"	f	file:
+show_selem_volume	amixer/amixer.c	/^static void show_selem_volume(snd_mixer_elem_t *elem, $/;"	f	file:
+show_text	alsamixer/textbox.c	/^void show_text(const char *const *lines, unsigned int count, const char *title)$/;"	f
+show_textfile	alsamixer/textbox.c	/^void show_textfile(const char *file_name)$/;"	f
+showlatency	alsaloop/pcmjob.c	/^static void showlatency(snd_output_t *out, size_t latency, unsigned int rate,$/;"	f	file:
+sig_handler	amidi/amidi.c	/^static void sig_handler(int dummy)$/;"	f	file:
+sighandler	seq/aplaymidi/arecordmidi.c	/^static void sighandler(int sig)$/;"	f	file:
+sighandler	seq/aseqdump/aseqdump.c	/^static void sighandler(int sig)$/;"	f	file:
+sigma_k	bat/common.h	/^	float sigma_k;			\/* threshold for peak detection *\/$/;"	m	struct:bat
+signal_handler	alsaloop/alsaloop.c	/^static void signal_handler(int sig)$/;"	f	file:
+signal_handler	aplay/aplay.c	/^static void signal_handler(int sig)$/;"	f	file:
+signal_handler	speaker-test/speaker-test.c	/^static void signal_handler(int sig)$/;"	f	file:
+signal_handler_ignore	alsaloop/alsaloop.c	/^static void signal_handler_ignore(int sig)$/;"	f	file:
+signal_handler_quit	alsactl/daemon.c	/^static void signal_handler_quit(int sig)$/;"	f	file:
+signal_handler_recycle	aplay/aplay.c	/^static void signal_handler_recycle (int sig)$/;"	f	file:
+signal_handler_rescan	alsactl/daemon.c	/^static void signal_handler_rescan(int sig)$/;"	f	file:
+signal_handler_save_and_quit	alsactl/daemon.c	/^static void signal_handler_save_and_quit(int sig)$/;"	f	file:
+signal_handler_state	alsaloop/alsaloop.c	/^static void signal_handler_state(int sig)$/;"	f	file:
+significant_bits_per_sample	aplay/aplay.c	/^static size_t significant_bits_per_sample, bits_per_sample, bits_per_frame;$/;"	v	file:
+sigterm_exit	seq/aseqnet/aseqnet.c	/^static void sigterm_exit(int sig)$/;"	f	file:
+sigusr1	alsaloop/test.sh	/^sigusr1() {$/;"	f
+simple_skip_word	amixer/amixer.c	/^static int simple_skip_word(char **ptr, char *str)$/;"	f	file:
+sin_generator	bat/common.h	/^struct sin_generator {$/;"	s
+sin_generator_init	bat/signal.c	/^int sin_generator_init(struct sin_generator *sg, float magnitude,$/;"	f
+sin_generator_next_sample	bat/signal.c	/^float sin_generator_next_sample(struct sin_generator *sg)$/;"	f
+sin_generator_vfill	bat/signal.c	/^void sin_generator_vfill(struct sin_generator *sg, float *buf, int n)$/;"	f
+sinus_duration	bat/common.h	/^	int sinus_duration;		\/* number of frames for playback *\/$/;"	m	struct:bat
+size	alsactl/daemon.c	/^	int size;$/;"	m	struct:id_list	file:
+size	seq/aplaymidi/arecordmidi.c	/^	int size;			\/* size of entire data *\/$/;"	m	struct:smf_track	file:
+skip	alsaloop/alsaloop.h	/^	unsigned int skip:1;$/;"	m	struct:loopback_mixer
+skip	alsaloop/alsaloop.h	/^	unsigned int skip:1;$/;"	m	struct:loopback_ossmixer
+skip	seq/aplaymidi/aplaymidi.c	/^static void skip(int bytes)$/;"	f	file:
+skipspace	iecset/iecset.c	/^static char *skipspace(char *line)$/;"	f	file:
+slave	alsaloop/alsaloop.h	/^	slave_type_t slave;$/;"	m	struct:loopback
+slave_type_t	alsaloop/alsaloop.h	/^} slave_type_t;$/;"	t	typeref:enum:_slave_type
+smf_track	seq/aplaymidi/arecordmidi.c	/^struct smf_track {$/;"	s	file:
+smixer_level	amixer/amixer.c	/^static int smixer_level = 0;$/;"	v	file:
+smixer_options	amixer/amixer.c	/^static struct snd_mixer_selem_regopt smixer_options;$/;"	v	typeref:struct:snd_mixer_selem_regopt	file:
+smpte_timing	seq/aplaymidi/aplaymidi.c	/^static int smpte_timing;$/;"	v	file:
+smpte_timing	seq/aplaymidi/arecordmidi.c	/^static int smpte_timing = 0;$/;"	v	file:
+snd_config_compound_add	alsactl/state.c	/^static int snd_config_compound_add(snd_config_t *father, const char *id, int join,$/;"	f	file:
+snd_config_integer64_add	alsactl/state.c	/^static int snd_config_integer64_add(snd_config_t *father, char *id, long long integer)$/;"	f	file:
+snd_config_integer_add	alsactl/state.c	/^static int snd_config_integer_add(snd_config_t *father, char *id, long integer)$/;"	f	file:
+snd_config_string_add	alsactl/state.c	/^static int snd_config_string_add(snd_config_t *father, const char *id, const char *string)$/;"	f	file:
+snr_db	bat/common.h	/^	float snr_db;			\/* snr in dB *\/$/;"	m	struct:noise_analyzer
+snr_is_valid	bat/common.h	/^static inline bool snr_is_valid(float db)$/;"	f
+snr_thd_db	bat/common.h	/^	float snr_thd_db;		\/* threshold for noise detection (dB) *\/$/;"	m	struct:bat
+sockfd	seq/aseqnet/aseqnet.c	/^static int sockfd, netfd[MAX_CONNECTION] = {[0 ... MAX_CONNECTION-1] = -1};$/;"	v	file:
+source	bat/common.h	/^	float *source;			\/* single-tone to be analyzed *\/$/;"	m	struct:noise_analyzer
+space	alsactl/init_parse.c	/^struct space {$/;"	s	file:
+speaker	speaker-test/speaker-test.c	/^static unsigned int       speaker     = 0;	            \/* count of channels *\/$/;"	v	file:
+split_line	amixer/amixer.c	/^static int split_line(char *buf, char **token, int max_token)$/;"	f	file:
+src	alsaloop/alsaloop.h	/^	struct loopback_control src;$/;"	m	struct:loopback_mixer	typeref:struct:loopback_mixer::loopback_control
+src_converter_type	alsaloop/alsaloop.h	/^	int src_converter_type;$/;"	m	struct:loopback
+src_data	alsaloop/alsaloop.h	/^	SRC_DATA src_data;$/;"	m	struct:loopback
+src_enable	alsaloop/alsaloop.h	/^	unsigned int src_enable:1;$/;"	m	struct:loopback
+src_out_frames	alsaloop/alsaloop.h	/^	unsigned int src_out_frames;$/;"	m	struct:loopback
+src_state	alsaloop/alsaloop.h	/^	SRC_STATE *src_state;$/;"	m	struct:loopback
+src_types	alsaloop/pcmjob.c	/^static const char *src_types[] = {$/;"	v	file:
+sset	amixer/amixer.c	/^static int sset(unsigned int argc, char *argv[], int roflag, int keep_handle)$/;"	f	file:
+sset_channels	amixer/amixer.c	/^static int sset_channels(snd_mixer_elem_t *elem, unsigned int argc, char **argv)$/;"	f	file:
+sset_enum	amixer/amixer.c	/^static int sset_enum(snd_mixer_elem_t *elem, unsigned int argc, char **argv)$/;"	f	file:
+stall	alsaloop/alsaloop.h	/^	int stall;$/;"	m	struct:loopback_handle
+standalone	bat/common.h	/^	bool standalone;		\/* enable to bypass analysis *\/$/;"	m	struct:bat
+start	aplay/aplay.c	/^	void (*start) (int fd, size_t count);$/;"	m	struct:fmt_capture	file:
+start_connection	seq/aseqnet/aseqnet.c	/^static void start_connection(void)$/;"	f	file:
+start_delay	aplay/aplay.c	/^static int start_delay = 0;$/;"	v	file:
+state	alsaloop/alsaloop.h	/^	snd_output_t *state;$/;"	m	struct:loopback
+state	bat/common.h	/^	enum latency_state state;$/;"	m	struct:roundtrip_latency	typeref:enum:roundtrip_latency::latency_state
+state_daemon	alsactl/daemon.c	/^int state_daemon(const char *file, const char *cardname, int period,$/;"	f
+state_daemon_kill	alsactl/daemon.c	/^int state_daemon_kill(const char *pidfile, const char *cmd)$/;"	f
+state_imag	bat/common.h	/^	double state_imag;$/;"	m	struct:sin_generator
+state_lock	alsactl/lock.c	/^int state_lock(const char *file, int timeout)$/;"	f
+state_lock_	alsactl/lock.c	/^static int state_lock_(const char *file, int lock, int timeout, int _fd)$/;"	f	file:
+state_mutex	alsaloop/pcmjob.c	/^static pthread_mutex_t state_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+state_real	bat/common.h	/^	double state_real;$/;"	m	struct:sin_generator
+state_unlock	alsactl/lock.c	/^int state_unlock(int _fd, const char *file)$/;"	f
+statefile	alsactl/alsactl.c	/^char *statefile = NULL;$/;"	v
+std_vol_type	amixer/amixer.c	/^static int std_vol_type = VOL_RAW;$/;"	v	file:
+stop	amidi/amidi.c	/^static int stop;$/;"	v	file:
+stop	seq/aplaymidi/arecordmidi.c	/^static volatile sig_atomic_t stop = 0;$/;"	v	file:
+stop	seq/aseqdump/aseqdump.c	/^static volatile sig_atomic_t stop = 0;$/;"	v	file:
+stop_count	alsaloop/alsaloop.h	/^	snd_pcm_uframes_t stop_count;$/;"	m	struct:loopback
+stop_delay	aplay/aplay.c	/^static int stop_delay = 0;$/;"	v	file:
+stop_pending	alsaloop/alsaloop.h	/^	unsigned int stop_pending:1;$/;"	m	struct:loopback
+str_to_tlv	alsactl/state.c	/^static unsigned int *str_to_tlv(const char *s)$/;"	f	file:
+stream	aplay/aplay.c	/^static snd_pcm_stream_t stream = SND_PCM_STREAM_PLAYBACK;$/;"	v	file:
+string_array	alsactl/state.c	/^struct string_array {$/;"	s	file:
+strings	alsactl/state.c	/^	const char **strings;$/;"	m	struct:string_array	file:
+strlcat	alsactl/init_sysdeps.c	/^static size_t strlcat(char *dst, const char *src, size_t size)$/;"	f	file:
+strlcpy	alsactl/init_sysdeps.c	/^static size_t strlcpy(char *dst, const char *src, size_t size)$/;"	f	file:
+subwindow	alsamixer/widget.h	/^	WINDOW *subwindow; \/* optional: contents without border *\/$/;"	m	struct:widget
+sum	bat/common.h	/^	float sum;$/;"	m	struct:roundtrip_latency
+sumaudio	bat/latencytest.c	/^static float sumaudio(struct bat *bat, short int *buffer, int frames)$/;"	f	file:
+supported_channels	alsamixer/mixer_controls.c	/^static const snd_mixer_selem_channel_id_t supported_channels[] = {$/;"	v	file:
+supported_formats	speaker-test/speaker-test.c	/^static const int	supported_formats[] = {$/;"	v	file:
+suspend	alsaloop/pcmjob.c	/^static int suspend(struct loopback_handle *lhandle)$/;"	f	file:
+suspend	aplay/aplay.c	/^static void suspend(void)$/;"	f	file:
+sync	alsaloop/alsaloop.h	/^	sync_type_t sync;		\/* type of sync *\/$/;"	m	struct:loopback
+sync_point	alsaloop/alsaloop.h	/^	unsigned long sync_point;	\/* in samples *\/$/;"	m	struct:loopback_handle
+sync_type_t	alsaloop/alsaloop.h	/^} sync_type_t;$/;"	t	typeref:enum:_sync_type
+sync_types	alsaloop/pcmjob.c	/^static const char *sync_types[] = {$/;"	v	file:
+sysex	seq/aplaymidi/aplaymidi.c	/^	unsigned char sysex[0];$/;"	m	struct:event	file:
+sysex_interval	amidi/amidi.c	/^static int sysex_interval;$/;"	v	file:
+sysfs_attr	alsactl/init_sysfs.c	/^struct sysfs_attr {$/;"	s	file:
+sysfs_attr_get_value	alsactl/init_sysfs.c	/^static char *sysfs_attr_get_value(const char *devpath, const char *attr_name)$/;"	f	file:
+sysfs_cleanup	alsactl/init_sysfs.c	/^static void sysfs_cleanup(void)$/;"	f	file:
+sysfs_init	alsactl/init_sysfs.c	/^static int sysfs_init(void)$/;"	f	file:
+sysfs_path	alsactl/init_sysfs.c	/^static char sysfs_path[PATH_SIZE];$/;"	v	file:
+syslog_	alsactl/utils.c	/^static void syslog_(int prio, const char *fcn, long line,$/;"	f	file:
+target	bat/common.h	/^	float *target;			\/* target single-tone as standard *\/$/;"	m	struct:noise_analyzer
+target_freq	bat/common.h	/^	float target_freq[MAX_CHANNELS];$/;"	m	struct:bat
+tc	aplay/formats.h	/^	u_char tc;$/;"	m	struct:voc_voice_data
+tc	aplay/formats.h	/^	u_short tc;$/;"	m	struct:voc_ext_block
+tempo	seq/aplaymidi/aplaymidi.c	/^		int tempo;$/;"	m	union:event::__anon20	file:
+term_c_lflag	aplay/aplay.c	/^static long term_c_lflag = -1;$/;"	v	file:
+test1	alsaloop/test.sh	/^test1() {$/;"	f
+test2	alsaloop/test.sh	/^test2() {$/;"	f
+test3	alsaloop/test.sh	/^test3() {$/;"	f
+test4	alsaloop/test.sh	/^test4() {$/;"	f
+test5	alsaloop/test.sh	/^test5() {$/;"	f
+test_au	aplay/aplay.c	/^static int test_au(int fd, void *buffer)$/;"	f	file:
+test_capture	bat/bat.c	/^static void test_capture(struct bat *bat)$/;"	f	file:
+test_coef	aplay/aplay.c	/^static int test_coef = 8;$/;"	v	file:
+test_loopback	bat/bat.c	/^static void test_loopback(struct bat *bat)$/;"	f	file:
+test_nowait	aplay/aplay.c	/^static int test_nowait = 0;$/;"	v	file:
+test_playback	bat/bat.c	/^static void test_playback(struct bat *bat)$/;"	f	file:
+test_position	aplay/aplay.c	/^static int test_position = 0;$/;"	v	file:
+test_suites	bat/tests/alsabat_main.sh	/^function test_suites ( )$/;"	f
+test_type	speaker-test/speaker-test.c	/^static int                test_type   = TEST_PINK_NOISE;    \/* Test type. 1 = noise, 2 = sine wave *\/$/;"	v	file:
+test_vocfile	aplay/aplay.c	/^static int test_vocfile(void *buffer)$/;"	f	file:
+test_wavefile	aplay/aplay.c	/^static ssize_t test_wavefile(int fd, u_char *_buffer, size_t size)$/;"	f	file:
+test_wavefile_read	aplay/aplay.c	/^static size_t test_wavefile_read(int fd, u_char *buffer, size_t *size, size_t reqsize, int line)$/;"	f	file:
+text_box_x	alsamixer/textbox.c	/^static int text_box_x;$/;"	v	file:
+text_box_y	alsamixer/textbox.c	/^static int text_box_y;$/;"	v	file:
+text_lines	alsamixer/textbox.c	/^static char **text_lines;$/;"	v	file:
+text_lines_count	alsamixer/textbox.c	/^static unsigned int text_lines_count;$/;"	v	file:
+text_widget	alsamixer/textbox.c	/^static struct widget text_widget = {$/;"	v	typeref:struct:widget	file:
+text_widget	alsamixer/textbox.c	/^static struct widget text_widget;$/;"	v	typeref:struct:widget	file:
+textdomain	include/gettext.h	14;"	d
+thread	alsaloop/alsaloop.c	/^	pthread_t thread;$/;"	m	struct:loopback_thread	file:
+thread	alsaloop/alsaloop.h	/^	int thread;			\/* thread number *\/$/;"	m	struct:loopback
+thread_job	alsaloop/alsaloop.c	/^static void thread_job(struct loopback_thread *thread)$/;"	f	file:
+thread_job1	alsaloop/alsaloop.c	/^static void thread_job1(void *_data)$/;"	f	file:
+thread_wait_completion	bat/bat.c	/^static inline int thread_wait_completion(struct bat *bat,$/;"	f	file:
+threaded	alsaloop/alsaloop.c	/^	int threaded;$/;"	m	struct:loopback_thread	file:
+threads	alsaloop/alsaloop.c	/^struct loopback_thread *threads;$/;"	v	typeref:struct:loopback_thread
+threads_count	alsaloop/alsaloop.c	/^int threads_count = 0;$/;"	v
+threshold	bat/common.h	/^	int threshold;$/;"	m	struct:roundtrip_latency
+tick	seq/aplaymidi/aplaymidi.c	/^	unsigned int tick;$/;"	m	struct:event	file:
+ticks	seq/aplaymidi/arecordmidi.c	/^static int ticks = 0;$/;"	v	file:
+time_signature	seq/aplaymidi/arecordmidi.c	/^static void time_signature(const char *arg)$/;"	f	file:
+time_to_frames	alsaloop/pcmjob.c	/^static inline snd_pcm_uframes_t time_to_frames(unsigned int rate,$/;"	f	file:
+timediff	alsaloop/alsaloop.c	/^static long timediff(struct timeval t1, struct timeval t2)$/;"	f	file:
+timediff	alsaloop/pcmjob.c	/^static long timediff(snd_timestamp_t t1, snd_timestamp_t t2)$/;"	f	file:
+timelimit	aplay/aplay.c	/^static int timelimit = 0;$/;"	v	file:
+timeout	amidi/amidi.c	/^static float timeout;$/;"	v	file:
+timermsub	aplay/aplay.c	1587;"	d	file:
+timersub	aplay/aplay.c	1575;"	d	file:
+title	alsamixer/textbox.c	/^static char *title;$/;"	v	file:
+tlv_to_str	alsactl/state.c	/^static char *tlv_to_str(unsigned int *tlv)$/;"	f	file:
+toggle_capture	alsamixer/mixer_widget.c	/^static void toggle_capture(unsigned int channels)$/;"	f	file:
+toggle_mute	alsamixer/mixer_widget.c	/^static void toggle_mute(unsigned int channels)$/;"	f	file:
+toggle_switches	alsamixer/mixer_widget.c	/^static void toggle_switches(unsigned int type, unsigned int channels)$/;"	f	file:
+total_queued	alsaloop/alsaloop.h	/^	snd_pcm_uframes_t total_queued;$/;"	m	struct:loopback_handle
+total_queued_count	alsaloop/alsaloop.h	/^	unsigned int total_queued_count;$/;"	m	struct:loopback
+track	seq/aplaymidi/aplaymidi.c	/^struct track {$/;"	s	file:
+tracks	seq/aplaymidi/aplaymidi.c	/^static struct track *tracks;$/;"	v	typeref:struct:track	file:
+tracks	seq/aplaymidi/arecordmidi.c	/^static struct smf_track *tracks;$/;"	v	typeref:struct:smf_track	file:
+truncate_frames	bat/analyze.c	/^static int truncate_frames(struct bat *bat)$/;"	f	file:
+ts_dd	seq/aplaymidi/arecordmidi.c	/^static int ts_dd = 2; \/* time signature: denominator as a power of two *\/$/;"	v	file:
+ts_div	seq/aplaymidi/arecordmidi.c	/^static int ts_div = 4; \/* time signature: denominator *\/$/;"	v	file:
+ts_num	seq/aplaymidi/arecordmidi.c	/^static int ts_num = 4; \/* time signature: numerator *\/$/;"	v	file:
+tstamp_end	alsaloop/alsaloop.h	/^	snd_timestamp_t tstamp_end;$/;"	m	struct:loopback
+tstamp_start	alsaloop/alsaloop.h	/^	snd_timestamp_t tstamp_start;$/;"	m	struct:loopback
+type	aplay/formats.h	/^	u_char type;$/;"	m	struct:voc_blocktype
+type	aplay/formats.h	/^	u_int type;		\/* 'WAVE' *\/$/;"	m	struct:__anon2
+type	aplay/formats.h	/^	u_int type;		\/* 'data' *\/$/;"	m	struct:__anon5
+type	bat/common.h	/^	unsigned int type; \/* 'WAVE' *\/$/;"	m	struct:wav_header
+type	bat/common.h	/^	unsigned int type; \/* 'data' *\/$/;"	m	struct:wav_chunk_header
+type	iecset/iecset.c	/^	int type;$/;"	m	struct:cmdtbl	file:
+type	seq/aplaymidi/aplaymidi.c	/^	unsigned char type;		\/* SND_SEQ_EVENT_xxx *\/$/;"	m	struct:event	file:
+type	speaker-test/speaker-test.c	/^    uint32_t type;$/;"	m	struct:wave_header::__anon14	file:
+type	speaker-test/speaker-test.c	/^    uint32_t type;$/;"	m	struct:wave_header::__anon15	file:
+type	speaker-test/speaker-test.c	/^    uint32_t type;$/;"	m	struct:wave_header::__anon17	file:
+uc_cmd	alsaucm/usecase.c	/^enum uc_cmd {$/;"	g	file:
+uc_mgr	alsaucm/usecase.c	/^	snd_use_case_mgr_t *uc_mgr;$/;"	m	struct:context	file:
+unplugged	alsamixer/mixer_widget.c	/^bool unplugged;$/;"	v
+update	alsa-info/alsa-info.sh	/^update() {$/;"	f
+update_cursor_visibility	alsamixer/widget.c	/^static void update_cursor_visibility(void)$/;"	f	file:
+update_fmt_to_bat	bat/common.c	/^static int update_fmt_to_bat(struct bat *bat, struct chunk_fmt *fmt)$/;"	f	file:
+update_frames_to_bat	bat/common.c	/^static int update_frames_to_bat(struct bat *bat,$/;"	f	file:
+update_iec958_status	iecset/iecset.c	/^static int update_iec958_status(snd_aes_iec958_t *iec958, int *parms)$/;"	f	file:
+update_pitch	alsaloop/pcmjob.c	/^void update_pitch(struct loopback *loop)$/;"	f
+update_text_lines	alsamixer/textbox.c	/^static void update_text_lines(void)$/;"	f	file:
+update_wav_header	bat/common.c	/^int update_wav_header(struct bat *bat, FILE *fp, int bytes)$/;"	f
+update_x_scroll_bar	alsamixer/textbox.c	/^static void update_x_scroll_bar(void)$/;"	f	file:
+update_y_scroll_bar	alsamixer/textbox.c	/^static void update_y_scroll_bar(void)$/;"	f	file:
+usage	amidi/amidi.c	/^static void usage(void)$/;"	f	file:
+usage	aplay/aplay.c	/^static void usage(char *command)$/;"	f	file:
+usage	bat/bat.c	/^static void usage(struct bat *bat)$/;"	f	file:
+usage	iecset/iecset.c	/^static void usage(void)$/;"	f	file:
+usage	seq/aconnect/aconnect.c	/^static void usage(void)$/;"	f	file:
+usage	seq/aplaymidi/aplaymidi.c	/^static void usage(const char *argv0)$/;"	f	file:
+usage	seq/aseqnet/aseqnet.c	/^static void usage(void)$/;"	f	file:
+usage	topology/topology.c	/^static void usage(char *name)$/;"	f	file:
+use_color	alsamixer/cli.c	/^static int use_color = 1;$/;"	v	file:
+use_linear_dB_scale	alsamixer/volume_mapping.c	/^static inline bool use_linear_dB_scale(long dBmin, long dBmax)$/;"	f	file:
+use_metronome	seq/aplaymidi/arecordmidi.c	/^static int use_metronome = 0;$/;"	v	file:
+use_samplerate	alsaloop/alsaloop.h	/^	unsigned int use_samplerate:1;$/;"	m	struct:loopback
+use_strftime	aplay/aplay.c	/^static int use_strftime = 0;$/;"	v	file:
+use_syslog	alsactl/alsactl.c	/^int use_syslog = 0;$/;"	v
+use_syslog	alsaloop/alsaloop.c	/^int use_syslog = 0;$/;"	v
+used	seq/aplaymidi/arecordmidi.c	/^	int used;			\/* anything record on this track *\/$/;"	m	struct:smf_track	file:
+utf8_encoded_expected_len	alsactl/init_utils_string.c	/^static int utf8_encoded_expected_len(const char *str)$/;"	f	file:
+utf8_encoded_to_unichar	alsactl/init_utils_string.c	/^static int utf8_encoded_to_unichar(const char *str)$/;"	f	file:
+utf8_encoded_valid_unichar	alsactl/init_utils_string.c	/^static int utf8_encoded_valid_unichar(const char *str)$/;"	f	file:
+utf8_unichar_to_encoded_len	alsactl/init_utils_string.c	/^static int utf8_unichar_to_encoded_len(int unichar)$/;"	f	file:
+utf8_unichar_valid_range	alsactl/init_utils_string.c	/^static int utf8_unichar_valid_range(int unichar)$/;"	f	file:
+v	amixer/amixer.c	/^	struct volume_ops v[3];$/;"	m	struct:volume_ops_set	typeref:struct:volume_ops_set::volume_ops	file:
+val	iecset/iecbits.c	/^	int val;$/;"	m	struct:category_str	file:
+validate_options	bat/bat.c	/^static int validate_options(struct bat *bat)$/;"	f	file:
+value	alsactl/init_parse.c	/^	char *value;$/;"	m	struct:pair	file:
+value	alsactl/init_sysfs.c	/^	char *value;			\/* points to value_local if value is cached *\/$/;"	m	struct:sysfs_attr	file:
+value	alsaloop/alsaloop.h	/^	snd_ctl_elem_value_t *value;$/;"	m	struct:loopback_control
+value_find	alsactl/init_parse.c	/^static struct pair *value_find(struct space *space, const char *key)$/;"	f	file:
+value_local	alsactl/init_sysfs.c	/^	char value_local[NAME_SIZE];$/;"	m	struct:sysfs_attr	file:
+value_set	alsactl/init_parse.c	/^static int value_set(struct space *space, const char *key, const char *value)$/;"	f	file:
+values_y	alsamixer/mixer_display.c	/^static int values_y;$/;"	v	file:
+var_value	seq/aplaymidi/arecordmidi.c	/^static void var_value(struct smf_track *track, int v)$/;"	f	file:
+verbose	alsaloop/alsaloop.c	/^int verbose = 0;$/;"	v
+verbose	aplay/aplay.c	/^static int verbose = 0;$/;"	v	file:
+verbose	seq/aseqnet/aseqnet.c	/^static int verbose = 0;$/;"	v	file:
+version	amidi/amidi.c	/^static void version(void)$/;"	f	file:
+version	aplay/aplay.c	/^static void version(void)$/;"	f	file:
+version	aplay/formats.h	/^	u_short version;	\/* VOC-file version *\/$/;"	m	struct:voc_header
+version	seq/aplaymidi/aplaymidi.c	/^static void version(void)$/;"	f	file:
+version	seq/aplaymidi/arecordmidi.c	/^static void version(void)$/;"	f	file:
+version	seq/aseqdump/aseqdump.c	/^static void version(void)$/;"	f	file:
+view_mode	alsamixer/mixer_widget.c	/^enum view_mode view_mode;$/;"	v	typeref:enum:view_mode
+view_mode	alsamixer/mixer_widget.h	/^enum view_mode {$/;"	g
+visible_controls	alsamixer/mixer_display.c	/^static int visible_controls;$/;"	v	file:
+voc_blocktype	aplay/formats.h	/^typedef struct voc_blocktype {$/;"	s
+voc_ext_block	aplay/formats.h	/^typedef struct voc_ext_block {$/;"	s
+voc_header	aplay/formats.h	/^typedef struct voc_header {$/;"	s
+voc_pcm_flush	aplay/aplay.c	/^static void voc_pcm_flush(void)$/;"	f	file:
+voc_pcm_write	aplay/aplay.c	/^static ssize_t voc_pcm_write(u_char *data, size_t count)$/;"	f	file:
+voc_play	aplay/aplay.c	/^static void voc_play(int fd, int ofs, char *name)$/;"	f	file:
+voc_voice_data	aplay/formats.h	/^typedef struct voc_voice_data {$/;"	s
+voc_write_silence	aplay/aplay.c	/^static void voc_write_silence(unsigned x)$/;"	f	file:
+vocmajor	aplay/aplay.c	/^static int vocmajor, vocminor;$/;"	v	file:
+vocminor	aplay/aplay.c	/^static int vocmajor, vocminor;$/;"	v	file:
+vol_ops	amixer/amixer.c	/^static const struct volume_ops_set vol_ops[2] = {$/;"	v	typeref:struct:volume_ops_set	file:
+volume_channels	alsamixer/mixer_controls.h	/^	snd_mixer_selem_channel_id_t volume_channels[2];$/;"	m	struct:control
+volume_height	alsamixer/mixer_display.c	/^static int volume_height;$/;"	v	file:
+volume_ops	amixer/amixer.c	/^struct volume_ops {$/;"	s	file:
+volume_ops_set	amixer/amixer.c	/^struct volume_ops_set {$/;"	s	file:
+vumeter	aplay/aplay.c	/^static int vumeter = VUMETER_NONE;$/;"	v	file:
+wake	alsaloop/alsaloop.h	/^	unsigned int wake;$/;"	m	struct:loopback
+wav_chunk_header	bat/common.h	/^struct wav_chunk_header {$/;"	s
+wav_container	bat/common.h	/^struct wav_container {$/;"	s
+wav_file	speaker-test/speaker-test.c	/^static const char *wav_file[MAX_CHANNELS];$/;"	v	file:
+wav_file_dir	speaker-test/speaker-test.c	/^static char *wav_file_dir = SOUNDSDIR;$/;"	v	file:
+wav_file_size	speaker-test/speaker-test.c	/^static int wav_file_size[MAX_CHANNELS];$/;"	v	file:
+wav_fmt	bat/common.h	/^struct wav_fmt {$/;"	s
+wav_header	bat/common.h	/^struct wav_header {$/;"	s
+wave_header	speaker-test/speaker-test.c	/^struct wave_header {$/;"	s	file:
+what	aplay/aplay.c	/^	char *what;$/;"	m	struct:fmt_capture	file:
+whitelist	alsactl/daemon.c	/^	struct id_list whitelist;$/;"	m	struct:card	typeref:struct:card::id_list	file:
+widget	alsamixer/widget.h	/^struct widget {$/;"	s
+widget_attrs	alsamixer/textbox.c	/^static int widget_attrs;$/;"	v	file:
+widget_free	alsamixer/widget.c	/^void widget_free(struct widget *widget)$/;"	f
+widget_handle_key	alsamixer/widget.c	/^static void widget_handle_key(int key)$/;"	f	file:
+widget_init	alsamixer/widget.c	/^void widget_init(struct widget *widget, int lines_, int cols, int y, int x,$/;"	f
+window	alsamixer/widget.h	/^	WINDOW *window;$/;"	m	struct:widget
+window_size_changed	alsamixer/widget.c	/^void window_size_changed(void)$/;"	f
+window_size_changed	alsamixer/widget.h	/^	void (*window_size_changed)(void);$/;"	m	struct:widget
+withall	alsa-info/alsa-info.sh	/^withall() {$/;"	f
+withalsactl	alsa-info/alsa-info.sh	/^withalsactl() {$/;"	f
+withamixer	alsa-info/alsa-info.sh	/^withamixer() {$/;"	f
+withaplay	alsa-info/alsa-info.sh	/^withaplay() {$/;"	f
+withconfigs	alsa-info/alsa-info.sh	/^withconfigs() {$/;"	f
+withdevices	alsa-info/alsa-info.sh	/^withdevices() {$/;"	f
+withdmesg	alsa-info/alsa-info.sh	/^withdmesg() {$/;"	f
+withlsmod	alsa-info/alsa-info.sh	/^withlsmod() {$/;"	f
+withsysfs	alsa-info/alsa-info.sh	/^withsysfs() {$/;"	f
+workarounds	alsaloop/alsaloop.c	/^int workarounds = 0;$/;"	v
+write_buffer	speaker-test/speaker-test.c	/^static int write_buffer(snd_pcm_t *handle, uint8_t *ptr, int cptr)$/;"	f	file:
+write_file	seq/aplaymidi/arecordmidi.c	/^static void write_file(void)$/;"	f	file:
+write_loop	speaker-test/speaker-test.c	/^static int write_loop(snd_pcm_t *handle, int channel, int periods, uint8_t *frames)$/;"	f	file:
+write_pid_file	alsactl/daemon.c	/^static int write_pid_file(const char *pidfile)$/;"	f	file:
+write_to_pcm	bat/alsa.c	/^static int write_to_pcm(const struct pcm_container *sndpcm,$/;"	f	file:
+write_to_pcm_loop	bat/alsa.c	/^static int write_to_pcm_loop(struct pcm_container *sndpcm, struct bat *bat)$/;"	f	file:
+write_wav_header	bat/common.c	/^int write_wav_header(FILE *fp, struct wav_container *wav, struct bat *bat)$/;"	f
+writebuf	seq/aseqnet/aseqnet.c	/^static char *writebuf;$/;"	v	file:
+writei_func	aplay/aplay.c	/^static snd_pcm_sframes_t (*writei_func)(snd_pcm_t *handle, const void *buffer, snd_pcm_uframes_t size);$/;"	v	file:
+writeit	alsaloop/pcmjob.c	/^static int writeit(struct loopback_handle *lhandle)$/;"	f	file:
+writen_func	aplay/aplay.c	/^static snd_pcm_sframes_t (*writen_func)(snd_pcm_t *handle, void **bufs, snd_pcm_uframes_t size);$/;"	v	file:
+x	alsaloop/effect-sweep.c	/^	float lfo,dlfo,fs,fc,BW,C,D,a0,a1,a2,b1,b2,*x[3],*y[3];$/;"	m	struct:effect_private	file:
+xrun	alsaloop/alsaloop.h	/^	unsigned int xrun:1;		\/* xrun profiling *\/$/;"	m	struct:loopback
+xrun	alsaloop/pcmjob.c	/^static int xrun(struct loopback_handle *lhandle)$/;"	f	file:
+xrun	aplay/aplay.c	/^static void xrun(void)$/;"	f	file:
+xrun_buf_ccount	alsaloop/alsaloop.h	/^	snd_pcm_uframes_t xrun_buf_ccount;$/;"	m	struct:loopback
+xrun_buf_pcount	alsaloop/alsaloop.h	/^	snd_pcm_uframes_t xrun_buf_pcount;$/;"	m	struct:loopback
+xrun_error	bat/common.h	/^	bool xrun_error;$/;"	m	struct:roundtrip_latency
+xrun_last_cdelay	alsaloop/alsaloop.h	/^	snd_pcm_sframes_t xrun_last_cdelay;$/;"	m	struct:loopback
+xrun_last_check	alsaloop/alsaloop.h	/^	snd_timestamp_t xrun_last_check;$/;"	m	struct:loopback
+xrun_last_check0	alsaloop/alsaloop.h	/^	snd_timestamp_t xrun_last_check0;$/;"	m	struct:loopback
+xrun_last_pdelay	alsaloop/alsaloop.h	/^	snd_pcm_sframes_t xrun_last_pdelay;$/;"	m	struct:loopback
+xrun_last_update	alsaloop/alsaloop.h	/^	snd_timestamp_t xrun_last_update;$/;"	m	struct:loopback
+xrun_last_wake	alsaloop/alsaloop.h	/^	snd_timestamp_t xrun_last_wake;$/;"	m	struct:loopback
+xrun_last_wake0	alsaloop/alsaloop.h	/^	snd_timestamp_t xrun_last_wake0;$/;"	m	struct:loopback
+xrun_max_missing	alsaloop/alsaloop.h	/^	double xrun_max_missing;$/;"	m	struct:loopback
+xrun_max_proctime	alsaloop/alsaloop.h	/^	long xrun_max_proctime;$/;"	m	struct:loopback
+xrun_out_frames	alsaloop/alsaloop.h	/^	unsigned int xrun_out_frames;$/;"	m	struct:loopback
+xrun_pending	alsaloop/alsaloop.h	/^	unsigned int xrun_pending:1;$/;"	m	struct:loopback_handle
+xrun_profile	alsaloop/pcmjob.c	/^static inline void xrun_profile(struct loopback *loop)$/;"	f	file:
+xrun_profile0	alsaloop/pcmjob.c	/^static void xrun_profile0(struct loopback *loop)$/;"	f	file:
+xrun_recovery	speaker-test/speaker-test.c	/^static int xrun_recovery(snd_pcm_t *handle, int err) {$/;"	f	file:
+xrun_stats	alsaloop/pcmjob.c	/^static inline void xrun_stats(struct loopback *loop)$/;"	f	file:
+xrun_stats0	alsaloop/pcmjob.c	/^static void xrun_stats0(struct loopback *loop)$/;"	f	file:
+xrun_sync	alsaloop/pcmjob.c	/^static int xrun_sync(struct loopback *loop)$/;"	f	file:
+xwrite	aplay/aplay.c	/^static ssize_t xwrite(int fd, const void *buf, size_t count)$/;"	f	file:
+y	alsaloop/effect-sweep.c	/^	float lfo,dlfo,fs,fc,BW,C,D,a0,a1,a2,b1,b2,*x[3],*y[3];$/;"	m	struct:effect_private	file:
