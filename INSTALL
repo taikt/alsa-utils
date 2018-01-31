@@ -33,6 +33,22 @@ Compilation from git sources
 You need also GNU packages autoconf and automake installed in your system
 to compile git sources of alsa-utils package.
 
+taikt
+-----------------------------
+--Build alsa-utils
+autoreconf -fi
+sudo apt install autopoint
+sudo apt-get install libasound2-dev
+cat /usr/share/aclocal/alsa.m4 | grep AM_PATH_ALSA
+aclocal
+gettextize -f
+autoheader
+automake --foreign --copy --add-missing
+autoconf
+./configure
+sudo apt-get install xmlto
+
+------------------------------
 For compilation you can use these commands:
 
 	aclocal
