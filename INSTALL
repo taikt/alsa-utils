@@ -47,7 +47,7 @@ automake --foreign --copy --add-missing
 autoconf
 ./configure
 sudo apt-get install xmlto
-
+make
 ------------------------------
 For compilation you can use these commands:
 
